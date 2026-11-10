@@ -1,0 +1,622 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SYNTHETIC_DIAMOND"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/valuables/synthetic_diamond"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "QUARRY_OSCILLATOR_DIAMOND"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/quarry_oscillator_diamond"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "VEIN_MINER_RUNE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/vein_miner_rune"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INFINITE_MACHINE_CIRCUIT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/infinite_machine_circuit"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MAKE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_items/make"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CPU"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_items/cpu"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_INFINITY_MACHINE_CIRCUIT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:materials/infinity_machine_circuit"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "infinityexpansion2:oscillator_target": "DIAMOND",
+            "slimefun:slimefun_item": "IE_OSCILLATOR_DIAMOND"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:tools/oscillator_diamond"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "infinityexpansion2:oscillator_target": "DIAMOND",
+            "slimefun:slimefun_item": "IE_OSCILLATOR"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:tools/oscillator_diamond"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_VEIN_MINER_RUNE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:tools/vein_miner_rune"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/diamond"
+        },
+        "entries": [
+          {
+            "threshold": 2200090.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/valuables/synthetic_diamond"
+            }
+          },
+          {
+            "threshold": 2200091.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond"
+            }
+          },
+          {
+            "threshold": 2201411.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_items/make"
+            }
+          },
+          {
+            "threshold": 2201412.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond"
+            }
+          },
+          {
+            "threshold": 2201413.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_items/cpu"
+            }
+          },
+          {
+            "threshold": 2201414.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond"
+            }
+          },
+          {
+            "threshold": 2201415.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000090.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/valuables/synthetic_diamond"
+          }
+        },
+        {
+          "threshold": 1000091.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond"
+            },
+            "entries": [
+              {
+                "threshold": 2200090.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/valuables/synthetic_diamond"
+                }
+              },
+              {
+                "threshold": 2200091.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201411.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/make"
+                }
+              },
+              {
+                "threshold": 2201412.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201413.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/cpu"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001411.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/make"
+          }
+        },
+        {
+          "threshold": 1001412.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond"
+            },
+            "entries": [
+              {
+                "threshold": 2200090.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/valuables/synthetic_diamond"
+                }
+              },
+              {
+                "threshold": 2200091.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201411.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/make"
+                }
+              },
+              {
+                "threshold": 2201412.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201413.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/cpu"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001413.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/cpu"
+          }
+        },
+        {
+          "threshold": 1001414.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond"
+          }
+        },
+        {
+          "threshold": 1001415.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond"
+            },
+            "entries": [
+              {
+                "threshold": 2200090.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/valuables/synthetic_diamond"
+                }
+              },
+              {
+                "threshold": 2200091.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201411.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/make"
+                }
+              },
+              {
+                "threshold": 2201412.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201413.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/cpu"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200090.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/valuables/synthetic_diamond"
+          }
+        },
+        {
+          "threshold": 2200091.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond"
+            },
+            "entries": [
+              {
+                "threshold": 2200090.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/valuables/synthetic_diamond"
+                }
+              },
+              {
+                "threshold": 2200091.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201411.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/make"
+                }
+              },
+              {
+                "threshold": 2201412.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201413.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/cpu"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201411.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/make"
+          }
+        },
+        {
+          "threshold": 2201412.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond"
+            },
+            "entries": [
+              {
+                "threshold": 2200090.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/valuables/synthetic_diamond"
+                }
+              },
+              {
+                "threshold": 2200091.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201411.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/make"
+                }
+              },
+              {
+                "threshold": 2201412.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201413.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/cpu"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201413.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/cpu"
+          }
+        },
+        {
+          "threshold": 2201414.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond"
+          }
+        },
+        {
+          "threshold": 2201415.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond"
+            },
+            "entries": [
+              {
+                "threshold": 2200090.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/valuables/synthetic_diamond"
+                }
+              },
+              {
+                "threshold": 2200091.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201411.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/make"
+                }
+              },
+              {
+                "threshold": 2201412.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201413.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/cpu"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

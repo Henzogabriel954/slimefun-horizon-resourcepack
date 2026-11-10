@@ -1,0 +1,322 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "_UI_PREVIOUS_INACTIVE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/gui/_ui_previous_inactive"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "_UI_NEXT_INACTIVE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/gui/_ui_next_inactive"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/black_stained_glass_pane"
+        },
+        "entries": [
+          {
+            "threshold": 2200008.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/gui/previous_inactive"
+            }
+          },
+          {
+            "threshold": 2200009.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/black_stained_glass_pane"
+            }
+          },
+          {
+            "threshold": 2200010.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/gui/next_inactive"
+            }
+          },
+          {
+            "threshold": 2200011.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/black_stained_glass_pane"
+            }
+          },
+          {
+            "threshold": 2200012.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/black_stained_glass_pane"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000008.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gui/previous_inactive"
+          }
+        },
+        {
+          "threshold": 1000009.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/black_stained_glass_pane"
+            },
+            "entries": [
+              {
+                "threshold": 2200008.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/previous_inactive"
+                }
+              },
+              {
+                "threshold": 2200009.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/black_stained_glass_pane"
+                }
+              },
+              {
+                "threshold": 2200010.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/next_inactive"
+                }
+              },
+              {
+                "threshold": 2200011.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/black_stained_glass_pane"
+                }
+              },
+              {
+                "threshold": 2200012.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/black_stained_glass_pane"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000010.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gui/next_inactive"
+          }
+        },
+        {
+          "threshold": 1000011.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/black_stained_glass_pane"
+          }
+        },
+        {
+          "threshold": 1000012.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/black_stained_glass_pane"
+            },
+            "entries": [
+              {
+                "threshold": 2200008.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/previous_inactive"
+                }
+              },
+              {
+                "threshold": 2200009.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/black_stained_glass_pane"
+                }
+              },
+              {
+                "threshold": 2200010.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/next_inactive"
+                }
+              },
+              {
+                "threshold": 2200011.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/black_stained_glass_pane"
+                }
+              },
+              {
+                "threshold": 2200012.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/black_stained_glass_pane"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200008.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gui/previous_inactive"
+          }
+        },
+        {
+          "threshold": 2200009.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/black_stained_glass_pane"
+            },
+            "entries": [
+              {
+                "threshold": 2200008.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/previous_inactive"
+                }
+              },
+              {
+                "threshold": 2200009.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/black_stained_glass_pane"
+                }
+              },
+              {
+                "threshold": 2200010.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/next_inactive"
+                }
+              },
+              {
+                "threshold": 2200011.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/black_stained_glass_pane"
+                }
+              },
+              {
+                "threshold": 2200012.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/black_stained_glass_pane"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200010.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gui/next_inactive"
+          }
+        },
+        {
+          "threshold": 2200011.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/black_stained_glass_pane"
+          }
+        },
+        {
+          "threshold": 2200012.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/black_stained_glass_pane"
+            },
+            "entries": [
+              {
+                "threshold": 2200008.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/previous_inactive"
+                }
+              },
+              {
+                "threshold": 2200009.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/black_stained_glass_pane"
+                }
+              },
+              {
+                "threshold": 2200010.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/next_inactive"
+                }
+              },
+              {
+                "threshold": 2200011.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/black_stained_glass_pane"
+                }
+              },
+              {
+                "threshold": 2200012.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/black_stained_glass_pane"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1807 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SIFTED_ORE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IRON_DUST"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/dusts/iron_dust"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "LEAD_DUST"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/dusts/lead_dust"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CRUSHED_ORE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "PULVERIZED_ORE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "PURE_ORE_CLUSTER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ESSENCE_OF_AFTERLIFE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "VOID_DUST"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/void_dust"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ARSENIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefunwarfare:explosives/arsenic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_VOID_DUST"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:materials/void_dust"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_THORNIUM_DUST"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:components/supreme_thornium_dust"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/gunpowder"
+        },
+        "entries": [
+          {
+            "threshold": 2200055.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+            }
+          },
+          {
+            "threshold": 2200056.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            }
+          },
+          {
+            "threshold": 2200096.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/dusts/iron_dust"
+            }
+          },
+          {
+            "threshold": 2200097.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            }
+          },
+          {
+            "threshold": 2200100.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/dusts/lead_dust"
+            }
+          },
+          {
+            "threshold": 2200101.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            }
+          },
+          {
+            "threshold": 2200211.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+            }
+          },
+          {
+            "threshold": 2200212.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+            }
+          },
+          {
+            "threshold": 2200213.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+            }
+          },
+          {
+            "threshold": 2200214.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            }
+          },
+          {
+            "threshold": 2200260.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+            }
+          },
+          {
+            "threshold": 2200261.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            }
+          },
+          {
+            "threshold": 2200618.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/void_dust"
+            }
+          },
+          {
+            "threshold": 2200619.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            }
+          },
+          {
+            "threshold": 2200620.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000055.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+          }
+        },
+        {
+          "threshold": 1000056.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            },
+            "entries": [
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+                }
+              },
+              {
+                "threshold": 2200056.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200096.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/iron_dust"
+                }
+              },
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200100.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/lead_dust"
+                }
+              },
+              {
+                "threshold": 2200101.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200211.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+                }
+              },
+              {
+                "threshold": 2200212.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+                }
+              },
+              {
+                "threshold": 2200213.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+                }
+              },
+              {
+                "threshold": 2200214.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200260.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+                }
+              },
+              {
+                "threshold": 2200261.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200618.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/void_dust"
+                }
+              },
+              {
+                "threshold": 2200619.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200620.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000096.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/dusts/iron_dust"
+          }
+        },
+        {
+          "threshold": 1000097.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            },
+            "entries": [
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+                }
+              },
+              {
+                "threshold": 2200056.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200096.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/iron_dust"
+                }
+              },
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200100.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/lead_dust"
+                }
+              },
+              {
+                "threshold": 2200101.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200211.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+                }
+              },
+              {
+                "threshold": 2200212.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+                }
+              },
+              {
+                "threshold": 2200213.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+                }
+              },
+              {
+                "threshold": 2200214.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200260.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+                }
+              },
+              {
+                "threshold": 2200261.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200618.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/void_dust"
+                }
+              },
+              {
+                "threshold": 2200619.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200620.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000100.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/dusts/lead_dust"
+          }
+        },
+        {
+          "threshold": 1000101.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            },
+            "entries": [
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+                }
+              },
+              {
+                "threshold": 2200056.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200096.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/iron_dust"
+                }
+              },
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200100.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/lead_dust"
+                }
+              },
+              {
+                "threshold": 2200101.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200211.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+                }
+              },
+              {
+                "threshold": 2200212.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+                }
+              },
+              {
+                "threshold": 2200213.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+                }
+              },
+              {
+                "threshold": 2200214.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200260.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+                }
+              },
+              {
+                "threshold": 2200261.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200618.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/void_dust"
+                }
+              },
+              {
+                "threshold": 2200619.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200620.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000211.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+          }
+        },
+        {
+          "threshold": 1000212.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+          }
+        },
+        {
+          "threshold": 1000213.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+          }
+        },
+        {
+          "threshold": 1000214.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            },
+            "entries": [
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+                }
+              },
+              {
+                "threshold": 2200056.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200096.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/iron_dust"
+                }
+              },
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200100.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/lead_dust"
+                }
+              },
+              {
+                "threshold": 2200101.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200211.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+                }
+              },
+              {
+                "threshold": 2200212.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+                }
+              },
+              {
+                "threshold": 2200213.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+                }
+              },
+              {
+                "threshold": 2200214.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200260.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+                }
+              },
+              {
+                "threshold": 2200261.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200618.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/void_dust"
+                }
+              },
+              {
+                "threshold": 2200619.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200620.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000260.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+          }
+        },
+        {
+          "threshold": 1000261.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            },
+            "entries": [
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+                }
+              },
+              {
+                "threshold": 2200056.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200096.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/iron_dust"
+                }
+              },
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200100.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/lead_dust"
+                }
+              },
+              {
+                "threshold": 2200101.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200211.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+                }
+              },
+              {
+                "threshold": 2200212.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+                }
+              },
+              {
+                "threshold": 2200213.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+                }
+              },
+              {
+                "threshold": 2200214.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200260.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+                }
+              },
+              {
+                "threshold": 2200261.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200618.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/void_dust"
+                }
+              },
+              {
+                "threshold": 2200619.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200620.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000618.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/void_dust"
+          }
+        },
+        {
+          "threshold": 1000619.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/gunpowder"
+          }
+        },
+        {
+          "threshold": 1000620.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            },
+            "entries": [
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+                }
+              },
+              {
+                "threshold": 2200056.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200096.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/iron_dust"
+                }
+              },
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200100.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/lead_dust"
+                }
+              },
+              {
+                "threshold": 2200101.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200211.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+                }
+              },
+              {
+                "threshold": 2200212.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+                }
+              },
+              {
+                "threshold": 2200213.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+                }
+              },
+              {
+                "threshold": 2200214.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200260.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+                }
+              },
+              {
+                "threshold": 2200261.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200618.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/void_dust"
+                }
+              },
+              {
+                "threshold": 2200619.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200620.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200055.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+          }
+        },
+        {
+          "threshold": 2200056.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            },
+            "entries": [
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+                }
+              },
+              {
+                "threshold": 2200056.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200096.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/iron_dust"
+                }
+              },
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200100.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/lead_dust"
+                }
+              },
+              {
+                "threshold": 2200101.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200211.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+                }
+              },
+              {
+                "threshold": 2200212.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+                }
+              },
+              {
+                "threshold": 2200213.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+                }
+              },
+              {
+                "threshold": 2200214.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200260.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+                }
+              },
+              {
+                "threshold": 2200261.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200618.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/void_dust"
+                }
+              },
+              {
+                "threshold": 2200619.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200620.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200096.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/dusts/iron_dust"
+          }
+        },
+        {
+          "threshold": 2200097.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            },
+            "entries": [
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+                }
+              },
+              {
+                "threshold": 2200056.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200096.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/iron_dust"
+                }
+              },
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200100.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/lead_dust"
+                }
+              },
+              {
+                "threshold": 2200101.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200211.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+                }
+              },
+              {
+                "threshold": 2200212.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+                }
+              },
+              {
+                "threshold": 2200213.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+                }
+              },
+              {
+                "threshold": 2200214.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200260.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+                }
+              },
+              {
+                "threshold": 2200261.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200618.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/void_dust"
+                }
+              },
+              {
+                "threshold": 2200619.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200620.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200100.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/dusts/lead_dust"
+          }
+        },
+        {
+          "threshold": 2200101.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            },
+            "entries": [
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+                }
+              },
+              {
+                "threshold": 2200056.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200096.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/iron_dust"
+                }
+              },
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200100.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/lead_dust"
+                }
+              },
+              {
+                "threshold": 2200101.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200211.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+                }
+              },
+              {
+                "threshold": 2200212.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+                }
+              },
+              {
+                "threshold": 2200213.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+                }
+              },
+              {
+                "threshold": 2200214.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200260.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+                }
+              },
+              {
+                "threshold": 2200261.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200618.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/void_dust"
+                }
+              },
+              {
+                "threshold": 2200619.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200620.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200211.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+          }
+        },
+        {
+          "threshold": 2200212.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+          }
+        },
+        {
+          "threshold": 2200213.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+          }
+        },
+        {
+          "threshold": 2200214.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            },
+            "entries": [
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+                }
+              },
+              {
+                "threshold": 2200056.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200096.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/iron_dust"
+                }
+              },
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200100.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/lead_dust"
+                }
+              },
+              {
+                "threshold": 2200101.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200211.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+                }
+              },
+              {
+                "threshold": 2200212.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+                }
+              },
+              {
+                "threshold": 2200213.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+                }
+              },
+              {
+                "threshold": 2200214.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200260.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+                }
+              },
+              {
+                "threshold": 2200261.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200618.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/void_dust"
+                }
+              },
+              {
+                "threshold": 2200619.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200620.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200260.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+          }
+        },
+        {
+          "threshold": 2200261.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            },
+            "entries": [
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+                }
+              },
+              {
+                "threshold": 2200056.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200096.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/iron_dust"
+                }
+              },
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200100.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/lead_dust"
+                }
+              },
+              {
+                "threshold": 2200101.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200211.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+                }
+              },
+              {
+                "threshold": 2200212.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+                }
+              },
+              {
+                "threshold": 2200213.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+                }
+              },
+              {
+                "threshold": 2200214.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200260.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+                }
+              },
+              {
+                "threshold": 2200261.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200618.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/void_dust"
+                }
+              },
+              {
+                "threshold": 2200619.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200620.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200618.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/void_dust"
+          }
+        },
+        {
+          "threshold": 2200619.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/gunpowder"
+          }
+        },
+        {
+          "threshold": 2200620.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gunpowder"
+            },
+            "entries": [
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/sifted_ore"
+                }
+              },
+              {
+                "threshold": 2200056.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200096.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/iron_dust"
+                }
+              },
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200100.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/lead_dust"
+                }
+              },
+              {
+                "threshold": 2200101.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200211.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/crushed_ore"
+                }
+              },
+              {
+                "threshold": 2200212.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pulverized_ore"
+                }
+              },
+              {
+                "threshold": 2200213.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/pure_ore_cluster"
+                }
+              },
+              {
+                "threshold": 2200214.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200260.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/essence_of_afterlife"
+                }
+              },
+              {
+                "threshold": 2200261.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200618.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/void_dust"
+                }
+              },
+              {
+                "threshold": 2200619.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              },
+              {
+                "threshold": 2200620.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gunpowder"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

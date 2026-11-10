@@ -1,0 +1,842 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_guide_mode": "SURVIVAL_MODE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/gui/slimefun_guide"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_guide_mode": "CHEAT_MODE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/gui/slimefun_cheat"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "_UI_BACK"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/gui/_ui_back"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENDER_FLAME"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/ender_flame"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "TOME_OF_KNOWLEDGE_SHARING"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_gadgets/tome_of_knowledge_sharing"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_ENDER_FLAME"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:tools/ender_flame"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/enchanted_book"
+        },
+        "entries": [
+          {
+            "threshold": 2200001.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/gui/slimefun_guide"
+            }
+          },
+          {
+            "threshold": 2200002.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_book"
+            }
+          },
+          {
+            "threshold": 2200003.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/gui/back"
+            }
+          },
+          {
+            "threshold": 2200004.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_book"
+            }
+          },
+          {
+            "threshold": 2200313.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_gadgets/knowledge_tome"
+            }
+          },
+          {
+            "threshold": 2200314.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_book"
+            }
+          },
+          {
+            "threshold": 2200604.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/ender_flame"
+            }
+          },
+          {
+            "threshold": 2200605.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_book"
+            }
+          },
+          {
+            "threshold": 2200606.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_book"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000001.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gui/slimefun_guide"
+          }
+        },
+        {
+          "threshold": 1000002.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_book"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200003.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/back"
+                }
+              },
+              {
+                "threshold": 2200004.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200313.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/knowledge_tome"
+                }
+              },
+              {
+                "threshold": 2200314.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200604.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/ender_flame"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000003.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gui/back"
+          }
+        },
+        {
+          "threshold": 1000004.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_book"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200003.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/back"
+                }
+              },
+              {
+                "threshold": 2200004.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200313.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/knowledge_tome"
+                }
+              },
+              {
+                "threshold": 2200314.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200604.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/ender_flame"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000313.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/knowledge_tome"
+          }
+        },
+        {
+          "threshold": 1000314.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_book"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200003.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/back"
+                }
+              },
+              {
+                "threshold": 2200004.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200313.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/knowledge_tome"
+                }
+              },
+              {
+                "threshold": 2200314.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200604.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/ender_flame"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000604.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/ender_flame"
+          }
+        },
+        {
+          "threshold": 1000605.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/enchanted_book"
+          }
+        },
+        {
+          "threshold": 1000606.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_book"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200003.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/back"
+                }
+              },
+              {
+                "threshold": 2200004.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200313.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/knowledge_tome"
+                }
+              },
+              {
+                "threshold": 2200314.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200604.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/ender_flame"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200001.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gui/slimefun_guide"
+          }
+        },
+        {
+          "threshold": 2200002.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_book"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200003.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/back"
+                }
+              },
+              {
+                "threshold": 2200004.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200313.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/knowledge_tome"
+                }
+              },
+              {
+                "threshold": 2200314.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200604.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/ender_flame"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200003.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gui/back"
+          }
+        },
+        {
+          "threshold": 2200004.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_book"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200003.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/back"
+                }
+              },
+              {
+                "threshold": 2200004.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200313.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/knowledge_tome"
+                }
+              },
+              {
+                "threshold": 2200314.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200604.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/ender_flame"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200313.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/knowledge_tome"
+          }
+        },
+        {
+          "threshold": 2200314.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_book"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200003.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/back"
+                }
+              },
+              {
+                "threshold": 2200004.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200313.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/knowledge_tome"
+                }
+              },
+              {
+                "threshold": 2200314.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200604.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/ender_flame"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200604.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/ender_flame"
+          }
+        },
+        {
+          "threshold": 2200605.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/enchanted_book"
+          }
+        },
+        {
+          "threshold": 2200606.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/enchanted_book"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200003.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/back"
+                }
+              },
+              {
+                "threshold": 2200004.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200313.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/knowledge_tome"
+                }
+              },
+              {
+                "threshold": 2200314.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200604.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/ender_flame"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/enchanted_book"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

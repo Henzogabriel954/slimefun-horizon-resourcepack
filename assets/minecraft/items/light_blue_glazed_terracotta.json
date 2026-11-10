@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INFINITE_PANEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:machines/infinity_panel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_INFINITY_PANEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:generators/infinity_panel"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/light_blue_glazed_terracotta"
+    }
+  }
+}

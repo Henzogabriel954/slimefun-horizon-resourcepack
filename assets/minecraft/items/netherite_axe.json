@@ -1,0 +1,289 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INFINITY_AXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:tools/nature_ruin"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CARBONADO_FLUFFY_WRENCH"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:wrenches/carbonado_fluffy_wrench"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "PAXEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:tools/netherite_paxel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_INFINITY_AXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:tools/infinity_axe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_TITANIUM_AXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_titanium_axe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AURUM_AXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_aurum_axe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_AXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_adamantium_axe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AXE_THORNIUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_axe_thornium"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AXE_MAGIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_axe_magic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AXE_RARE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_axe_rare"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AXE_EPIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_axe_epic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AXE_LEGENDARY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_axe_legendary"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AXE_SUPREME"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_axe_supreme"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/netherite_axe"
+        },
+        "entries": [
+          {
+            "threshold": 2200650.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:tools/nature_ruin"
+            }
+          },
+          {
+            "threshold": 2200651.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_axe"
+            }
+          },
+          {
+            "threshold": 2200652.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_axe"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000650.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:tools/nature_ruin"
+          }
+        },
+        {
+          "threshold": 1000651.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_axe"
+          }
+        },
+        {
+          "threshold": 1000652.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_axe"
+            },
+            "entries": [
+              {
+                "threshold": 2200650.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:tools/nature_ruin"
+                }
+              },
+              {
+                "threshold": 2200651.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_axe"
+                }
+              },
+              {
+                "threshold": 2200652.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_axe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200650.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:tools/nature_ruin"
+          }
+        },
+        {
+          "threshold": 2200651.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_axe"
+          }
+        },
+        {
+          "threshold": 2200652.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_axe"
+            },
+            "entries": [
+              {
+                "threshold": 2200650.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:tools/nature_ruin"
+                }
+              },
+              {
+                "threshold": 2200651.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_axe"
+                }
+              },
+              {
+                "threshold": 2200652.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_axe"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INFUSED_HOPPER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_gadgets/infused_hopper"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/hopper"
+        },
+        "entries": [
+          {
+            "threshold": 2200465.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_gadgets/infused_hopper"
+            }
+          },
+          {
+            "threshold": 2200466.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/hopper"
+            }
+          },
+          {
+            "threshold": 2200467.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/hopper"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000465.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/infused_hopper"
+          }
+        },
+        {
+          "threshold": 1000466.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/hopper"
+          }
+        },
+        {
+          "threshold": 1000467.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/hopper"
+            },
+            "entries": [
+              {
+                "threshold": 2200465.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/infused_hopper"
+                }
+              },
+              {
+                "threshold": 2200466.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/hopper"
+                }
+              },
+              {
+                "threshold": 2200467.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/hopper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200465.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/infused_hopper"
+          }
+        },
+        {
+          "threshold": 2200466.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/hopper"
+          }
+        },
+        {
+          "threshold": 2200467.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/hopper"
+            },
+            "entries": [
+              {
+                "threshold": 2200465.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/infused_hopper"
+                }
+              },
+              {
+                "threshold": 2200466.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/hopper"
+                }
+              },
+              {
+                "threshold": 2200467.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/hopper"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

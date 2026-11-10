@@ -1,0 +1,157 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SYNTHETIC_SHULKER_SHELL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_items/synthetic_shulker_shell"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/shulker_shell"
+        },
+        "entries": [
+          {
+            "threshold": 2200544.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_items/synthetic_shulker"
+            }
+          },
+          {
+            "threshold": 2200545.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/shulker_shell"
+            }
+          },
+          {
+            "threshold": 2200546.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/shulker_shell"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000544.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/synthetic_shulker"
+          }
+        },
+        {
+          "threshold": 1000545.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/shulker_shell"
+          }
+        },
+        {
+          "threshold": 1000546.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/shulker_shell"
+            },
+            "entries": [
+              {
+                "threshold": 2200544.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/synthetic_shulker"
+                }
+              },
+              {
+                "threshold": 2200545.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/shulker_shell"
+                }
+              },
+              {
+                "threshold": 2200546.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/shulker_shell"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200544.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/synthetic_shulker"
+          }
+        },
+        {
+          "threshold": 2200545.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/shulker_shell"
+          }
+        },
+        {
+          "threshold": 2200546.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/shulker_shell"
+            },
+            "entries": [
+              {
+                "threshold": 2200544.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/synthetic_shulker"
+                }
+              },
+              {
+                "threshold": 2200545.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/shulker_shell"
+                }
+              },
+              {
+                "threshold": 2200546.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/shulker_shell"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

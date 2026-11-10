@@ -1,0 +1,344 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "STRANGE_NETHER_GOO"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_items/strange_nether_goo"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NITROGEN_TRIIDIDE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefunwarfare:explosives/nitrogen_triiodide"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CLT_LAVENDER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "cultivation:products/clt_lavender"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SYNTHETIC_AMETHYST"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:components/supreme_synthetic_amethyst"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/purple_dye"
+        },
+        "entries": [
+          {
+            "threshold": 2200534.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_items/strange_nether_goo"
+            }
+          },
+          {
+            "threshold": 2200535.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/purple_dye"
+            }
+          },
+          {
+            "threshold": 2200825.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "litexpansion:materials/uu_matter"
+            }
+          },
+          {
+            "threshold": 2200826.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/purple_dye"
+            }
+          },
+          {
+            "threshold": 2200827.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/purple_dye"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000534.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/strange_nether_goo"
+          }
+        },
+        {
+          "threshold": 1000535.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/purple_dye"
+            },
+            "entries": [
+              {
+                "threshold": 2200534.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/strange_nether_goo"
+                }
+              },
+              {
+                "threshold": 2200535.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_dye"
+                }
+              },
+              {
+                "threshold": 2200825.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/uu_matter"
+                }
+              },
+              {
+                "threshold": 2200826.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_dye"
+                }
+              },
+              {
+                "threshold": 2200827.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_dye"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000825.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "litexpansion:materials/uu_matter"
+          }
+        },
+        {
+          "threshold": 1000826.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/purple_dye"
+          }
+        },
+        {
+          "threshold": 1000827.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/purple_dye"
+            },
+            "entries": [
+              {
+                "threshold": 2200534.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/strange_nether_goo"
+                }
+              },
+              {
+                "threshold": 2200535.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_dye"
+                }
+              },
+              {
+                "threshold": 2200825.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/uu_matter"
+                }
+              },
+              {
+                "threshold": 2200826.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_dye"
+                }
+              },
+              {
+                "threshold": 2200827.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_dye"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200534.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/strange_nether_goo"
+          }
+        },
+        {
+          "threshold": 2200535.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/purple_dye"
+            },
+            "entries": [
+              {
+                "threshold": 2200534.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/strange_nether_goo"
+                }
+              },
+              {
+                "threshold": 2200535.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_dye"
+                }
+              },
+              {
+                "threshold": 2200825.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/uu_matter"
+                }
+              },
+              {
+                "threshold": 2200826.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_dye"
+                }
+              },
+              {
+                "threshold": 2200827.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_dye"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200825.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "litexpansion:materials/uu_matter"
+          }
+        },
+        {
+          "threshold": 2200826.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/purple_dye"
+          }
+        },
+        {
+          "threshold": 2200827.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/purple_dye"
+            },
+            "entries": [
+              {
+                "threshold": 2200534.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/strange_nether_goo"
+                }
+              },
+              {
+                "threshold": 2200535.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_dye"
+                }
+              },
+              {
+                "threshold": 2200825.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/uu_matter"
+                }
+              },
+              {
+                "threshold": 2200826.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_dye"
+                }
+              },
+              {
+                "threshold": 2200827.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_dye"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

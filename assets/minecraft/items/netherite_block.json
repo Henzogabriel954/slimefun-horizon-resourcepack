@@ -1,0 +1,201 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NETHERITE_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:singularities/netherite_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NDFEB_ALLOY_BLOCK"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefunwarfare:general/ndfeb_alloy_block"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_VOID_BLOCK"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:materials/void_block"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_NETHERITE_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:singularities/netherite_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_PLATE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:components/supreme_adamantium_plate"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/netherite_block"
+        },
+        "entries": [
+          {
+            "threshold": 2200633.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/materials2/netherite_singularity"
+            }
+          },
+          {
+            "threshold": 2200634.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_block"
+            }
+          },
+          {
+            "threshold": 2200635.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/netherite_block"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000633.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/netherite_singularity"
+          }
+        },
+        {
+          "threshold": 1000634.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_block"
+          }
+        },
+        {
+          "threshold": 1000635.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/netherite_block"
+            },
+            "entries": [
+              {
+                "threshold": 2200633.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/netherite_singularity"
+                }
+              },
+              {
+                "threshold": 2200634.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_block"
+                }
+              },
+              {
+                "threshold": 2200635.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/netherite_block"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200633.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/netherite_singularity"
+          }
+        },
+        {
+          "threshold": 2200634.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_block"
+          }
+        },
+        {
+          "threshold": 2200635.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/netherite_block"
+            },
+            "entries": [
+              {
+                "threshold": 2200633.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/netherite_singularity"
+                }
+              },
+              {
+                "threshold": 2200634.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_block"
+                }
+              },
+              {
+                "threshold": 2200635.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/netherite_block"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

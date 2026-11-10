@@ -1,0 +1,4067 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SMELTERY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/smeltery"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENHANCED_FURNACE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/enhanced_furnace"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENHANCED_FURNACE_2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENHANCED_FURNACE_3"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENHANCED_FURNACE_4"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENHANCED_FURNACE_5"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENHANCED_FURNACE_6"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENHANCED_FURNACE_7"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENHANCED_FURNACE_8"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENHANCED_FURNACE_9"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENHANCED_FURNACE_10"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENHANCED_FURNACE_11"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "REINFORCED_FURNACE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CARBONADO_EDGED_FURNACE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_FURNACE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_furnace"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_FURNACE_2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_furnace_2"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_FURNACE_3"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_furnace_3"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_ORE_GRINDER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_ore_grinder"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_ORE_GRINDER_2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_ore_grinder_2"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_INGOT_PULVERIZER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_SMELTERY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_smeltery"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_SMELTERY_2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_smeltery_2"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_ORE_GRINDER_3"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_ore_grinder_3"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/furnace"
+        },
+        "entries": [
+          {
+            "threshold": 2200057.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/smeltery"
+            }
+          },
+          {
+            "threshold": 2200058.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            }
+          },
+          {
+            "threshold": 2200292.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+            }
+          },
+          {
+            "threshold": 2200293.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+            }
+          },
+          {
+            "threshold": 2200294.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+            }
+          },
+          {
+            "threshold": 2200295.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+            }
+          },
+          {
+            "threshold": 2200296.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+            }
+          },
+          {
+            "threshold": 2200297.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+            }
+          },
+          {
+            "threshold": 2200298.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+            }
+          },
+          {
+            "threshold": 2200299.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+            }
+          },
+          {
+            "threshold": 2200300.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+            }
+          },
+          {
+            "threshold": 2200301.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+            }
+          },
+          {
+            "threshold": 2200302.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+            }
+          },
+          {
+            "threshold": 2200303.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+            }
+          },
+          {
+            "threshold": 2200304.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+            }
+          },
+          {
+            "threshold": 2200305.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            }
+          },
+          {
+            "threshold": 2200351.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_furnace"
+            }
+          },
+          {
+            "threshold": 2200352.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_furnace2"
+            }
+          },
+          {
+            "threshold": 2200353.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_furnace3"
+            }
+          },
+          {
+            "threshold": 2200354.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            }
+          },
+          {
+            "threshold": 2200366.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_ore_grinder"
+            }
+          },
+          {
+            "threshold": 2200367.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+            }
+          },
+          {
+            "threshold": 2200368.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            }
+          },
+          {
+            "threshold": 2200370.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+            }
+          },
+          {
+            "threshold": 2200371.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            }
+          },
+          {
+            "threshold": 2200523.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_smeltery"
+            }
+          },
+          {
+            "threshold": 2200524.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_smeltery2"
+            }
+          },
+          {
+            "threshold": 2200525.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            }
+          },
+          {
+            "threshold": 2200528.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+            }
+          },
+          {
+            "threshold": 2200529.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/furnace"
+            }
+          },
+          {
+            "threshold": 2200530.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000057.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/smeltery"
+          }
+        },
+        {
+          "threshold": 1000058.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/smeltery"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+                }
+              },
+              {
+                "threshold": 2200294.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+                }
+              },
+              {
+                "threshold": 2200295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+                }
+              },
+              {
+                "threshold": 2200296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+                }
+              },
+              {
+                "threshold": 2200297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+                }
+              },
+              {
+                "threshold": 2200298.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+                }
+              },
+              {
+                "threshold": 2200299.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+                }
+              },
+              {
+                "threshold": 2200300.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+                }
+              },
+              {
+                "threshold": 2200301.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+                }
+              },
+              {
+                "threshold": 2200302.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+                }
+              },
+              {
+                "threshold": 2200303.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+                }
+              },
+              {
+                "threshold": 2200304.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+                }
+              },
+              {
+                "threshold": 2200305.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200351.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace"
+                }
+              },
+              {
+                "threshold": 2200352.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace2"
+                }
+              },
+              {
+                "threshold": 2200353.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace3"
+                }
+              },
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200523.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery"
+                }
+              },
+              {
+                "threshold": 2200524.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery2"
+                }
+              },
+              {
+                "threshold": 2200525.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+                }
+              },
+              {
+                "threshold": 2200529.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/furnace"
+                }
+              },
+              {
+                "threshold": 2200530.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000292.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+          }
+        },
+        {
+          "threshold": 1000293.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+          }
+        },
+        {
+          "threshold": 1000294.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+          }
+        },
+        {
+          "threshold": 1000295.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+          }
+        },
+        {
+          "threshold": 1000296.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+          }
+        },
+        {
+          "threshold": 1000297.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+          }
+        },
+        {
+          "threshold": 1000298.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+          }
+        },
+        {
+          "threshold": 1000299.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+          }
+        },
+        {
+          "threshold": 1000300.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+          }
+        },
+        {
+          "threshold": 1000301.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+          }
+        },
+        {
+          "threshold": 1000302.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+          }
+        },
+        {
+          "threshold": 1000303.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+          }
+        },
+        {
+          "threshold": 1000304.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+          }
+        },
+        {
+          "threshold": 1000305.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/smeltery"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+                }
+              },
+              {
+                "threshold": 2200294.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+                }
+              },
+              {
+                "threshold": 2200295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+                }
+              },
+              {
+                "threshold": 2200296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+                }
+              },
+              {
+                "threshold": 2200297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+                }
+              },
+              {
+                "threshold": 2200298.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+                }
+              },
+              {
+                "threshold": 2200299.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+                }
+              },
+              {
+                "threshold": 2200300.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+                }
+              },
+              {
+                "threshold": 2200301.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+                }
+              },
+              {
+                "threshold": 2200302.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+                }
+              },
+              {
+                "threshold": 2200303.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+                }
+              },
+              {
+                "threshold": 2200304.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+                }
+              },
+              {
+                "threshold": 2200305.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200351.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace"
+                }
+              },
+              {
+                "threshold": 2200352.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace2"
+                }
+              },
+              {
+                "threshold": 2200353.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace3"
+                }
+              },
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200523.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery"
+                }
+              },
+              {
+                "threshold": 2200524.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery2"
+                }
+              },
+              {
+                "threshold": 2200525.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+                }
+              },
+              {
+                "threshold": 2200529.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/furnace"
+                }
+              },
+              {
+                "threshold": 2200530.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000351.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_furnace"
+          }
+        },
+        {
+          "threshold": 1000352.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_furnace2"
+          }
+        },
+        {
+          "threshold": 1000353.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_furnace3"
+          }
+        },
+        {
+          "threshold": 1000354.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/smeltery"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+                }
+              },
+              {
+                "threshold": 2200294.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+                }
+              },
+              {
+                "threshold": 2200295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+                }
+              },
+              {
+                "threshold": 2200296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+                }
+              },
+              {
+                "threshold": 2200297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+                }
+              },
+              {
+                "threshold": 2200298.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+                }
+              },
+              {
+                "threshold": 2200299.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+                }
+              },
+              {
+                "threshold": 2200300.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+                }
+              },
+              {
+                "threshold": 2200301.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+                }
+              },
+              {
+                "threshold": 2200302.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+                }
+              },
+              {
+                "threshold": 2200303.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+                }
+              },
+              {
+                "threshold": 2200304.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+                }
+              },
+              {
+                "threshold": 2200305.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200351.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace"
+                }
+              },
+              {
+                "threshold": 2200352.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace2"
+                }
+              },
+              {
+                "threshold": 2200353.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace3"
+                }
+              },
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200523.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery"
+                }
+              },
+              {
+                "threshold": 2200524.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery2"
+                }
+              },
+              {
+                "threshold": 2200525.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+                }
+              },
+              {
+                "threshold": 2200529.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/furnace"
+                }
+              },
+              {
+                "threshold": 2200530.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000366.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_ore_grinder"
+          }
+        },
+        {
+          "threshold": 1000367.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+          }
+        },
+        {
+          "threshold": 1000368.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/smeltery"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+                }
+              },
+              {
+                "threshold": 2200294.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+                }
+              },
+              {
+                "threshold": 2200295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+                }
+              },
+              {
+                "threshold": 2200296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+                }
+              },
+              {
+                "threshold": 2200297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+                }
+              },
+              {
+                "threshold": 2200298.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+                }
+              },
+              {
+                "threshold": 2200299.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+                }
+              },
+              {
+                "threshold": 2200300.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+                }
+              },
+              {
+                "threshold": 2200301.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+                }
+              },
+              {
+                "threshold": 2200302.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+                }
+              },
+              {
+                "threshold": 2200303.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+                }
+              },
+              {
+                "threshold": 2200304.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+                }
+              },
+              {
+                "threshold": 2200305.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200351.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace"
+                }
+              },
+              {
+                "threshold": 2200352.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace2"
+                }
+              },
+              {
+                "threshold": 2200353.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace3"
+                }
+              },
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200523.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery"
+                }
+              },
+              {
+                "threshold": 2200524.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery2"
+                }
+              },
+              {
+                "threshold": 2200525.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+                }
+              },
+              {
+                "threshold": 2200529.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/furnace"
+                }
+              },
+              {
+                "threshold": 2200530.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000370.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+          }
+        },
+        {
+          "threshold": 1000371.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/smeltery"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+                }
+              },
+              {
+                "threshold": 2200294.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+                }
+              },
+              {
+                "threshold": 2200295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+                }
+              },
+              {
+                "threshold": 2200296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+                }
+              },
+              {
+                "threshold": 2200297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+                }
+              },
+              {
+                "threshold": 2200298.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+                }
+              },
+              {
+                "threshold": 2200299.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+                }
+              },
+              {
+                "threshold": 2200300.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+                }
+              },
+              {
+                "threshold": 2200301.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+                }
+              },
+              {
+                "threshold": 2200302.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+                }
+              },
+              {
+                "threshold": 2200303.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+                }
+              },
+              {
+                "threshold": 2200304.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+                }
+              },
+              {
+                "threshold": 2200305.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200351.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace"
+                }
+              },
+              {
+                "threshold": 2200352.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace2"
+                }
+              },
+              {
+                "threshold": 2200353.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace3"
+                }
+              },
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200523.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery"
+                }
+              },
+              {
+                "threshold": 2200524.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery2"
+                }
+              },
+              {
+                "threshold": 2200525.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+                }
+              },
+              {
+                "threshold": 2200529.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/furnace"
+                }
+              },
+              {
+                "threshold": 2200530.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000523.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_smeltery"
+          }
+        },
+        {
+          "threshold": 1000524.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_smeltery2"
+          }
+        },
+        {
+          "threshold": 1000525.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/smeltery"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+                }
+              },
+              {
+                "threshold": 2200294.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+                }
+              },
+              {
+                "threshold": 2200295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+                }
+              },
+              {
+                "threshold": 2200296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+                }
+              },
+              {
+                "threshold": 2200297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+                }
+              },
+              {
+                "threshold": 2200298.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+                }
+              },
+              {
+                "threshold": 2200299.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+                }
+              },
+              {
+                "threshold": 2200300.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+                }
+              },
+              {
+                "threshold": 2200301.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+                }
+              },
+              {
+                "threshold": 2200302.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+                }
+              },
+              {
+                "threshold": 2200303.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+                }
+              },
+              {
+                "threshold": 2200304.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+                }
+              },
+              {
+                "threshold": 2200305.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200351.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace"
+                }
+              },
+              {
+                "threshold": 2200352.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace2"
+                }
+              },
+              {
+                "threshold": 2200353.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace3"
+                }
+              },
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200523.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery"
+                }
+              },
+              {
+                "threshold": 2200524.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery2"
+                }
+              },
+              {
+                "threshold": 2200525.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+                }
+              },
+              {
+                "threshold": 2200529.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/furnace"
+                }
+              },
+              {
+                "threshold": 2200530.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000528.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+          }
+        },
+        {
+          "threshold": 1000529.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/furnace"
+          }
+        },
+        {
+          "threshold": 1000530.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/smeltery"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+                }
+              },
+              {
+                "threshold": 2200294.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+                }
+              },
+              {
+                "threshold": 2200295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+                }
+              },
+              {
+                "threshold": 2200296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+                }
+              },
+              {
+                "threshold": 2200297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+                }
+              },
+              {
+                "threshold": 2200298.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+                }
+              },
+              {
+                "threshold": 2200299.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+                }
+              },
+              {
+                "threshold": 2200300.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+                }
+              },
+              {
+                "threshold": 2200301.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+                }
+              },
+              {
+                "threshold": 2200302.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+                }
+              },
+              {
+                "threshold": 2200303.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+                }
+              },
+              {
+                "threshold": 2200304.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+                }
+              },
+              {
+                "threshold": 2200305.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200351.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace"
+                }
+              },
+              {
+                "threshold": 2200352.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace2"
+                }
+              },
+              {
+                "threshold": 2200353.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace3"
+                }
+              },
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200523.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery"
+                }
+              },
+              {
+                "threshold": 2200524.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery2"
+                }
+              },
+              {
+                "threshold": 2200525.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+                }
+              },
+              {
+                "threshold": 2200529.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/furnace"
+                }
+              },
+              {
+                "threshold": 2200530.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200057.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/smeltery"
+          }
+        },
+        {
+          "threshold": 2200058.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/smeltery"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+                }
+              },
+              {
+                "threshold": 2200294.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+                }
+              },
+              {
+                "threshold": 2200295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+                }
+              },
+              {
+                "threshold": 2200296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+                }
+              },
+              {
+                "threshold": 2200297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+                }
+              },
+              {
+                "threshold": 2200298.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+                }
+              },
+              {
+                "threshold": 2200299.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+                }
+              },
+              {
+                "threshold": 2200300.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+                }
+              },
+              {
+                "threshold": 2200301.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+                }
+              },
+              {
+                "threshold": 2200302.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+                }
+              },
+              {
+                "threshold": 2200303.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+                }
+              },
+              {
+                "threshold": 2200304.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+                }
+              },
+              {
+                "threshold": 2200305.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200351.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace"
+                }
+              },
+              {
+                "threshold": 2200352.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace2"
+                }
+              },
+              {
+                "threshold": 2200353.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace3"
+                }
+              },
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200523.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery"
+                }
+              },
+              {
+                "threshold": 2200524.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery2"
+                }
+              },
+              {
+                "threshold": 2200525.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+                }
+              },
+              {
+                "threshold": 2200529.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/furnace"
+                }
+              },
+              {
+                "threshold": 2200530.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200292.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+          }
+        },
+        {
+          "threshold": 2200293.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+          }
+        },
+        {
+          "threshold": 2200294.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+          }
+        },
+        {
+          "threshold": 2200295.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+          }
+        },
+        {
+          "threshold": 2200296.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+          }
+        },
+        {
+          "threshold": 2200297.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+          }
+        },
+        {
+          "threshold": 2200298.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+          }
+        },
+        {
+          "threshold": 2200299.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+          }
+        },
+        {
+          "threshold": 2200300.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+          }
+        },
+        {
+          "threshold": 2200301.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+          }
+        },
+        {
+          "threshold": 2200302.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+          }
+        },
+        {
+          "threshold": 2200303.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+          }
+        },
+        {
+          "threshold": 2200304.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+          }
+        },
+        {
+          "threshold": 2200305.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/smeltery"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+                }
+              },
+              {
+                "threshold": 2200294.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+                }
+              },
+              {
+                "threshold": 2200295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+                }
+              },
+              {
+                "threshold": 2200296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+                }
+              },
+              {
+                "threshold": 2200297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+                }
+              },
+              {
+                "threshold": 2200298.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+                }
+              },
+              {
+                "threshold": 2200299.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+                }
+              },
+              {
+                "threshold": 2200300.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+                }
+              },
+              {
+                "threshold": 2200301.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+                }
+              },
+              {
+                "threshold": 2200302.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+                }
+              },
+              {
+                "threshold": 2200303.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+                }
+              },
+              {
+                "threshold": 2200304.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+                }
+              },
+              {
+                "threshold": 2200305.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200351.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace"
+                }
+              },
+              {
+                "threshold": 2200352.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace2"
+                }
+              },
+              {
+                "threshold": 2200353.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace3"
+                }
+              },
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200523.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery"
+                }
+              },
+              {
+                "threshold": 2200524.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery2"
+                }
+              },
+              {
+                "threshold": 2200525.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+                }
+              },
+              {
+                "threshold": 2200529.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/furnace"
+                }
+              },
+              {
+                "threshold": 2200530.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200351.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_furnace"
+          }
+        },
+        {
+          "threshold": 2200352.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_furnace2"
+          }
+        },
+        {
+          "threshold": 2200353.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_furnace3"
+          }
+        },
+        {
+          "threshold": 2200354.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/smeltery"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+                }
+              },
+              {
+                "threshold": 2200294.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+                }
+              },
+              {
+                "threshold": 2200295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+                }
+              },
+              {
+                "threshold": 2200296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+                }
+              },
+              {
+                "threshold": 2200297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+                }
+              },
+              {
+                "threshold": 2200298.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+                }
+              },
+              {
+                "threshold": 2200299.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+                }
+              },
+              {
+                "threshold": 2200300.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+                }
+              },
+              {
+                "threshold": 2200301.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+                }
+              },
+              {
+                "threshold": 2200302.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+                }
+              },
+              {
+                "threshold": 2200303.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+                }
+              },
+              {
+                "threshold": 2200304.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+                }
+              },
+              {
+                "threshold": 2200305.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200351.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace"
+                }
+              },
+              {
+                "threshold": 2200352.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace2"
+                }
+              },
+              {
+                "threshold": 2200353.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace3"
+                }
+              },
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200523.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery"
+                }
+              },
+              {
+                "threshold": 2200524.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery2"
+                }
+              },
+              {
+                "threshold": 2200525.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+                }
+              },
+              {
+                "threshold": 2200529.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/furnace"
+                }
+              },
+              {
+                "threshold": 2200530.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200366.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_ore_grinder"
+          }
+        },
+        {
+          "threshold": 2200367.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+          }
+        },
+        {
+          "threshold": 2200368.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/smeltery"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+                }
+              },
+              {
+                "threshold": 2200294.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+                }
+              },
+              {
+                "threshold": 2200295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+                }
+              },
+              {
+                "threshold": 2200296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+                }
+              },
+              {
+                "threshold": 2200297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+                }
+              },
+              {
+                "threshold": 2200298.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+                }
+              },
+              {
+                "threshold": 2200299.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+                }
+              },
+              {
+                "threshold": 2200300.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+                }
+              },
+              {
+                "threshold": 2200301.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+                }
+              },
+              {
+                "threshold": 2200302.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+                }
+              },
+              {
+                "threshold": 2200303.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+                }
+              },
+              {
+                "threshold": 2200304.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+                }
+              },
+              {
+                "threshold": 2200305.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200351.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace"
+                }
+              },
+              {
+                "threshold": 2200352.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace2"
+                }
+              },
+              {
+                "threshold": 2200353.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace3"
+                }
+              },
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200523.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery"
+                }
+              },
+              {
+                "threshold": 2200524.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery2"
+                }
+              },
+              {
+                "threshold": 2200525.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+                }
+              },
+              {
+                "threshold": 2200529.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/furnace"
+                }
+              },
+              {
+                "threshold": 2200530.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200370.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+          }
+        },
+        {
+          "threshold": 2200371.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/smeltery"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+                }
+              },
+              {
+                "threshold": 2200294.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+                }
+              },
+              {
+                "threshold": 2200295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+                }
+              },
+              {
+                "threshold": 2200296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+                }
+              },
+              {
+                "threshold": 2200297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+                }
+              },
+              {
+                "threshold": 2200298.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+                }
+              },
+              {
+                "threshold": 2200299.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+                }
+              },
+              {
+                "threshold": 2200300.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+                }
+              },
+              {
+                "threshold": 2200301.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+                }
+              },
+              {
+                "threshold": 2200302.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+                }
+              },
+              {
+                "threshold": 2200303.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+                }
+              },
+              {
+                "threshold": 2200304.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+                }
+              },
+              {
+                "threshold": 2200305.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200351.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace"
+                }
+              },
+              {
+                "threshold": 2200352.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace2"
+                }
+              },
+              {
+                "threshold": 2200353.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace3"
+                }
+              },
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200523.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery"
+                }
+              },
+              {
+                "threshold": 2200524.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery2"
+                }
+              },
+              {
+                "threshold": 2200525.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+                }
+              },
+              {
+                "threshold": 2200529.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/furnace"
+                }
+              },
+              {
+                "threshold": 2200530.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200523.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_smeltery"
+          }
+        },
+        {
+          "threshold": 2200524.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_smeltery2"
+          }
+        },
+        {
+          "threshold": 2200525.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/smeltery"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+                }
+              },
+              {
+                "threshold": 2200294.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+                }
+              },
+              {
+                "threshold": 2200295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+                }
+              },
+              {
+                "threshold": 2200296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+                }
+              },
+              {
+                "threshold": 2200297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+                }
+              },
+              {
+                "threshold": 2200298.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+                }
+              },
+              {
+                "threshold": 2200299.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+                }
+              },
+              {
+                "threshold": 2200300.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+                }
+              },
+              {
+                "threshold": 2200301.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+                }
+              },
+              {
+                "threshold": 2200302.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+                }
+              },
+              {
+                "threshold": 2200303.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+                }
+              },
+              {
+                "threshold": 2200304.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+                }
+              },
+              {
+                "threshold": 2200305.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200351.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace"
+                }
+              },
+              {
+                "threshold": 2200352.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace2"
+                }
+              },
+              {
+                "threshold": 2200353.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace3"
+                }
+              },
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200523.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery"
+                }
+              },
+              {
+                "threshold": 2200524.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery2"
+                }
+              },
+              {
+                "threshold": 2200525.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+                }
+              },
+              {
+                "threshold": 2200529.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/furnace"
+                }
+              },
+              {
+                "threshold": 2200530.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200528.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+          }
+        },
+        {
+          "threshold": 2200529.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/furnace"
+          }
+        },
+        {
+          "threshold": 2200530.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/smeltery"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_1"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_2"
+                }
+              },
+              {
+                "threshold": 2200294.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_3"
+                }
+              },
+              {
+                "threshold": 2200295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_4"
+                }
+              },
+              {
+                "threshold": 2200296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_5"
+                }
+              },
+              {
+                "threshold": 2200297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_6"
+                }
+              },
+              {
+                "threshold": 2200298.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_7"
+                }
+              },
+              {
+                "threshold": 2200299.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_8"
+                }
+              },
+              {
+                "threshold": 2200300.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_9"
+                }
+              },
+              {
+                "threshold": 2200301.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_10"
+                }
+              },
+              {
+                "threshold": 2200302.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/enhanced_furnace_11"
+                }
+              },
+              {
+                "threshold": 2200303.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/reinforced_furnace"
+                }
+              },
+              {
+                "threshold": 2200304.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/carbonado_edged_furnace"
+                }
+              },
+              {
+                "threshold": 2200305.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200351.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace"
+                }
+              },
+              {
+                "threshold": 2200352.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace2"
+                }
+              },
+              {
+                "threshold": 2200353.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_furnace3"
+                }
+              },
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder2"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_pulverizer"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200523.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery"
+                }
+              },
+              {
+                "threshold": 2200524.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_smeltery2"
+                }
+              },
+              {
+                "threshold": 2200525.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ore_grinder3"
+                }
+              },
+              {
+                "threshold": 2200529.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/furnace"
+                }
+              },
+              {
+                "threshold": 2200530.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/furnace"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

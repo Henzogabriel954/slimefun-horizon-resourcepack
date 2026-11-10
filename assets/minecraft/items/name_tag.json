@@ -1,0 +1,157 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "_UI_SEARCH"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/gui/_ui_search"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/name_tag"
+        },
+        "entries": [
+          {
+            "threshold": 2200005.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/gui/search"
+            }
+          },
+          {
+            "threshold": 2200006.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/name_tag"
+            }
+          },
+          {
+            "threshold": 2200007.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/name_tag"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000005.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gui/search"
+          }
+        },
+        {
+          "threshold": 1000006.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/name_tag"
+          }
+        },
+        {
+          "threshold": 1000007.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/name_tag"
+            },
+            "entries": [
+              {
+                "threshold": 2200005.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/search"
+                }
+              },
+              {
+                "threshold": 2200006.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/name_tag"
+                }
+              },
+              {
+                "threshold": 2200007.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/name_tag"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200005.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gui/search"
+          }
+        },
+        {
+          "threshold": 2200006.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/name_tag"
+          }
+        },
+        {
+          "threshold": 2200007.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/name_tag"
+            },
+            "entries": [
+              {
+                "threshold": 2200005.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/search"
+                }
+              },
+              {
+                "threshold": 2200006.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/name_tag"
+                }
+              },
+              {
+                "threshold": 2200007.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/name_tag"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

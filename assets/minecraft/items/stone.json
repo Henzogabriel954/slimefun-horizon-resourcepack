@@ -1,0 +1,344 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "COMPRESSED_COBBLESTONE_3"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/compressed_cobblestone_3"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "COMPRESSED_COBBLESTONE_4"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/compressed_cobblestone_4"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_COMPRESSED_COBBLESTONE_4"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:materials/compressed_cobblestone_4"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_COMPRESSED_COBBLESTONE_5"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:materials/compressed_cobblestone_5"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/stone"
+        },
+        "entries": [
+          {
+            "threshold": 2200634.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/materials2/quadruple_compressed_cobblestone"
+            }
+          },
+          {
+            "threshold": 2200635.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/stone"
+            }
+          },
+          {
+            "threshold": 2200641.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/materials2/triple_compressed_cobblestone"
+            }
+          },
+          {
+            "threshold": 2200642.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stone"
+            }
+          },
+          {
+            "threshold": 2200643.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/stone"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000634.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/quadruple_compressed_cobblestone"
+          }
+        },
+        {
+          "threshold": 1000635.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/stone"
+            },
+            "entries": [
+              {
+                "threshold": 2200634.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/quadruple_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200635.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone"
+                }
+              },
+              {
+                "threshold": 2200641.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/triple_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200642.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stone"
+                }
+              },
+              {
+                "threshold": 2200643.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000641.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/triple_compressed_cobblestone"
+          }
+        },
+        {
+          "threshold": 1000642.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/stone"
+          }
+        },
+        {
+          "threshold": 1000643.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/stone"
+            },
+            "entries": [
+              {
+                "threshold": 2200634.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/quadruple_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200635.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone"
+                }
+              },
+              {
+                "threshold": 2200641.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/triple_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200642.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stone"
+                }
+              },
+              {
+                "threshold": 2200643.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200634.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/quadruple_compressed_cobblestone"
+          }
+        },
+        {
+          "threshold": 2200635.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/stone"
+            },
+            "entries": [
+              {
+                "threshold": 2200634.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/quadruple_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200635.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone"
+                }
+              },
+              {
+                "threshold": 2200641.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/triple_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200642.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stone"
+                }
+              },
+              {
+                "threshold": 2200643.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200641.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/triple_compressed_cobblestone"
+          }
+        },
+        {
+          "threshold": 2200642.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/stone"
+          }
+        },
+        {
+          "threshold": 2200643.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/stone"
+            },
+            "entries": [
+              {
+                "threshold": 2200634.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/quadruple_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200635.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone"
+                }
+              },
+              {
+                "threshold": 2200641.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/triple_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200642.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stone"
+                }
+              },
+              {
+                "threshold": 2200643.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2097 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SMELTERS_PICKAXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/tools/smelters_pickaxe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "EXPLOSIVE_PICKAXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/tools/explosive_pickaxe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ADVANCED_INDUSTRIAL_MINER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "PICKAXE_OF_THE_SEEKER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/tools/pickaxe_of_the_seeker"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "PICKAXE_OF_VEIN_MINING"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/tools/pickaxe_of_vein_mining"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SOULBOUND_PICKAXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "UPGRADED_EXPLOSIVE_PICKAXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:tools/upgraded_explosive_pickaxe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "PAXEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:tools/paxel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_TITANIUM_PICKAXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_titanium_pickaxe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AURUM_PICKAXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_aurum_pickaxe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_PICKAXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_adamantium_pickaxe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_PICKAXE_THORNIUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_pickaxe_thornium"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_PICKAXE_MAGIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_pickaxe_magic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_PICKAXE_RARE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_pickaxe_rare"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_PICKAXE_EPIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_pickaxe_epic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_PICKAXE_LEGENDARY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_pickaxe_legendary"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_PICKAXE_SUPREME"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_pickaxe_supreme"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/diamond_pickaxe"
+        },
+        "entries": [
+          {
+            "threshold": 2200163.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/tools/smelter_pickaxe"
+            }
+          },
+          {
+            "threshold": 2200164.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            }
+          },
+          {
+            "threshold": 2200241.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/tools/explosive_pickaxe"
+            }
+          },
+          {
+            "threshold": 2200242.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            }
+          },
+          {
+            "threshold": 2200245.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+            }
+          },
+          {
+            "threshold": 2200246.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            }
+          },
+          {
+            "threshold": 2200247.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/tools/seeker_pickaxe"
+            }
+          },
+          {
+            "threshold": 2200248.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            }
+          },
+          {
+            "threshold": 2200271.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/tools/vein_pickaxe"
+            }
+          },
+          {
+            "threshold": 2200272.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            }
+          },
+          {
+            "threshold": 2200275.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+            }
+          },
+          {
+            "threshold": 2200276.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            }
+          },
+          {
+            "threshold": 2201281.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "fluffymachines:diamond_paxel"
+            }
+          },
+          {
+            "threshold": 2201282.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            }
+          },
+          {
+            "threshold": 2201283.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000163.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/smelter_pickaxe"
+          }
+        },
+        {
+          "threshold": 1000164.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200163.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/smelter_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200164.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200241.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+                }
+              },
+              {
+                "threshold": 2200246.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200247.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/seeker_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200248.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200271.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/vein_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201281.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:diamond_paxel"
+                }
+              },
+              {
+                "threshold": 2201282.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000241.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/explosive_pickaxe"
+          }
+        },
+        {
+          "threshold": 1000242.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200163.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/smelter_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200164.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200241.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+                }
+              },
+              {
+                "threshold": 2200246.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200247.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/seeker_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200248.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200271.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/vein_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201281.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:diamond_paxel"
+                }
+              },
+              {
+                "threshold": 2201282.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000245.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+          }
+        },
+        {
+          "threshold": 1000246.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200163.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/smelter_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200164.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200241.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+                }
+              },
+              {
+                "threshold": 2200246.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200247.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/seeker_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200248.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200271.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/vein_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201281.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:diamond_paxel"
+                }
+              },
+              {
+                "threshold": 2201282.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000247.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/seeker_pickaxe"
+          }
+        },
+        {
+          "threshold": 1000248.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200163.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/smelter_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200164.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200241.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+                }
+              },
+              {
+                "threshold": 2200246.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200247.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/seeker_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200248.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200271.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/vein_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201281.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:diamond_paxel"
+                }
+              },
+              {
+                "threshold": 2201282.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000271.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/vein_pickaxe"
+          }
+        },
+        {
+          "threshold": 1000272.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200163.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/smelter_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200164.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200241.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+                }
+              },
+              {
+                "threshold": 2200246.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200247.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/seeker_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200248.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200271.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/vein_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201281.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:diamond_paxel"
+                }
+              },
+              {
+                "threshold": 2201282.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000275.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+          }
+        },
+        {
+          "threshold": 1000276.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200163.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/smelter_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200164.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200241.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+                }
+              },
+              {
+                "threshold": 2200246.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200247.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/seeker_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200248.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200271.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/vein_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201281.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:diamond_paxel"
+                }
+              },
+              {
+                "threshold": 2201282.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001281.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "fluffymachines:diamond_paxel"
+          }
+        },
+        {
+          "threshold": 1001282.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_pickaxe"
+          }
+        },
+        {
+          "threshold": 1001283.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200163.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/smelter_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200164.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200241.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+                }
+              },
+              {
+                "threshold": 2200246.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200247.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/seeker_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200248.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200271.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/vein_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201281.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:diamond_paxel"
+                }
+              },
+              {
+                "threshold": 2201282.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200163.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/smelter_pickaxe"
+          }
+        },
+        {
+          "threshold": 2200164.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200163.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/smelter_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200164.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200241.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+                }
+              },
+              {
+                "threshold": 2200246.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200247.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/seeker_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200248.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200271.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/vein_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201281.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:diamond_paxel"
+                }
+              },
+              {
+                "threshold": 2201282.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200241.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/explosive_pickaxe"
+          }
+        },
+        {
+          "threshold": 2200242.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200163.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/smelter_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200164.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200241.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+                }
+              },
+              {
+                "threshold": 2200246.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200247.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/seeker_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200248.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200271.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/vein_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201281.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:diamond_paxel"
+                }
+              },
+              {
+                "threshold": 2201282.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200245.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+          }
+        },
+        {
+          "threshold": 2200246.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200163.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/smelter_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200164.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200241.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+                }
+              },
+              {
+                "threshold": 2200246.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200247.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/seeker_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200248.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200271.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/vein_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201281.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:diamond_paxel"
+                }
+              },
+              {
+                "threshold": 2201282.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200247.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/seeker_pickaxe"
+          }
+        },
+        {
+          "threshold": 2200248.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200163.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/smelter_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200164.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200241.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+                }
+              },
+              {
+                "threshold": 2200246.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200247.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/seeker_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200248.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200271.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/vein_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201281.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:diamond_paxel"
+                }
+              },
+              {
+                "threshold": 2201282.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200271.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/vein_pickaxe"
+          }
+        },
+        {
+          "threshold": 2200272.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200163.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/smelter_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200164.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200241.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+                }
+              },
+              {
+                "threshold": 2200246.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200247.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/seeker_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200248.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200271.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/vein_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201281.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:diamond_paxel"
+                }
+              },
+              {
+                "threshold": 2201282.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200275.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+          }
+        },
+        {
+          "threshold": 2200276.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200163.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/smelter_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200164.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200241.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+                }
+              },
+              {
+                "threshold": 2200246.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200247.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/seeker_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200248.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200271.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/vein_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201281.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:diamond_paxel"
+                }
+              },
+              {
+                "threshold": 2201282.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201281.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "fluffymachines:diamond_paxel"
+          }
+        },
+        {
+          "threshold": 2201282.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_pickaxe"
+          }
+        },
+        {
+          "threshold": 2201283.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200163.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/smelter_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200164.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200241.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/advanced_industrial_miner"
+                }
+              },
+              {
+                "threshold": 2200246.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200247.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/seeker_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200248.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200271.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/vein_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201281.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:diamond_paxel"
+                }
+              },
+              {
+                "threshold": 2201282.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              },
+              {
+                "threshold": 2201283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_pickaxe"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

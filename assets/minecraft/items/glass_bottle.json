@@ -1,0 +1,322 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "JUICER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/juicer"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "FLASK_OF_KNOWLEDGE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_gadgets/flask_of_knowledge"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/glass_bottle"
+        },
+        "entries": [
+          {
+            "threshold": 2200283.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/juicer"
+            }
+          },
+          {
+            "threshold": 2200284.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/glass_bottle"
+            }
+          },
+          {
+            "threshold": 2200314.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_gadgets/knowledge_flask"
+            }
+          },
+          {
+            "threshold": 2200315.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/glass_bottle"
+            }
+          },
+          {
+            "threshold": 2200316.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/glass_bottle"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000283.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/juicer"
+          }
+        },
+        {
+          "threshold": 1000284.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/glass_bottle"
+            },
+            "entries": [
+              {
+                "threshold": 2200283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/juicer"
+                }
+              },
+              {
+                "threshold": 2200284.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glass_bottle"
+                }
+              },
+              {
+                "threshold": 2200314.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/knowledge_flask"
+                }
+              },
+              {
+                "threshold": 2200315.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glass_bottle"
+                }
+              },
+              {
+                "threshold": 2200316.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glass_bottle"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000314.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/knowledge_flask"
+          }
+        },
+        {
+          "threshold": 1000315.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/glass_bottle"
+          }
+        },
+        {
+          "threshold": 1000316.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/glass_bottle"
+            },
+            "entries": [
+              {
+                "threshold": 2200283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/juicer"
+                }
+              },
+              {
+                "threshold": 2200284.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glass_bottle"
+                }
+              },
+              {
+                "threshold": 2200314.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/knowledge_flask"
+                }
+              },
+              {
+                "threshold": 2200315.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glass_bottle"
+                }
+              },
+              {
+                "threshold": 2200316.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glass_bottle"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200283.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/juicer"
+          }
+        },
+        {
+          "threshold": 2200284.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/glass_bottle"
+            },
+            "entries": [
+              {
+                "threshold": 2200283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/juicer"
+                }
+              },
+              {
+                "threshold": 2200284.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glass_bottle"
+                }
+              },
+              {
+                "threshold": 2200314.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/knowledge_flask"
+                }
+              },
+              {
+                "threshold": 2200315.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glass_bottle"
+                }
+              },
+              {
+                "threshold": 2200316.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glass_bottle"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200314.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/knowledge_flask"
+          }
+        },
+        {
+          "threshold": 2200315.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/glass_bottle"
+          }
+        },
+        {
+          "threshold": 2200316.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/glass_bottle"
+            },
+            "entries": [
+              {
+                "threshold": 2200283.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/juicer"
+                }
+              },
+              {
+                "threshold": 2200284.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glass_bottle"
+                }
+              },
+              {
+                "threshold": 2200314.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/knowledge_flask"
+                }
+              },
+              {
+                "threshold": 2200315.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glass_bottle"
+                }
+              },
+              {
+                "threshold": 2200316.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glass_bottle"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

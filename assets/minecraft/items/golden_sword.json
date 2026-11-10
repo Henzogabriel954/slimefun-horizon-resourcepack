@@ -1,0 +1,1142 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BLADE_OF_VAMPIRES"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/weapons/blade_of_vampires"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GILDED_IRON_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "extra_gear:swords/gilded_iron_sword"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GUARD_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_weapons/guard_sword"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SKY_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_weapons/sky_sword"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/golden_sword"
+        },
+        "entries": [
+          {
+            "threshold": 2200001.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/gui/slimefun_guide"
+            }
+          },
+          {
+            "threshold": 2200002.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            }
+          },
+          {
+            "threshold": 2200237.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/weapons/blade_of_vampires"
+            }
+          },
+          {
+            "threshold": 2200238.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            }
+          },
+          {
+            "threshold": 2201249.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "extra_gear:swords/gilded_iron_sword"
+            }
+          },
+          {
+            "threshold": 2201250.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            }
+          },
+          {
+            "threshold": 2201427.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_weapons/guard_sword"
+            }
+          },
+          {
+            "threshold": 2201428.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            }
+          },
+          {
+            "threshold": 2201430.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_weapons/sky_sword"
+            }
+          },
+          {
+            "threshold": 2201431.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            }
+          },
+          {
+            "threshold": 2201432.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000001.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gui/slimefun_guide"
+          }
+        },
+        {
+          "threshold": 1000002.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2200237.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/blade_of_vampires"
+                }
+              },
+              {
+                "threshold": 2200238.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201249.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "extra_gear:swords/gilded_iron_sword"
+                }
+              },
+              {
+                "threshold": 2201250.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/guard_sword"
+                }
+              },
+              {
+                "threshold": 2201428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_sword"
+                }
+              },
+              {
+                "threshold": 2201431.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000237.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/weapons/blade_of_vampires"
+          }
+        },
+        {
+          "threshold": 1000238.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2200237.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/blade_of_vampires"
+                }
+              },
+              {
+                "threshold": 2200238.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201249.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "extra_gear:swords/gilded_iron_sword"
+                }
+              },
+              {
+                "threshold": 2201250.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/guard_sword"
+                }
+              },
+              {
+                "threshold": 2201428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_sword"
+                }
+              },
+              {
+                "threshold": 2201431.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001249.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_gear:swords/gilded_iron_sword"
+          }
+        },
+        {
+          "threshold": 1001250.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2200237.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/blade_of_vampires"
+                }
+              },
+              {
+                "threshold": 2200238.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201249.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "extra_gear:swords/gilded_iron_sword"
+                }
+              },
+              {
+                "threshold": 2201250.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/guard_sword"
+                }
+              },
+              {
+                "threshold": 2201428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_sword"
+                }
+              },
+              {
+                "threshold": 2201431.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001427.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_weapons/guard_sword"
+          }
+        },
+        {
+          "threshold": 1001428.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2200237.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/blade_of_vampires"
+                }
+              },
+              {
+                "threshold": 2200238.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201249.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "extra_gear:swords/gilded_iron_sword"
+                }
+              },
+              {
+                "threshold": 2201250.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/guard_sword"
+                }
+              },
+              {
+                "threshold": 2201428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_sword"
+                }
+              },
+              {
+                "threshold": 2201431.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001430.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_weapons/sky_sword"
+          }
+        },
+        {
+          "threshold": 1001431.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/golden_sword"
+          }
+        },
+        {
+          "threshold": 1001432.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2200237.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/blade_of_vampires"
+                }
+              },
+              {
+                "threshold": 2200238.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201249.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "extra_gear:swords/gilded_iron_sword"
+                }
+              },
+              {
+                "threshold": 2201250.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/guard_sword"
+                }
+              },
+              {
+                "threshold": 2201428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_sword"
+                }
+              },
+              {
+                "threshold": 2201431.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200001.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gui/slimefun_guide"
+          }
+        },
+        {
+          "threshold": 2200002.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2200237.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/blade_of_vampires"
+                }
+              },
+              {
+                "threshold": 2200238.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201249.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "extra_gear:swords/gilded_iron_sword"
+                }
+              },
+              {
+                "threshold": 2201250.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/guard_sword"
+                }
+              },
+              {
+                "threshold": 2201428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_sword"
+                }
+              },
+              {
+                "threshold": 2201431.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200237.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/weapons/blade_of_vampires"
+          }
+        },
+        {
+          "threshold": 2200238.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2200237.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/blade_of_vampires"
+                }
+              },
+              {
+                "threshold": 2200238.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201249.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "extra_gear:swords/gilded_iron_sword"
+                }
+              },
+              {
+                "threshold": 2201250.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/guard_sword"
+                }
+              },
+              {
+                "threshold": 2201428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_sword"
+                }
+              },
+              {
+                "threshold": 2201431.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201249.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "extra_gear:swords/gilded_iron_sword"
+          }
+        },
+        {
+          "threshold": 2201250.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2200237.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/blade_of_vampires"
+                }
+              },
+              {
+                "threshold": 2200238.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201249.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "extra_gear:swords/gilded_iron_sword"
+                }
+              },
+              {
+                "threshold": 2201250.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/guard_sword"
+                }
+              },
+              {
+                "threshold": 2201428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_sword"
+                }
+              },
+              {
+                "threshold": 2201431.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201427.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_weapons/guard_sword"
+          }
+        },
+        {
+          "threshold": 2201428.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2200237.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/blade_of_vampires"
+                }
+              },
+              {
+                "threshold": 2200238.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201249.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "extra_gear:swords/gilded_iron_sword"
+                }
+              },
+              {
+                "threshold": 2201250.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/guard_sword"
+                }
+              },
+              {
+                "threshold": 2201428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_sword"
+                }
+              },
+              {
+                "threshold": 2201431.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201430.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_weapons/sky_sword"
+          }
+        },
+        {
+          "threshold": 2201431.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/golden_sword"
+          }
+        },
+        {
+          "threshold": 2201432.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200001.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gui/slimefun_guide"
+                }
+              },
+              {
+                "threshold": 2200002.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2200237.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/blade_of_vampires"
+                }
+              },
+              {
+                "threshold": 2200238.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201249.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "extra_gear:swords/gilded_iron_sword"
+                }
+              },
+              {
+                "threshold": 2201250.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/guard_sword"
+                }
+              },
+              {
+                "threshold": 2201428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_sword"
+                }
+              },
+              {
+                "threshold": 2201431.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_sword"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

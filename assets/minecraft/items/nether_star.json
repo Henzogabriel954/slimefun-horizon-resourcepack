@@ -1,0 +1,1219 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "EARTH_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:singularities/earth_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "FORTUNE_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:singularities/fortune_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INFINITY_MATRIX"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/infinity_matrix"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MAGIC_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:singularities/magic_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "METAL_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:singularities/metal_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CLT_STAR_ANISE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "cultivation:products/clt_star_anise"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_EARTH_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:singularities/earth_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_FORTUNE_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:singularities/fortune_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_MAGIC_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:singularities/magic_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_METAL_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:singularities/metal_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_INFINITY_MATRIX"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:tools/infinity_matrix"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/nether_star"
+        },
+        "entries": [
+          {
+            "threshold": 2200602.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/earth_singularity"
+            }
+          },
+          {
+            "threshold": 2200603.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            }
+          },
+          {
+            "threshold": 2200605.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/fortune_singularity"
+            }
+          },
+          {
+            "threshold": 2200606.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            }
+          },
+          {
+            "threshold": 2200607.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/infinity_matrix"
+            }
+          },
+          {
+            "threshold": 2200608.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            }
+          },
+          {
+            "threshold": 2200610.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/magic_singularity"
+            }
+          },
+          {
+            "threshold": 2200611.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            }
+          },
+          {
+            "threshold": 2200614.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/metal_singularity"
+            }
+          },
+          {
+            "threshold": 2200615.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            }
+          },
+          {
+            "threshold": 2200616.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000602.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/earth_singularity"
+          }
+        },
+        {
+          "threshold": 1000603.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            },
+            "entries": [
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/earth_singularity"
+                }
+              },
+              {
+                "threshold": 2200603.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/fortune_singularity"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200607.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/infinity_matrix"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magic_singularity"
+                }
+              },
+              {
+                "threshold": 2200611.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/metal_singularity"
+                }
+              },
+              {
+                "threshold": 2200615.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200616.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000605.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/fortune_singularity"
+          }
+        },
+        {
+          "threshold": 1000606.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            },
+            "entries": [
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/earth_singularity"
+                }
+              },
+              {
+                "threshold": 2200603.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/fortune_singularity"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200607.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/infinity_matrix"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magic_singularity"
+                }
+              },
+              {
+                "threshold": 2200611.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/metal_singularity"
+                }
+              },
+              {
+                "threshold": 2200615.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200616.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000607.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/infinity_matrix"
+          }
+        },
+        {
+          "threshold": 1000608.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            },
+            "entries": [
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/earth_singularity"
+                }
+              },
+              {
+                "threshold": 2200603.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/fortune_singularity"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200607.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/infinity_matrix"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magic_singularity"
+                }
+              },
+              {
+                "threshold": 2200611.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/metal_singularity"
+                }
+              },
+              {
+                "threshold": 2200615.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200616.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000610.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/magic_singularity"
+          }
+        },
+        {
+          "threshold": 1000611.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            },
+            "entries": [
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/earth_singularity"
+                }
+              },
+              {
+                "threshold": 2200603.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/fortune_singularity"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200607.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/infinity_matrix"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magic_singularity"
+                }
+              },
+              {
+                "threshold": 2200611.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/metal_singularity"
+                }
+              },
+              {
+                "threshold": 2200615.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200616.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000614.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/metal_singularity"
+          }
+        },
+        {
+          "threshold": 1000615.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/nether_star"
+          }
+        },
+        {
+          "threshold": 1000616.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            },
+            "entries": [
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/earth_singularity"
+                }
+              },
+              {
+                "threshold": 2200603.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/fortune_singularity"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200607.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/infinity_matrix"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magic_singularity"
+                }
+              },
+              {
+                "threshold": 2200611.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/metal_singularity"
+                }
+              },
+              {
+                "threshold": 2200615.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200616.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200602.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/earth_singularity"
+          }
+        },
+        {
+          "threshold": 2200603.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            },
+            "entries": [
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/earth_singularity"
+                }
+              },
+              {
+                "threshold": 2200603.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/fortune_singularity"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200607.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/infinity_matrix"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magic_singularity"
+                }
+              },
+              {
+                "threshold": 2200611.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/metal_singularity"
+                }
+              },
+              {
+                "threshold": 2200615.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200616.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200605.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/fortune_singularity"
+          }
+        },
+        {
+          "threshold": 2200606.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            },
+            "entries": [
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/earth_singularity"
+                }
+              },
+              {
+                "threshold": 2200603.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/fortune_singularity"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200607.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/infinity_matrix"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magic_singularity"
+                }
+              },
+              {
+                "threshold": 2200611.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/metal_singularity"
+                }
+              },
+              {
+                "threshold": 2200615.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200616.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200607.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/infinity_matrix"
+          }
+        },
+        {
+          "threshold": 2200608.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            },
+            "entries": [
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/earth_singularity"
+                }
+              },
+              {
+                "threshold": 2200603.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/fortune_singularity"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200607.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/infinity_matrix"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magic_singularity"
+                }
+              },
+              {
+                "threshold": 2200611.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/metal_singularity"
+                }
+              },
+              {
+                "threshold": 2200615.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200616.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200610.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/magic_singularity"
+          }
+        },
+        {
+          "threshold": 2200611.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            },
+            "entries": [
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/earth_singularity"
+                }
+              },
+              {
+                "threshold": 2200603.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/fortune_singularity"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200607.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/infinity_matrix"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magic_singularity"
+                }
+              },
+              {
+                "threshold": 2200611.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/metal_singularity"
+                }
+              },
+              {
+                "threshold": 2200615.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200616.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200614.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/metal_singularity"
+          }
+        },
+        {
+          "threshold": 2200615.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/nether_star"
+          }
+        },
+        {
+          "threshold": 2200616.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_star"
+            },
+            "entries": [
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/earth_singularity"
+                }
+              },
+              {
+                "threshold": 2200603.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200605.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/fortune_singularity"
+                }
+              },
+              {
+                "threshold": 2200606.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200607.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/infinity_matrix"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magic_singularity"
+                }
+              },
+              {
+                "threshold": 2200611.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/metal_singularity"
+                }
+              },
+              {
+                "threshold": 2200615.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              },
+              {
+                "threshold": 2200616.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_star"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

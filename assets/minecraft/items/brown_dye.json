@@ -1,0 +1,201 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "STICKY_RESIN"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimy_tree_taps:materials/sticky_resin"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "THIOACETONE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefunwarfare:explosives/thioacetone"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_CARAMEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:food/gn_caramel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_PULLED_PORK"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:food/gn_pulled_pork"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_GROUND_BEEF"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:food/gn_ground_beef"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/brown_dye"
+        },
+        "entries": [
+          {
+            "threshold": 2200803.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimy_tree_taps:materials/sticky_resin"
+            }
+          },
+          {
+            "threshold": 2200804.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brown_dye"
+            }
+          },
+          {
+            "threshold": 2200805.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brown_dye"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000803.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimy_tree_taps:materials/sticky_resin"
+          }
+        },
+        {
+          "threshold": 1000804.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/brown_dye"
+          }
+        },
+        {
+          "threshold": 1000805.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brown_dye"
+            },
+            "entries": [
+              {
+                "threshold": 2200803.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/sticky_resin"
+                }
+              },
+              {
+                "threshold": 2200804.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brown_dye"
+                }
+              },
+              {
+                "threshold": 2200805.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brown_dye"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200803.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimy_tree_taps:materials/sticky_resin"
+          }
+        },
+        {
+          "threshold": 2200804.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/brown_dye"
+          }
+        },
+        {
+          "threshold": 2200805.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brown_dye"
+            },
+            "entries": [
+              {
+                "threshold": 2200803.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/sticky_resin"
+                }
+              },
+              {
+                "threshold": 2200804.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brown_dye"
+                }
+              },
+              {
+                "threshold": 2200805.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brown_dye"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

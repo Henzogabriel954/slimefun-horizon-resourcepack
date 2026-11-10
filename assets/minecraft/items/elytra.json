@@ -1,0 +1,286 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INFUSED_ELYTRA"
+          }
+        },
+        "model": {
+          "type": "minecraft:condition",
+          "property": "broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/elytra/infused_elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/elytra/infused_broken_elytra"
+          }
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SOULBOUND_ELYTRA"
+          }
+        },
+        "model": {
+          "type": "minecraft:condition",
+          "property": "broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/elytra/soulbound_elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/elytra/soulbound_broken_elytra"
+          }
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BEE_WINGS"
+          }
+        },
+        "model": {
+          "type": "minecraft:condition",
+          "property": "broken",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_armor/bee_armor/elytra/bee_wings"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_armor/bee_armor/elytra/broken_bee_wings"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytra"
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytra_broken"
+          },
+          "property": "minecraft:broken"
+        },
+        "entries": [
+          {
+            "threshold": 2200422.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_gadgets/elytra/infused_elytra"
+            }
+          },
+          {
+            "threshold": 2200423.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_gadgets/elytra/soulbound_elytra"
+            }
+          },
+          {
+            "threshold": 2200424.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/elytra"
+            }
+          },
+          {
+            "threshold": 2200425.0,
+            "model": {
+              "type": "minecraft:condition",
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/elytra"
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/elytra_broken"
+              },
+              "property": "minecraft:broken"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000422.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/elytra/infused_elytra"
+          }
+        },
+        {
+          "threshold": 1000423.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/elytra/soulbound_elytra"
+          }
+        },
+        {
+          "threshold": 1000424.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytra"
+          }
+        },
+        {
+          "threshold": 1000425.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:condition",
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/elytra"
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/elytra_broken"
+              },
+              "property": "minecraft:broken"
+            },
+            "entries": [
+              {
+                "threshold": 2200422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/elytra/infused_elytra"
+                }
+              },
+              {
+                "threshold": 2200423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/elytra/soulbound_elytra"
+                }
+              },
+              {
+                "threshold": 2200424.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/elytra"
+                }
+              },
+              {
+                "threshold": 2200425.0,
+                "model": {
+                  "type": "minecraft:condition",
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/elytra"
+                  },
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/elytra_broken"
+                  },
+                  "property": "minecraft:broken"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200422.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/elytra/infused_elytra"
+          }
+        },
+        {
+          "threshold": 2200423.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/elytra/soulbound_elytra"
+          }
+        },
+        {
+          "threshold": 2200424.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/elytra"
+          }
+        },
+        {
+          "threshold": 2200425.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:condition",
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/elytra"
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/elytra_broken"
+              },
+              "property": "minecraft:broken"
+            },
+            "entries": [
+              {
+                "threshold": 2200422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/elytra/infused_elytra"
+                }
+              },
+              {
+                "threshold": 2200423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/elytra/soulbound_elytra"
+                }
+              },
+              {
+                "threshold": 2200424.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/elytra"
+                }
+              },
+              {
+                "threshold": 2200425.0,
+                "model": {
+                  "type": "minecraft:condition",
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/elytra"
+                  },
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/elytra_broken"
+                  },
+                  "property": "minecraft:broken"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

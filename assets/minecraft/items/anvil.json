@@ -1,0 +1,157 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ARMOR_FORGE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/armor_forge"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/anvil"
+        },
+        "entries": [
+          {
+            "threshold": 2200027.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/armor_forge"
+            }
+          },
+          {
+            "threshold": 2200028.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/anvil"
+            }
+          },
+          {
+            "threshold": 2200029.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/anvil"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000027.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/armor_forge"
+          }
+        },
+        {
+          "threshold": 1000028.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/anvil"
+          }
+        },
+        {
+          "threshold": 1000029.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/anvil"
+            },
+            "entries": [
+              {
+                "threshold": 2200027.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/armor_forge"
+                }
+              },
+              {
+                "threshold": 2200028.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/anvil"
+                }
+              },
+              {
+                "threshold": 2200029.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/anvil"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200027.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/armor_forge"
+          }
+        },
+        {
+          "threshold": 2200028.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/anvil"
+          }
+        },
+        {
+          "threshold": 2200029.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/anvil"
+            },
+            "entries": [
+              {
+                "threshold": 2200027.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/armor_forge"
+                }
+              },
+              {
+                "threshold": 2200028.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/anvil"
+                }
+              },
+              {
+                "threshold": 2200029.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/anvil"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

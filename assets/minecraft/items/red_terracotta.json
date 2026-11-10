@@ -1,0 +1,387 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_INGOT_FACTORY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_ingot_factory"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_INGOT_FACTORY_2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_ingot_factory2"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_INGOT_FACTORY_3"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_ingot_factory3"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIFIED_CRUCIBLE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electrified_crucible"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIFIED_CRUCIBLE_2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electrified_crucible2"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIFIED_CRUCIBLE_3"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electrified_crucible3"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/red_terracotta"
+        },
+        "entries": [
+          {
+            "threshold": 2200360.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_ingot_factory"
+            }
+          },
+          {
+            "threshold": 2200361.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_ingot_factory2"
+            }
+          },
+          {
+            "threshold": 2200362.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_ingot_factory3"
+            }
+          },
+          {
+            "threshold": 2200363.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electrified_crucible"
+            }
+          },
+          {
+            "threshold": 2200364.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electrified_crucible2"
+            }
+          },
+          {
+            "threshold": 2200365.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electrified_crucible3"
+            }
+          },
+          {
+            "threshold": 2200366.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/red_terracotta"
+            }
+          },
+          {
+            "threshold": 2200367.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/red_terracotta"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000360.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_ingot_factory"
+          }
+        },
+        {
+          "threshold": 1000361.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_ingot_factory2"
+          }
+        },
+        {
+          "threshold": 1000362.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_ingot_factory3"
+          }
+        },
+        {
+          "threshold": 1000363.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electrified_crucible"
+          }
+        },
+        {
+          "threshold": 1000364.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electrified_crucible2"
+          }
+        },
+        {
+          "threshold": 1000365.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electrified_crucible3"
+          }
+        },
+        {
+          "threshold": 1000366.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/red_terracotta"
+          }
+        },
+        {
+          "threshold": 1000367.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/red_terracotta"
+            },
+            "entries": [
+              {
+                "threshold": 2200360.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_factory"
+                }
+              },
+              {
+                "threshold": 2200361.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_factory2"
+                }
+              },
+              {
+                "threshold": 2200362.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_factory3"
+                }
+              },
+              {
+                "threshold": 2200363.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electrified_crucible"
+                }
+              },
+              {
+                "threshold": 2200364.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electrified_crucible2"
+                }
+              },
+              {
+                "threshold": 2200365.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electrified_crucible3"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/red_terracotta"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/red_terracotta"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200360.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_ingot_factory"
+          }
+        },
+        {
+          "threshold": 2200361.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_ingot_factory2"
+          }
+        },
+        {
+          "threshold": 2200362.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_ingot_factory3"
+          }
+        },
+        {
+          "threshold": 2200363.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electrified_crucible"
+          }
+        },
+        {
+          "threshold": 2200364.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electrified_crucible2"
+          }
+        },
+        {
+          "threshold": 2200365.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electrified_crucible3"
+          }
+        },
+        {
+          "threshold": 2200366.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/red_terracotta"
+          }
+        },
+        {
+          "threshold": 2200367.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/red_terracotta"
+            },
+            "entries": [
+              {
+                "threshold": 2200360.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_factory"
+                }
+              },
+              {
+                "threshold": 2200361.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_factory2"
+                }
+              },
+              {
+                "threshold": 2200362.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_ingot_factory3"
+                }
+              },
+              {
+                "threshold": 2200363.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electrified_crucible"
+                }
+              },
+              {
+                "threshold": 2200364.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electrified_crucible2"
+                }
+              },
+              {
+                "threshold": 2200365.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electrified_crucible3"
+                }
+              },
+              {
+                "threshold": 2200366.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/red_terracotta"
+                }
+              },
+              {
+                "threshold": 2200367.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/red_terracotta"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

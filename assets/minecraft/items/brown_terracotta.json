@@ -1,0 +1,442 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_GOLD_PAN"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_gold_pan"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_GOLD_PAN_2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_gold_pan2"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELECTRIC_GOLD_PAN_3"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/electric_gold_pan3"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "TREE_GROWTH_ACCELERATOR"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/tree_growth_accelerator"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/brown_terracotta"
+        },
+        "entries": [
+          {
+            "threshold": 2200354.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_gold_pan"
+            }
+          },
+          {
+            "threshold": 2200355.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_gold_pan2"
+            }
+          },
+          {
+            "threshold": 2200356.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/electric_gold_pan3"
+            }
+          },
+          {
+            "threshold": 2200357.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/brown_terracotta"
+            }
+          },
+          {
+            "threshold": 2200485.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/tree_growth_accelerator"
+            }
+          },
+          {
+            "threshold": 2200486.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brown_terracotta"
+            }
+          },
+          {
+            "threshold": 2200487.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/brown_terracotta"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000354.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_gold_pan"
+          }
+        },
+        {
+          "threshold": 1000355.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_gold_pan2"
+          }
+        },
+        {
+          "threshold": 1000356.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_gold_pan3"
+          }
+        },
+        {
+          "threshold": 1000357.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/brown_terracotta"
+            },
+            "entries": [
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_gold_pan"
+                }
+              },
+              {
+                "threshold": 2200355.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_gold_pan2"
+                }
+              },
+              {
+                "threshold": 2200356.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_gold_pan3"
+                }
+              },
+              {
+                "threshold": 2200357.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/brown_terracotta"
+                }
+              },
+              {
+                "threshold": 2200485.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/tree_growth_accelerator"
+                }
+              },
+              {
+                "threshold": 2200486.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brown_terracotta"
+                }
+              },
+              {
+                "threshold": 2200487.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/brown_terracotta"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000485.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/tree_growth_accelerator"
+          }
+        },
+        {
+          "threshold": 1000486.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/brown_terracotta"
+          }
+        },
+        {
+          "threshold": 1000487.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/brown_terracotta"
+            },
+            "entries": [
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_gold_pan"
+                }
+              },
+              {
+                "threshold": 2200355.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_gold_pan2"
+                }
+              },
+              {
+                "threshold": 2200356.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_gold_pan3"
+                }
+              },
+              {
+                "threshold": 2200357.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/brown_terracotta"
+                }
+              },
+              {
+                "threshold": 2200485.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/tree_growth_accelerator"
+                }
+              },
+              {
+                "threshold": 2200486.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brown_terracotta"
+                }
+              },
+              {
+                "threshold": 2200487.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/brown_terracotta"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200354.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_gold_pan"
+          }
+        },
+        {
+          "threshold": 2200355.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_gold_pan2"
+          }
+        },
+        {
+          "threshold": 2200356.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/electric_gold_pan3"
+          }
+        },
+        {
+          "threshold": 2200357.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/brown_terracotta"
+            },
+            "entries": [
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_gold_pan"
+                }
+              },
+              {
+                "threshold": 2200355.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_gold_pan2"
+                }
+              },
+              {
+                "threshold": 2200356.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_gold_pan3"
+                }
+              },
+              {
+                "threshold": 2200357.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/brown_terracotta"
+                }
+              },
+              {
+                "threshold": 2200485.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/tree_growth_accelerator"
+                }
+              },
+              {
+                "threshold": 2200486.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brown_terracotta"
+                }
+              },
+              {
+                "threshold": 2200487.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/brown_terracotta"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200485.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/tree_growth_accelerator"
+          }
+        },
+        {
+          "threshold": 2200486.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/brown_terracotta"
+          }
+        },
+        {
+          "threshold": 2200487.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/brown_terracotta"
+            },
+            "entries": [
+              {
+                "threshold": 2200354.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_gold_pan"
+                }
+              },
+              {
+                "threshold": 2200355.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_gold_pan2"
+                }
+              },
+              {
+                "threshold": 2200356.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/electric_gold_pan3"
+                }
+              },
+              {
+                "threshold": 2200357.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/brown_terracotta"
+                }
+              },
+              {
+                "threshold": 2200485.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/tree_growth_accelerator"
+                }
+              },
+              {
+                "threshold": 2200486.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brown_terracotta"
+                }
+              },
+              {
+                "threshold": 2200487.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/brown_terracotta"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

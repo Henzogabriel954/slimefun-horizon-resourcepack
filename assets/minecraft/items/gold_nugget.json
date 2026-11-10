@@ -1,0 +1,699 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MAGIC_LUMP_1"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_items/magic_lump_1"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MAGIC_LUMP_2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_items/magic_lump_2"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MAGIC_LUMP_3"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_items/magic_lump_3"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENDER_LUMP_1"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_items/ender_lump_1"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENDER_LUMP_2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_items/ender_lump_2"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENDER_LUMP_3"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_items/ender_lump_3"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "OLD_COIN"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_items/old_coin"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_ALU_BRONZE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_alu_bronze"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_COR_BRONZE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_cor_bronze"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_BRASS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_brass"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_ALU_BRASS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_alu_brass"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_NICE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_nice"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_ANNIVERSARIUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_anniversarium"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_THORNIUM_BIT_SYNTHETIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:components/supreme_thornium_bit_synthetic"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/gold_nugget"
+        },
+        "entries": [
+          {
+            "threshold": 2200030.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_items/magical_lump"
+            }
+          },
+          {
+            "threshold": 2200031.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_items/magical_lump2"
+            }
+          },
+          {
+            "threshold": 2200032.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_items/magical_lump3"
+            }
+          },
+          {
+            "threshold": 2200033.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_items/ender_lump"
+            }
+          },
+          {
+            "threshold": 2200034.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_items/ender_lump2"
+            }
+          },
+          {
+            "threshold": 2200035.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_items/ender_lump3"
+            }
+          },
+          {
+            "threshold": 2200036.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_nugget"
+            }
+          },
+          {
+            "threshold": 2201410.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_items/old_coin"
+            }
+          },
+          {
+            "threshold": 2201411.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_nugget"
+            }
+          },
+          {
+            "threshold": 2201412.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_nugget"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000030.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/magical_lump"
+          }
+        },
+        {
+          "threshold": 1000031.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/magical_lump2"
+          }
+        },
+        {
+          "threshold": 1000032.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/magical_lump3"
+          }
+        },
+        {
+          "threshold": 1000033.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/ender_lump"
+          }
+        },
+        {
+          "threshold": 1000034.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/ender_lump2"
+          }
+        },
+        {
+          "threshold": 1000035.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/ender_lump3"
+          }
+        },
+        {
+          "threshold": 1000036.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_nugget"
+            },
+            "entries": [
+              {
+                "threshold": 2200030.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_lump"
+                }
+              },
+              {
+                "threshold": 2200031.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_lump2"
+                }
+              },
+              {
+                "threshold": 2200032.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_lump3"
+                }
+              },
+              {
+                "threshold": 2200033.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/ender_lump"
+                }
+              },
+              {
+                "threshold": 2200034.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/ender_lump2"
+                }
+              },
+              {
+                "threshold": 2200035.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/ender_lump3"
+                }
+              },
+              {
+                "threshold": 2200036.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_nugget"
+                }
+              },
+              {
+                "threshold": 2201410.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/old_coin"
+                }
+              },
+              {
+                "threshold": 2201411.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_nugget"
+                }
+              },
+              {
+                "threshold": 2201412.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_nugget"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001410.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/old_coin"
+          }
+        },
+        {
+          "threshold": 1001411.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/gold_nugget"
+          }
+        },
+        {
+          "threshold": 1001412.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_nugget"
+            },
+            "entries": [
+              {
+                "threshold": 2200030.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_lump"
+                }
+              },
+              {
+                "threshold": 2200031.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_lump2"
+                }
+              },
+              {
+                "threshold": 2200032.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_lump3"
+                }
+              },
+              {
+                "threshold": 2200033.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/ender_lump"
+                }
+              },
+              {
+                "threshold": 2200034.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/ender_lump2"
+                }
+              },
+              {
+                "threshold": 2200035.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/ender_lump3"
+                }
+              },
+              {
+                "threshold": 2200036.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_nugget"
+                }
+              },
+              {
+                "threshold": 2201410.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/old_coin"
+                }
+              },
+              {
+                "threshold": 2201411.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_nugget"
+                }
+              },
+              {
+                "threshold": 2201412.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_nugget"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200030.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/magical_lump"
+          }
+        },
+        {
+          "threshold": 2200031.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/magical_lump2"
+          }
+        },
+        {
+          "threshold": 2200032.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/magical_lump3"
+          }
+        },
+        {
+          "threshold": 2200033.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/ender_lump"
+          }
+        },
+        {
+          "threshold": 2200034.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/ender_lump2"
+          }
+        },
+        {
+          "threshold": 2200035.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/ender_lump3"
+          }
+        },
+        {
+          "threshold": 2200036.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_nugget"
+            },
+            "entries": [
+              {
+                "threshold": 2200030.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_lump"
+                }
+              },
+              {
+                "threshold": 2200031.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_lump2"
+                }
+              },
+              {
+                "threshold": 2200032.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_lump3"
+                }
+              },
+              {
+                "threshold": 2200033.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/ender_lump"
+                }
+              },
+              {
+                "threshold": 2200034.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/ender_lump2"
+                }
+              },
+              {
+                "threshold": 2200035.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/ender_lump3"
+                }
+              },
+              {
+                "threshold": 2200036.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_nugget"
+                }
+              },
+              {
+                "threshold": 2201410.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/old_coin"
+                }
+              },
+              {
+                "threshold": 2201411.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_nugget"
+                }
+              },
+              {
+                "threshold": 2201412.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_nugget"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201410.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/old_coin"
+          }
+        },
+        {
+          "threshold": 2201411.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/gold_nugget"
+          }
+        },
+        {
+          "threshold": 2201412.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_nugget"
+            },
+            "entries": [
+              {
+                "threshold": 2200030.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_lump"
+                }
+              },
+              {
+                "threshold": 2200031.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_lump2"
+                }
+              },
+              {
+                "threshold": 2200032.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_lump3"
+                }
+              },
+              {
+                "threshold": 2200033.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/ender_lump"
+                }
+              },
+              {
+                "threshold": 2200034.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/ender_lump2"
+                }
+              },
+              {
+                "threshold": 2200035.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/ender_lump3"
+                }
+              },
+              {
+                "threshold": 2200036.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_nugget"
+                }
+              },
+              {
+                "threshold": 2201410.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/old_coin"
+                }
+              },
+              {
+                "threshold": 2201411.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_nugget"
+                }
+              },
+              {
+                "threshold": 2201412.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_nugget"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

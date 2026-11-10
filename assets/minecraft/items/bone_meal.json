@@ -1,0 +1,157 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INFERNAL_BONEMEAL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_gadgets/infernal_bonemeal"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/bone_meal"
+        },
+        "entries": [
+          {
+            "threshold": 2200419.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_gadgets/infernal_bonemeal"
+            }
+          },
+          {
+            "threshold": 2200420.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bone_meal"
+            }
+          },
+          {
+            "threshold": 2200421.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bone_meal"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000419.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/infernal_bonemeal"
+          }
+        },
+        {
+          "threshold": 1000420.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bone_meal"
+          }
+        },
+        {
+          "threshold": 1000421.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bone_meal"
+            },
+            "entries": [
+              {
+                "threshold": 2200419.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/infernal_bonemeal"
+                }
+              },
+              {
+                "threshold": 2200420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bone_meal"
+                }
+              },
+              {
+                "threshold": 2200421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bone_meal"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200419.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/infernal_bonemeal"
+          }
+        },
+        {
+          "threshold": 2200420.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bone_meal"
+          }
+        },
+        {
+          "threshold": 2200421.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bone_meal"
+            },
+            "entries": [
+              {
+                "threshold": 2200419.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/infernal_bonemeal"
+                }
+              },
+              {
+                "threshold": 2200420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bone_meal"
+                }
+              },
+              {
+                "threshold": 2200421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bone_meal"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

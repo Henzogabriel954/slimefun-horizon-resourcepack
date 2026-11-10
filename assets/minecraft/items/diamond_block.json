@@ -1,0 +1,190 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "DIAMOND_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:singularities/diamond_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INFINITE_MACHINE_CORE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/infinite_machine_core"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_INFINITY_MACHINE_CORE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:materials/infinity_machine_core"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_DIAMOND_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:singularities/diamond_singularity"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/diamond_block"
+        },
+        "entries": [
+          {
+            "threshold": 2200623.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/materials2/diamond_singularity"
+            }
+          },
+          {
+            "threshold": 2200624.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_block"
+            }
+          },
+          {
+            "threshold": 2200625.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/diamond_block"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000623.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/diamond_singularity"
+          }
+        },
+        {
+          "threshold": 1000624.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_block"
+          }
+        },
+        {
+          "threshold": 1000625.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/diamond_block"
+            },
+            "entries": [
+              {
+                "threshold": 2200623.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/diamond_singularity"
+                }
+              },
+              {
+                "threshold": 2200624.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_block"
+                }
+              },
+              {
+                "threshold": 2200625.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/diamond_block"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200623.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/diamond_singularity"
+          }
+        },
+        {
+          "threshold": 2200624.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_block"
+          }
+        },
+        {
+          "threshold": 2200625.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/diamond_block"
+            },
+            "entries": [
+              {
+                "threshold": 2200623.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/diamond_singularity"
+                }
+              },
+              {
+                "threshold": 2200624.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_block"
+                }
+              },
+              {
+                "threshold": 2200625.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/diamond_block"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

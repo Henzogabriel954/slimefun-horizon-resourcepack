@@ -1,0 +1,157 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IGNITION_CHAMBER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/ignition_chamber"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/dropper"
+        },
+        "entries": [
+          {
+            "threshold": 2200058.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/automatic_ignition_chamber"
+            }
+          },
+          {
+            "threshold": 2200059.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/dropper"
+            }
+          },
+          {
+            "threshold": 2200060.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/dropper"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000058.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/automatic_ignition_chamber"
+          }
+        },
+        {
+          "threshold": 1000059.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/dropper"
+          }
+        },
+        {
+          "threshold": 1000060.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/dropper"
+            },
+            "entries": [
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/automatic_ignition_chamber"
+                }
+              },
+              {
+                "threshold": 2200059.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/dropper"
+                }
+              },
+              {
+                "threshold": 2200060.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/dropper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200058.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/automatic_ignition_chamber"
+          }
+        },
+        {
+          "threshold": 2200059.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/dropper"
+          }
+        },
+        {
+          "threshold": 2200060.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/dropper"
+            },
+            "entries": [
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/automatic_ignition_chamber"
+                }
+              },
+              {
+                "threshold": 2200059.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/dropper"
+                }
+              },
+              {
+                "threshold": 2200060.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/dropper"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "REDSTONE_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:singularities/redstone_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_REDSTONE_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:singularities/redstone_singularity"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/redstone_block"
+        },
+        "entries": [
+          {
+            "threshold": 2200637.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/materials2/redstone_singularity"
+            }
+          },
+          {
+            "threshold": 2200638.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/redstone_block"
+            }
+          },
+          {
+            "threshold": 2200639.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/redstone_block"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000637.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/redstone_singularity"
+          }
+        },
+        {
+          "threshold": 1000638.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/redstone_block"
+          }
+        },
+        {
+          "threshold": 1000639.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/redstone_block"
+            },
+            "entries": [
+              {
+                "threshold": 2200637.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/redstone_singularity"
+                }
+              },
+              {
+                "threshold": 2200638.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/redstone_block"
+                }
+              },
+              {
+                "threshold": 2200639.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/redstone_block"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200637.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/redstone_singularity"
+          }
+        },
+        {
+          "threshold": 2200638.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/redstone_block"
+          }
+        },
+        {
+          "threshold": 2200639.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/redstone_block"
+            },
+            "entries": [
+              {
+                "threshold": 2200637.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/redstone_singularity"
+                }
+              },
+              {
+                "threshold": 2200638.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/redstone_block"
+                }
+              },
+              {
+                "threshold": 2200639.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/redstone_block"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

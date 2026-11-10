@@ -1,0 +1,322 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "WITHER_PROOF_GLASS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/technical_components/wither_proof_glass"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GPS_TELEPORTER_PYLON"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/gps/gps_teleporter_pylon"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/purple_stained_glass"
+        },
+        "entries": [
+          {
+            "threshold": 2200449.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/technical_components/wither_proof_glass"
+            }
+          },
+          {
+            "threshold": 2200450.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/purple_stained_glass"
+            }
+          },
+          {
+            "threshold": 2200461.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/gps/teleporter_pylon"
+            }
+          },
+          {
+            "threshold": 2200462.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/purple_stained_glass"
+            }
+          },
+          {
+            "threshold": 2200463.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/purple_stained_glass"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000449.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/technical_components/wither_proof_glass"
+          }
+        },
+        {
+          "threshold": 1000450.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/purple_stained_glass"
+            },
+            "entries": [
+              {
+                "threshold": 2200449.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/wither_proof_glass"
+                }
+              },
+              {
+                "threshold": 2200450.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/purple_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200461.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/teleporter_pylon"
+                }
+              },
+              {
+                "threshold": 2200462.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200463.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/purple_stained_glass"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000461.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gps/teleporter_pylon"
+          }
+        },
+        {
+          "threshold": 1000462.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/purple_stained_glass"
+          }
+        },
+        {
+          "threshold": 1000463.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/purple_stained_glass"
+            },
+            "entries": [
+              {
+                "threshold": 2200449.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/wither_proof_glass"
+                }
+              },
+              {
+                "threshold": 2200450.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/purple_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200461.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/teleporter_pylon"
+                }
+              },
+              {
+                "threshold": 2200462.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200463.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/purple_stained_glass"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200449.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/technical_components/wither_proof_glass"
+          }
+        },
+        {
+          "threshold": 2200450.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/purple_stained_glass"
+            },
+            "entries": [
+              {
+                "threshold": 2200449.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/wither_proof_glass"
+                }
+              },
+              {
+                "threshold": 2200450.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/purple_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200461.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/teleporter_pylon"
+                }
+              },
+              {
+                "threshold": 2200462.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200463.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/purple_stained_glass"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200461.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gps/teleporter_pylon"
+          }
+        },
+        {
+          "threshold": 2200462.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/purple_stained_glass"
+          }
+        },
+        {
+          "threshold": 2200463.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/purple_stained_glass"
+            },
+            "entries": [
+              {
+                "threshold": 2200449.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/wither_proof_glass"
+                }
+              },
+              {
+                "threshold": 2200450.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/purple_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200461.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/teleporter_pylon"
+                }
+              },
+              {
+                "threshold": 2200462.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/purple_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200463.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/purple_stained_glass"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

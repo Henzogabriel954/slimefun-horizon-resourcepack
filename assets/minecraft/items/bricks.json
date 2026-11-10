@@ -1,0 +1,157 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "COPPER_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:singularities/copper_singularity"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/bricks"
+        },
+        "entries": [
+          {
+            "threshold": 2200622.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/materials2/copper_singularity"
+            }
+          },
+          {
+            "threshold": 2200623.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bricks"
+            }
+          },
+          {
+            "threshold": 2200624.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/bricks"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000622.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/copper_singularity"
+          }
+        },
+        {
+          "threshold": 1000623.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bricks"
+          }
+        },
+        {
+          "threshold": 1000624.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/bricks"
+            },
+            "entries": [
+              {
+                "threshold": 2200622.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/copper_singularity"
+                }
+              },
+              {
+                "threshold": 2200623.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bricks"
+                }
+              },
+              {
+                "threshold": 2200624.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/bricks"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200622.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/copper_singularity"
+          }
+        },
+        {
+          "threshold": 2200623.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bricks"
+          }
+        },
+        {
+          "threshold": 2200624.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/bricks"
+            },
+            "entries": [
+              {
+                "threshold": 2200622.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/copper_singularity"
+                }
+              },
+              {
+                "threshold": 2200623.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bricks"
+                }
+              },
+              {
+                "threshold": 2200624.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/bricks"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

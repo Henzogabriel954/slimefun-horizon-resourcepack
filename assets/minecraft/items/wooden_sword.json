@@ -1,0 +1,322 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BONE_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_weapons/bone_sword"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "PEACH_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_weapons/peach_sword"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/wooden_sword"
+        },
+        "entries": [
+          {
+            "threshold": 2201425.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_weapons/bone_sword"
+            }
+          },
+          {
+            "threshold": 2201426.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_sword"
+            }
+          },
+          {
+            "threshold": 2201428.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_weapons/peach_sword"
+            }
+          },
+          {
+            "threshold": 2201429.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_sword"
+            }
+          },
+          {
+            "threshold": 2201430.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_sword"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1001425.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_weapons/bone_sword"
+          }
+        },
+        {
+          "threshold": 1001426.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2201425.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/bone_sword"
+                }
+              },
+              {
+                "threshold": 2201426.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_sword"
+                }
+              },
+              {
+                "threshold": 2201428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/peach_sword"
+                }
+              },
+              {
+                "threshold": 2201429.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_sword"
+                }
+              },
+              {
+                "threshold": 2201430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001428.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_weapons/peach_sword"
+          }
+        },
+        {
+          "threshold": 1001429.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_sword"
+          }
+        },
+        {
+          "threshold": 1001430.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2201425.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/bone_sword"
+                }
+              },
+              {
+                "threshold": 2201426.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_sword"
+                }
+              },
+              {
+                "threshold": 2201428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/peach_sword"
+                }
+              },
+              {
+                "threshold": 2201429.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_sword"
+                }
+              },
+              {
+                "threshold": 2201430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201425.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_weapons/bone_sword"
+          }
+        },
+        {
+          "threshold": 2201426.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2201425.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/bone_sword"
+                }
+              },
+              {
+                "threshold": 2201426.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_sword"
+                }
+              },
+              {
+                "threshold": 2201428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/peach_sword"
+                }
+              },
+              {
+                "threshold": 2201429.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_sword"
+                }
+              },
+              {
+                "threshold": 2201430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201428.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_weapons/peach_sword"
+          }
+        },
+        {
+          "threshold": 2201429.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_sword"
+          }
+        },
+        {
+          "threshold": 2201430.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2201425.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/bone_sword"
+                }
+              },
+              {
+                "threshold": 2201426.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_sword"
+                }
+              },
+              {
+                "threshold": 2201428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/peach_sword"
+                }
+              },
+              {
+                "threshold": 2201429.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_sword"
+                }
+              },
+              {
+                "threshold": 2201430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_sword"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

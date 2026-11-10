@@ -1,0 +1,203 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BROKEN_SPAWNER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_items/broken_spawner"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "REINFORCED_SPAWNER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_items/reinforced_spawner"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/spawner"
+        },
+        "entries": [
+          {
+            "threshold": 2200290.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_items/broken_spawner"
+            }
+          },
+          {
+            "threshold": 2200291.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_items/reinforced_spawner"
+            }
+          },
+          {
+            "threshold": 2200292.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/spawner"
+            }
+          },
+          {
+            "threshold": 2200293.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/spawner"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000290.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/broken_spawner"
+          }
+        },
+        {
+          "threshold": 1000291.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/reinforced_spawner"
+          }
+        },
+        {
+          "threshold": 1000292.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/spawner"
+          }
+        },
+        {
+          "threshold": 1000293.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/spawner"
+            },
+            "entries": [
+              {
+                "threshold": 2200290.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/broken_spawner"
+                }
+              },
+              {
+                "threshold": 2200291.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/reinforced_spawner"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/spawner"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/spawner"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200290.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/broken_spawner"
+          }
+        },
+        {
+          "threshold": 2200291.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/reinforced_spawner"
+          }
+        },
+        {
+          "threshold": 2200292.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/spawner"
+          }
+        },
+        {
+          "threshold": 2200293.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/spawner"
+            },
+            "entries": [
+              {
+                "threshold": 2200290.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/broken_spawner"
+                }
+              },
+              {
+                "threshold": 2200291.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/reinforced_spawner"
+                }
+              },
+              {
+                "threshold": 2200292.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/spawner"
+                }
+              },
+              {
+                "threshold": 2200293.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/spawner"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

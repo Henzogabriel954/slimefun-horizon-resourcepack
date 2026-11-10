@@ -1,0 +1,518 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SOULBOUND_TRIDENT"
+          }
+        },
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "slimefun:slimefun/weapons/soulbound_trident_icon"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/weapons/soulbound_trident"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/weapons/soulbound_trident_throwing"
+            }
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/trident"
+              },
+              "when": [
+                "gui",
+                "ground",
+                "fixed",
+                "on_shelf"
+              ]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "on_false": {
+              "type": "minecraft:special",
+              "base": "minecraft:item/trident_in_hand",
+              "model": {
+                "type": "minecraft:trident"
+              }
+            },
+            "on_true": {
+              "type": "minecraft:special",
+              "base": "minecraft:item/trident_throwing",
+              "model": {
+                "type": "minecraft:trident"
+              }
+            },
+            "property": "minecraft:using_item",
+            "transformation": {
+              "left_rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "right_rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "scale": [
+                1.0,
+                -1.0,
+                -1.0
+              ],
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "property": "minecraft:display_context"
+        },
+        "entries": [
+          {
+            "threshold": 2200273.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/weapons/soulbound_trident"
+            }
+          },
+          {
+            "threshold": 2200274.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/trident"
+            }
+          },
+          {
+            "threshold": 2200275.0,
+            "model": {
+              "type": "minecraft:select",
+              "cases": [
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trident"
+                  },
+                  "when": [
+                    "gui",
+                    "ground",
+                    "fixed",
+                    "on_shelf"
+                  ]
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:condition",
+                "on_false": {
+                  "type": "minecraft:special",
+                  "base": "minecraft:item/trident_in_hand",
+                  "model": {
+                    "type": "minecraft:trident"
+                  }
+                },
+                "on_true": {
+                  "type": "minecraft:special",
+                  "base": "minecraft:item/trident_throwing",
+                  "model": {
+                    "type": "minecraft:trident"
+                  }
+                },
+                "property": "minecraft:using_item",
+                "transformation": {
+                  "left_rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "right_rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "scale": [
+                    1.0,
+                    -1.0,
+                    -1.0
+                  ],
+                  "translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "property": "minecraft:display_context"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000273.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/weapons/soulbound_trident"
+          }
+        },
+        {
+          "threshold": 1000274.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/trident"
+          }
+        },
+        {
+          "threshold": 1000275.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:select",
+              "cases": [
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trident"
+                  },
+                  "when": [
+                    "gui",
+                    "ground",
+                    "fixed",
+                    "on_shelf"
+                  ]
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:condition",
+                "on_false": {
+                  "type": "minecraft:special",
+                  "base": "minecraft:item/trident_in_hand",
+                  "model": {
+                    "type": "minecraft:trident"
+                  }
+                },
+                "on_true": {
+                  "type": "minecraft:special",
+                  "base": "minecraft:item/trident_throwing",
+                  "model": {
+                    "type": "minecraft:trident"
+                  }
+                },
+                "property": "minecraft:using_item",
+                "transformation": {
+                  "left_rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "right_rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "scale": [
+                    1.0,
+                    -1.0,
+                    -1.0
+                  ],
+                  "translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "property": "minecraft:display_context"
+            },
+            "entries": [
+              {
+                "threshold": 2200273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/soulbound_trident"
+                }
+              },
+              {
+                "threshold": 2200274.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/trident"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:select",
+                  "cases": [
+                    {
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/trident"
+                      },
+                      "when": [
+                        "gui",
+                        "ground",
+                        "fixed",
+                        "on_shelf"
+                      ]
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:condition",
+                    "on_false": {
+                      "type": "minecraft:special",
+                      "base": "minecraft:item/trident_in_hand",
+                      "model": {
+                        "type": "minecraft:trident"
+                      }
+                    },
+                    "on_true": {
+                      "type": "minecraft:special",
+                      "base": "minecraft:item/trident_throwing",
+                      "model": {
+                        "type": "minecraft:trident"
+                      }
+                    },
+                    "property": "minecraft:using_item",
+                    "transformation": {
+                      "left_rotation": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "right_rotation": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "scale": [
+                        1.0,
+                        -1.0,
+                        -1.0
+                      ],
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  },
+                  "property": "minecraft:display_context"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200273.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/weapons/soulbound_trident"
+          }
+        },
+        {
+          "threshold": 2200274.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/trident"
+          }
+        },
+        {
+          "threshold": 2200275.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:select",
+              "cases": [
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/trident"
+                  },
+                  "when": [
+                    "gui",
+                    "ground",
+                    "fixed",
+                    "on_shelf"
+                  ]
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:condition",
+                "on_false": {
+                  "type": "minecraft:special",
+                  "base": "minecraft:item/trident_in_hand",
+                  "model": {
+                    "type": "minecraft:trident"
+                  }
+                },
+                "on_true": {
+                  "type": "minecraft:special",
+                  "base": "minecraft:item/trident_throwing",
+                  "model": {
+                    "type": "minecraft:trident"
+                  }
+                },
+                "property": "minecraft:using_item",
+                "transformation": {
+                  "left_rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "right_rotation": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "scale": [
+                    1.0,
+                    -1.0,
+                    -1.0
+                  ],
+                  "translation": [
+                    0.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "property": "minecraft:display_context"
+            },
+            "entries": [
+              {
+                "threshold": 2200273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/soulbound_trident"
+                }
+              },
+              {
+                "threshold": 2200274.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/trident"
+                }
+              },
+              {
+                "threshold": 2200275.0,
+                "model": {
+                  "type": "minecraft:select",
+                  "cases": [
+                    {
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/trident"
+                      },
+                      "when": [
+                        "gui",
+                        "ground",
+                        "fixed",
+                        "on_shelf"
+                      ]
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:condition",
+                    "on_false": {
+                      "type": "minecraft:special",
+                      "base": "minecraft:item/trident_in_hand",
+                      "model": {
+                        "type": "minecraft:trident"
+                      }
+                    },
+                    "on_true": {
+                      "type": "minecraft:special",
+                      "base": "minecraft:item/trident_throwing",
+                      "model": {
+                        "type": "minecraft:trident"
+                      }
+                    },
+                    "property": "minecraft:using_item",
+                    "transformation": {
+                      "left_rotation": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "right_rotation": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "scale": [
+                        1.0,
+                        -1.0,
+                        -1.0
+                      ],
+                      "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                      ]
+                    }
+                  },
+                  "property": "minecraft:display_context"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

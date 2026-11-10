@@ -1,0 +1,157 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MECHA_GEAR"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_items/mecha_gear"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ender_pearl"
+        },
+        "entries": [
+          {
+            "threshold": 2201409.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_items/mecha_gear"
+            }
+          },
+          {
+            "threshold": 2201410.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/ender_pearl"
+            }
+          },
+          {
+            "threshold": 2201411.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/ender_pearl"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1001409.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/mecha_gear"
+          }
+        },
+        {
+          "threshold": 1001410.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/ender_pearl"
+          }
+        },
+        {
+          "threshold": 1001411.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/ender_pearl"
+            },
+            "entries": [
+              {
+                "threshold": 2201409.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/mecha_gear"
+                }
+              },
+              {
+                "threshold": 2201410.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/ender_pearl"
+                }
+              },
+              {
+                "threshold": 2201411.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/ender_pearl"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201409.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/mecha_gear"
+          }
+        },
+        {
+          "threshold": 2201410.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/ender_pearl"
+          }
+        },
+        {
+          "threshold": 2201411.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/ender_pearl"
+            },
+            "entries": [
+              {
+                "threshold": 2201409.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/mecha_gear"
+                }
+              },
+              {
+                "threshold": 2201410.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/ender_pearl"
+                }
+              },
+              {
+                "threshold": 2201411.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/ender_pearl"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

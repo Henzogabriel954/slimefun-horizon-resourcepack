@@ -1,0 +1,454 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "LUMBER_AXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/tools/lumber_axe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SOULBOUND_AXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/tools/soulbound_axe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "REINFORCED_FLUFFY_WRENCH"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:wrenches/reinforced_fluffy_wrench"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "UPGRADED_LUMBER_AXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:tools/upgraded_lumber_axe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "PAXEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:tools/paxel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_TITANIUM_AXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_titanium_axe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AURUM_AXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_aurum_axe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_AXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_adamantium_axe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AXE_THORNIUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_axe_thornium"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AXE_MAGIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_axe_magic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AXE_RARE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_axe_rare"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AXE_EPIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_axe_epic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AXE_LEGENDARY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_axe_legendary"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AXE_SUPREME"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/axe/supreme_axe_supreme"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/diamond_axe"
+        },
+        "entries": [
+          {
+            "threshold": 2200197.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/tools/lumber_axe"
+            }
+          },
+          {
+            "threshold": 2200198.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_axe"
+            }
+          },
+          {
+            "threshold": 2200276.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/tools/soulbound_axe"
+            }
+          },
+          {
+            "threshold": 2200277.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_axe"
+            }
+          },
+          {
+            "threshold": 2200278.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_axe"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000197.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/lumber_axe"
+          }
+        },
+        {
+          "threshold": 1000198.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_axe"
+            },
+            "entries": [
+              {
+                "threshold": 2200197.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/lumber_axe"
+                }
+              },
+              {
+                "threshold": 2200198.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_axe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_axe"
+                }
+              },
+              {
+                "threshold": 2200277.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_axe"
+                }
+              },
+              {
+                "threshold": 2200278.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_axe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000276.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/soulbound_axe"
+          }
+        },
+        {
+          "threshold": 1000277.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_axe"
+          }
+        },
+        {
+          "threshold": 1000278.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_axe"
+            },
+            "entries": [
+              {
+                "threshold": 2200197.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/lumber_axe"
+                }
+              },
+              {
+                "threshold": 2200198.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_axe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_axe"
+                }
+              },
+              {
+                "threshold": 2200277.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_axe"
+                }
+              },
+              {
+                "threshold": 2200278.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_axe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200197.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/lumber_axe"
+          }
+        },
+        {
+          "threshold": 2200198.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_axe"
+            },
+            "entries": [
+              {
+                "threshold": 2200197.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/lumber_axe"
+                }
+              },
+              {
+                "threshold": 2200198.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_axe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_axe"
+                }
+              },
+              {
+                "threshold": 2200277.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_axe"
+                }
+              },
+              {
+                "threshold": 2200278.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_axe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200276.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/soulbound_axe"
+          }
+        },
+        {
+          "threshold": 2200277.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_axe"
+          }
+        },
+        {
+          "threshold": 2200278.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_axe"
+            },
+            "entries": [
+              {
+                "threshold": 2200197.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/lumber_axe"
+                }
+              },
+              {
+                "threshold": 2200198.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_axe"
+                }
+              },
+              {
+                "threshold": 2200276.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_axe"
+                }
+              },
+              {
+                "threshold": 2200277.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_axe"
+                }
+              },
+              {
+                "threshold": 2200278.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_axe"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

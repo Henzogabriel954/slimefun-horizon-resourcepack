@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_CARD_CARBONADO"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:machine_cards/card_carbonado"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_CARD_REINFORCED_ALLOY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:machine_cards/card_reinforced_alloy"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/music_disc_stal"
+    }
+  }
+}

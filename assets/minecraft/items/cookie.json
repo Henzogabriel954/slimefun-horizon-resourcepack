@@ -1,0 +1,393 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "FORTUNE_COOKIE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/food/fortune_cookie"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "DIET_COOKIE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/food/diet_cookie"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "KELP_COOKIE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/food/kelp_cookie"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CHRISTMAS_COOKIE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/christmas/christmas_cookie"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cookie"
+        },
+        "entries": [
+          {
+            "threshold": 2200014.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/food/fortune_cookie"
+            }
+          },
+          {
+            "threshold": 2200015.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/food/diet_cookie"
+            }
+          },
+          {
+            "threshold": 2200016.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cookie"
+            }
+          },
+          {
+            "threshold": 2200025.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/food/kelp_cookie"
+            }
+          },
+          {
+            "threshold": 2200026.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cookie"
+            }
+          },
+          {
+            "threshold": 2200027.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cookie"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000014.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/food/fortune_cookie"
+          }
+        },
+        {
+          "threshold": 1000015.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/food/diet_cookie"
+          }
+        },
+        {
+          "threshold": 1000016.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cookie"
+            },
+            "entries": [
+              {
+                "threshold": 2200014.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/food/fortune_cookie"
+                }
+              },
+              {
+                "threshold": 2200015.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/food/diet_cookie"
+                }
+              },
+              {
+                "threshold": 2200016.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cookie"
+                }
+              },
+              {
+                "threshold": 2200025.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/food/kelp_cookie"
+                }
+              },
+              {
+                "threshold": 2200026.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cookie"
+                }
+              },
+              {
+                "threshold": 2200027.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cookie"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000025.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/food/kelp_cookie"
+          }
+        },
+        {
+          "threshold": 1000026.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cookie"
+          }
+        },
+        {
+          "threshold": 1000027.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cookie"
+            },
+            "entries": [
+              {
+                "threshold": 2200014.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/food/fortune_cookie"
+                }
+              },
+              {
+                "threshold": 2200015.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/food/diet_cookie"
+                }
+              },
+              {
+                "threshold": 2200016.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cookie"
+                }
+              },
+              {
+                "threshold": 2200025.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/food/kelp_cookie"
+                }
+              },
+              {
+                "threshold": 2200026.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cookie"
+                }
+              },
+              {
+                "threshold": 2200027.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cookie"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200014.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/food/fortune_cookie"
+          }
+        },
+        {
+          "threshold": 2200015.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/food/diet_cookie"
+          }
+        },
+        {
+          "threshold": 2200016.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cookie"
+            },
+            "entries": [
+              {
+                "threshold": 2200014.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/food/fortune_cookie"
+                }
+              },
+              {
+                "threshold": 2200015.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/food/diet_cookie"
+                }
+              },
+              {
+                "threshold": 2200016.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cookie"
+                }
+              },
+              {
+                "threshold": 2200025.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/food/kelp_cookie"
+                }
+              },
+              {
+                "threshold": 2200026.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cookie"
+                }
+              },
+              {
+                "threshold": 2200027.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cookie"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200025.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/food/kelp_cookie"
+          }
+        },
+        {
+          "threshold": 2200026.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cookie"
+          }
+        },
+        {
+          "threshold": 2200027.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cookie"
+            },
+            "entries": [
+              {
+                "threshold": 2200014.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/food/fortune_cookie"
+                }
+              },
+              {
+                "threshold": 2200015.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/food/diet_cookie"
+                }
+              },
+              {
+                "threshold": 2200016.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cookie"
+                }
+              },
+              {
+                "threshold": 2200025.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/food/kelp_cookie"
+                }
+              },
+              {
+                "threshold": 2200026.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cookie"
+                }
+              },
+              {
+                "threshold": 2200027.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cookie"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

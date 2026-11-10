@@ -1,0 +1,157 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BASIC_CIRCUIT_BOARD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/technical_components/basic_circuit_board"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/activator_rail"
+        },
+        "entries": [
+          {
+            "threshold": 2200051.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/technical_components/basic_board"
+            }
+          },
+          {
+            "threshold": 2200052.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/activator_rail"
+            }
+          },
+          {
+            "threshold": 2200053.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/activator_rail"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000051.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/technical_components/basic_board"
+          }
+        },
+        {
+          "threshold": 1000052.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/activator_rail"
+          }
+        },
+        {
+          "threshold": 1000053.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/activator_rail"
+            },
+            "entries": [
+              {
+                "threshold": 2200051.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/basic_board"
+                }
+              },
+              {
+                "threshold": 2200052.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/activator_rail"
+                }
+              },
+              {
+                "threshold": 2200053.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/activator_rail"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200051.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/technical_components/basic_board"
+          }
+        },
+        {
+          "threshold": 2200052.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/activator_rail"
+          }
+        },
+        {
+          "threshold": 2200053.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/activator_rail"
+            },
+            "entries": [
+              {
+                "threshold": 2200051.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/basic_board"
+                }
+              },
+              {
+                "threshold": 2200052.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/activator_rail"
+                }
+              },
+              {
+                "threshold": 2200053.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/activator_rail"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

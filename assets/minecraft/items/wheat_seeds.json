@@ -1,0 +1,46 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_BARLEY_SEEDS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:ingredient/gn_barley_seeds"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_PEAS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:ingredient/gn_peas"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE__UI_CHANCE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:icons/ui_chance"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/wheat_seeds"
+    }
+  }
+}

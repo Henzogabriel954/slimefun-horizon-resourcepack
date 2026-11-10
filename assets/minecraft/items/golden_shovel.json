@@ -1,0 +1,157 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GETGOLD_SPADE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:tools/getgold_spade"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/golden_shovel"
+        },
+        "entries": [
+          {
+            "threshold": 2201419.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:tools/getgold_spade"
+            }
+          },
+          {
+            "threshold": 2201420.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_shovel"
+            }
+          },
+          {
+            "threshold": 2201421.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_shovel"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1001419.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:tools/getgold_spade"
+          }
+        },
+        {
+          "threshold": 1001420.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/golden_shovel"
+          }
+        },
+        {
+          "threshold": 1001421.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_shovel"
+            },
+            "entries": [
+              {
+                "threshold": 2201419.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/getgold_spade"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_shovel"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_shovel"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201419.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:tools/getgold_spade"
+          }
+        },
+        {
+          "threshold": 2201420.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/golden_shovel"
+          }
+        },
+        {
+          "threshold": 2201421.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_shovel"
+            },
+            "entries": [
+              {
+                "threshold": 2201419.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/getgold_spade"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_shovel"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/golden_shovel"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

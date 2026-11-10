@@ -1,0 +1,1164 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CHAIN"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/miscellaneous/chain"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "COPPER_WIRE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/technical_components/copper_wire"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "FANGBIANMIAN"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:foods/fangbianmian"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "FIBER_OPTIC_CABLE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefunwarfare:general/fiber_optic_cable"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_STEEL_WIRE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:tools/gn_steel_wire"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_STEEL_SPRING"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:tools/gn_steel_spring"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/string"
+        },
+        "entries": [
+          {
+            "threshold": 2200129.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/miscellaneous/chain"
+            }
+          },
+          {
+            "threshold": 2200130.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            }
+          },
+          {
+            "threshold": 2200308.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/technical_components/copper_wire"
+            }
+          },
+          {
+            "threshold": 2200309.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            }
+          },
+          {
+            "threshold": 2200813.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "litexpansion:materials/copper_cable"
+            }
+          },
+          {
+            "threshold": 2200814.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            }
+          },
+          {
+            "threshold": 2200824.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "litexpansion:materials/uninsulated_copper_cable"
+            }
+          },
+          {
+            "threshold": 2200825.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            }
+          },
+          {
+            "threshold": 2201404.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:foods/fangbianmian"
+            }
+          },
+          {
+            "threshold": 2201405.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            }
+          },
+          {
+            "threshold": 2201406.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000129.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/chain"
+          }
+        },
+        {
+          "threshold": 1000130.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            },
+            "entries": [
+              {
+                "threshold": 2200129.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/chain"
+                }
+              },
+              {
+                "threshold": 2200130.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200308.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/copper_wire"
+                }
+              },
+              {
+                "threshold": 2200309.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200813.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/copper_cable"
+                }
+              },
+              {
+                "threshold": 2200814.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200824.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/uninsulated_copper_cable"
+                }
+              },
+              {
+                "threshold": 2200825.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201404.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:foods/fangbianmian"
+                }
+              },
+              {
+                "threshold": 2201405.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201406.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000308.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/technical_components/copper_wire"
+          }
+        },
+        {
+          "threshold": 1000309.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            },
+            "entries": [
+              {
+                "threshold": 2200129.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/chain"
+                }
+              },
+              {
+                "threshold": 2200130.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200308.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/copper_wire"
+                }
+              },
+              {
+                "threshold": 2200309.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200813.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/copper_cable"
+                }
+              },
+              {
+                "threshold": 2200814.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200824.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/uninsulated_copper_cable"
+                }
+              },
+              {
+                "threshold": 2200825.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201404.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:foods/fangbianmian"
+                }
+              },
+              {
+                "threshold": 2201405.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201406.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000813.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "litexpansion:materials/copper_cable"
+          }
+        },
+        {
+          "threshold": 1000814.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            },
+            "entries": [
+              {
+                "threshold": 2200129.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/chain"
+                }
+              },
+              {
+                "threshold": 2200130.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200308.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/copper_wire"
+                }
+              },
+              {
+                "threshold": 2200309.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200813.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/copper_cable"
+                }
+              },
+              {
+                "threshold": 2200814.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200824.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/uninsulated_copper_cable"
+                }
+              },
+              {
+                "threshold": 2200825.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201404.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:foods/fangbianmian"
+                }
+              },
+              {
+                "threshold": 2201405.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201406.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000824.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "litexpansion:materials/uninsulated_copper_cable"
+          }
+        },
+        {
+          "threshold": 1000825.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            },
+            "entries": [
+              {
+                "threshold": 2200129.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/chain"
+                }
+              },
+              {
+                "threshold": 2200130.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200308.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/copper_wire"
+                }
+              },
+              {
+                "threshold": 2200309.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200813.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/copper_cable"
+                }
+              },
+              {
+                "threshold": 2200814.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200824.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/uninsulated_copper_cable"
+                }
+              },
+              {
+                "threshold": 2200825.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201404.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:foods/fangbianmian"
+                }
+              },
+              {
+                "threshold": 2201405.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201406.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001404.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:foods/fangbianmian"
+          }
+        },
+        {
+          "threshold": 1001405.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/string"
+          }
+        },
+        {
+          "threshold": 1001406.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            },
+            "entries": [
+              {
+                "threshold": 2200129.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/chain"
+                }
+              },
+              {
+                "threshold": 2200130.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200308.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/copper_wire"
+                }
+              },
+              {
+                "threshold": 2200309.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200813.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/copper_cable"
+                }
+              },
+              {
+                "threshold": 2200814.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200824.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/uninsulated_copper_cable"
+                }
+              },
+              {
+                "threshold": 2200825.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201404.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:foods/fangbianmian"
+                }
+              },
+              {
+                "threshold": 2201405.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201406.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200129.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/chain"
+          }
+        },
+        {
+          "threshold": 2200130.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            },
+            "entries": [
+              {
+                "threshold": 2200129.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/chain"
+                }
+              },
+              {
+                "threshold": 2200130.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200308.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/copper_wire"
+                }
+              },
+              {
+                "threshold": 2200309.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200813.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/copper_cable"
+                }
+              },
+              {
+                "threshold": 2200814.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200824.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/uninsulated_copper_cable"
+                }
+              },
+              {
+                "threshold": 2200825.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201404.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:foods/fangbianmian"
+                }
+              },
+              {
+                "threshold": 2201405.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201406.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200308.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/technical_components/copper_wire"
+          }
+        },
+        {
+          "threshold": 2200309.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            },
+            "entries": [
+              {
+                "threshold": 2200129.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/chain"
+                }
+              },
+              {
+                "threshold": 2200130.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200308.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/copper_wire"
+                }
+              },
+              {
+                "threshold": 2200309.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200813.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/copper_cable"
+                }
+              },
+              {
+                "threshold": 2200814.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200824.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/uninsulated_copper_cable"
+                }
+              },
+              {
+                "threshold": 2200825.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201404.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:foods/fangbianmian"
+                }
+              },
+              {
+                "threshold": 2201405.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201406.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200813.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "litexpansion:materials/copper_cable"
+          }
+        },
+        {
+          "threshold": 2200814.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            },
+            "entries": [
+              {
+                "threshold": 2200129.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/chain"
+                }
+              },
+              {
+                "threshold": 2200130.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200308.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/copper_wire"
+                }
+              },
+              {
+                "threshold": 2200309.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200813.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/copper_cable"
+                }
+              },
+              {
+                "threshold": 2200814.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200824.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/uninsulated_copper_cable"
+                }
+              },
+              {
+                "threshold": 2200825.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201404.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:foods/fangbianmian"
+                }
+              },
+              {
+                "threshold": 2201405.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201406.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200824.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "litexpansion:materials/uninsulated_copper_cable"
+          }
+        },
+        {
+          "threshold": 2200825.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            },
+            "entries": [
+              {
+                "threshold": 2200129.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/chain"
+                }
+              },
+              {
+                "threshold": 2200130.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200308.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/copper_wire"
+                }
+              },
+              {
+                "threshold": 2200309.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200813.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/copper_cable"
+                }
+              },
+              {
+                "threshold": 2200814.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200824.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/uninsulated_copper_cable"
+                }
+              },
+              {
+                "threshold": 2200825.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201404.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:foods/fangbianmian"
+                }
+              },
+              {
+                "threshold": 2201405.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201406.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201404.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:foods/fangbianmian"
+          }
+        },
+        {
+          "threshold": 2201405.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/string"
+          }
+        },
+        {
+          "threshold": 2201406.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/string"
+            },
+            "entries": [
+              {
+                "threshold": 2200129.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/chain"
+                }
+              },
+              {
+                "threshold": 2200130.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200308.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/copper_wire"
+                }
+              },
+              {
+                "threshold": 2200309.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200813.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/copper_cable"
+                }
+              },
+              {
+                "threshold": 2200814.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2200824.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/uninsulated_copper_cable"
+                }
+              },
+              {
+                "threshold": 2200825.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201404.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:foods/fangbianmian"
+                }
+              },
+              {
+                "threshold": 2201405.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              },
+              {
+                "threshold": 2201406.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/string"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

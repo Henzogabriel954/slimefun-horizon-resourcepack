@@ -1,0 +1,168 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "EMERALD_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:singularities/emerald_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_EMERALD_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:singularities/emerald_singularity"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/emerald_block"
+        },
+        "entries": [
+          {
+            "threshold": 2200625.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/materials2/emerald_singularity"
+            }
+          },
+          {
+            "threshold": 2200626.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/emerald_block"
+            }
+          },
+          {
+            "threshold": 2200627.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/emerald_block"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000625.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/emerald_singularity"
+          }
+        },
+        {
+          "threshold": 1000626.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/emerald_block"
+          }
+        },
+        {
+          "threshold": 1000627.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/emerald_block"
+            },
+            "entries": [
+              {
+                "threshold": 2200625.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/emerald_singularity"
+                }
+              },
+              {
+                "threshold": 2200626.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/emerald_block"
+                }
+              },
+              {
+                "threshold": 2200627.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/emerald_block"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200625.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/emerald_singularity"
+          }
+        },
+        {
+          "threshold": 2200626.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/emerald_block"
+          }
+        },
+        {
+          "threshold": 2200627.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/emerald_block"
+            },
+            "entries": [
+              {
+                "threshold": 2200625.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/emerald_singularity"
+                }
+              },
+              {
+                "threshold": 2200626.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/emerald_block"
+                }
+              },
+              {
+                "threshold": 2200627.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/emerald_block"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

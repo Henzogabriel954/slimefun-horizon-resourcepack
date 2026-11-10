@@ -1,0 +1,587 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ORE_WASHER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/ore_washer"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "COMPOSTER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/composter"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CRUCIBLE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/crucible"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "KITCHEN"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "exotic_garden:misc/kitchen"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_STEEL_POT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:tools/gn_steel_pot"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_DISTILLATION_CHAMBER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:tools/gn_distillation_chamber"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_MILL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:basic_machines/gn_mill"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cauldron"
+        },
+        "entries": [
+          {
+            "threshold": 2200143.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/ore_washer"
+            }
+          },
+          {
+            "threshold": 2200144.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cauldron"
+            }
+          },
+          {
+            "threshold": 2200239.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/composter"
+            }
+          },
+          {
+            "threshold": 2200240.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cauldron"
+            }
+          },
+          {
+            "threshold": 2200252.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/crucible"
+            }
+          },
+          {
+            "threshold": 2200253.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cauldron"
+            }
+          },
+          {
+            "threshold": 2200254.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cauldron"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000143.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/ore_washer"
+          }
+        },
+        {
+          "threshold": 1000144.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cauldron"
+            },
+            "entries": [
+              {
+                "threshold": 2200143.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/ore_washer"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200239.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/composter"
+                }
+              },
+              {
+                "threshold": 2200240.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200252.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/crucible"
+                }
+              },
+              {
+                "threshold": 2200253.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200254.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000239.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/composter"
+          }
+        },
+        {
+          "threshold": 1000240.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cauldron"
+            },
+            "entries": [
+              {
+                "threshold": 2200143.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/ore_washer"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200239.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/composter"
+                }
+              },
+              {
+                "threshold": 2200240.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200252.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/crucible"
+                }
+              },
+              {
+                "threshold": 2200253.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200254.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000252.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/crucible"
+          }
+        },
+        {
+          "threshold": 1000253.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cauldron"
+          }
+        },
+        {
+          "threshold": 1000254.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cauldron"
+            },
+            "entries": [
+              {
+                "threshold": 2200143.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/ore_washer"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200239.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/composter"
+                }
+              },
+              {
+                "threshold": 2200240.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200252.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/crucible"
+                }
+              },
+              {
+                "threshold": 2200253.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200254.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200143.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/ore_washer"
+          }
+        },
+        {
+          "threshold": 2200144.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cauldron"
+            },
+            "entries": [
+              {
+                "threshold": 2200143.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/ore_washer"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200239.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/composter"
+                }
+              },
+              {
+                "threshold": 2200240.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200252.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/crucible"
+                }
+              },
+              {
+                "threshold": 2200253.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200254.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200239.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/composter"
+          }
+        },
+        {
+          "threshold": 2200240.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cauldron"
+            },
+            "entries": [
+              {
+                "threshold": 2200143.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/ore_washer"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200239.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/composter"
+                }
+              },
+              {
+                "threshold": 2200240.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200252.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/crucible"
+                }
+              },
+              {
+                "threshold": 2200253.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200254.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200252.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/crucible"
+          }
+        },
+        {
+          "threshold": 2200253.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cauldron"
+          }
+        },
+        {
+          "threshold": 2200254.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cauldron"
+            },
+            "entries": [
+              {
+                "threshold": 2200143.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/ore_washer"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200239.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/composter"
+                }
+              },
+              {
+                "threshold": 2200240.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200252.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/crucible"
+                }
+              },
+              {
+                "threshold": 2200253.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              },
+              {
+                "threshold": 2200254.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cauldron"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

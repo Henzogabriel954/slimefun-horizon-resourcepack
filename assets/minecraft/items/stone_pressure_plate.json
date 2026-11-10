@@ -1,0 +1,382 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GPS_ACTIVATION_DEVICE_SHARED"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/gps/gps_activation_device_shared"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GPS_ACTIVATION_DEVICE_PERSONAL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/gps/gps_activation_device_personal"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELEVATOR_PLATE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/gps/elevator_plate"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/stone_pressure_plate"
+        },
+        "entries": [
+          {
+            "threshold": 2200463.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/gps/gps_activation_device_shared"
+            }
+          },
+          {
+            "threshold": 2200464.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/gps/gps_activation_device_personal"
+            }
+          },
+          {
+            "threshold": 2200465.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/stone_pressure_plate"
+            }
+          },
+          {
+            "threshold": 2200470.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/gps/elevator_plate"
+            }
+          },
+          {
+            "threshold": 2200471.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stone_pressure_plate"
+            }
+          },
+          {
+            "threshold": 2200472.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/stone_pressure_plate"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000463.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gps/gps_activation_device_shared"
+          }
+        },
+        {
+          "threshold": 1000464.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gps/gps_activation_device_personal"
+          }
+        },
+        {
+          "threshold": 1000465.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/stone_pressure_plate"
+            },
+            "entries": [
+              {
+                "threshold": 2200463.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/gps_activation_device_shared"
+                }
+              },
+              {
+                "threshold": 2200464.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/gps_activation_device_personal"
+                }
+              },
+              {
+                "threshold": 2200465.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone_pressure_plate"
+                }
+              },
+              {
+                "threshold": 2200470.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/elevator_plate"
+                }
+              },
+              {
+                "threshold": 2200471.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stone_pressure_plate"
+                }
+              },
+              {
+                "threshold": 2200472.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone_pressure_plate"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000470.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gps/elevator_plate"
+          }
+        },
+        {
+          "threshold": 1000471.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/stone_pressure_plate"
+          }
+        },
+        {
+          "threshold": 1000472.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/stone_pressure_plate"
+            },
+            "entries": [
+              {
+                "threshold": 2200463.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/gps_activation_device_shared"
+                }
+              },
+              {
+                "threshold": 2200464.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/gps_activation_device_personal"
+                }
+              },
+              {
+                "threshold": 2200465.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone_pressure_plate"
+                }
+              },
+              {
+                "threshold": 2200470.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/elevator_plate"
+                }
+              },
+              {
+                "threshold": 2200471.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stone_pressure_plate"
+                }
+              },
+              {
+                "threshold": 2200472.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone_pressure_plate"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200463.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gps/gps_activation_device_shared"
+          }
+        },
+        {
+          "threshold": 2200464.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gps/gps_activation_device_personal"
+          }
+        },
+        {
+          "threshold": 2200465.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/stone_pressure_plate"
+            },
+            "entries": [
+              {
+                "threshold": 2200463.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/gps_activation_device_shared"
+                }
+              },
+              {
+                "threshold": 2200464.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/gps_activation_device_personal"
+                }
+              },
+              {
+                "threshold": 2200465.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone_pressure_plate"
+                }
+              },
+              {
+                "threshold": 2200470.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/elevator_plate"
+                }
+              },
+              {
+                "threshold": 2200471.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stone_pressure_plate"
+                }
+              },
+              {
+                "threshold": 2200472.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone_pressure_plate"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200470.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gps/elevator_plate"
+          }
+        },
+        {
+          "threshold": 2200471.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/stone_pressure_plate"
+          }
+        },
+        {
+          "threshold": 2200472.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/stone_pressure_plate"
+            },
+            "entries": [
+              {
+                "threshold": 2200463.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/gps_activation_device_shared"
+                }
+              },
+              {
+                "threshold": 2200464.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/gps_activation_device_personal"
+                }
+              },
+              {
+                "threshold": 2200465.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone_pressure_plate"
+                }
+              },
+              {
+                "threshold": 2200470.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/elevator_plate"
+                }
+              },
+              {
+                "threshold": 2200471.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stone_pressure_plate"
+                }
+              },
+              {
+                "threshold": 2200472.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/stone_pressure_plate"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

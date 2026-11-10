@@ -1,0 +1,168 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "RAINBOW_CLAY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_gadgets/rainbow_clay"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "RAINBOW_CLAY_XMAS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/christmas/rainbow_clay_xmas"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/white_terracotta"
+        },
+        "entries": [
+          {
+            "threshold": 2200428.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_gadgets/rainbow_clay"
+            }
+          },
+          {
+            "threshold": 2200429.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/white_terracotta"
+            }
+          },
+          {
+            "threshold": 2200430.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/white_terracotta"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000428.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/rainbow_clay"
+          }
+        },
+        {
+          "threshold": 1000429.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/white_terracotta"
+          }
+        },
+        {
+          "threshold": 1000430.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/white_terracotta"
+            },
+            "entries": [
+              {
+                "threshold": 2200428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/rainbow_clay"
+                }
+              },
+              {
+                "threshold": 2200429.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/white_terracotta"
+                }
+              },
+              {
+                "threshold": 2200430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/white_terracotta"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200428.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/rainbow_clay"
+          }
+        },
+        {
+          "threshold": 2200429.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/white_terracotta"
+          }
+        },
+        {
+          "threshold": 2200430.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/white_terracotta"
+            },
+            "entries": [
+              {
+                "threshold": 2200428.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/rainbow_clay"
+                }
+              },
+              {
+                "threshold": 2200429.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/white_terracotta"
+                }
+              },
+              {
+                "threshold": 2200430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/white_terracotta"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "WITHER_PROOF_OBSIDIAN"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/technical_components/wither_proof_obsidian"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "WITHER_ASSEMBLER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/wither_assembler"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MOD_PLATE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/mod_plate"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/obsidian"
+        },
+        "entries": [
+          {
+            "threshold": 2200336.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/technical_components/wither_proof_obsidian"
+            }
+          },
+          {
+            "threshold": 2200337.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/obsidian"
+            }
+          },
+          {
+            "threshold": 2200526.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/wither_assembler"
+            }
+          },
+          {
+            "threshold": 2200527.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/obsidian"
+            }
+          },
+          {
+            "threshold": 2200528.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/obsidian"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000336.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/technical_components/wither_proof_obsidian"
+          }
+        },
+        {
+          "threshold": 1000337.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/obsidian"
+            },
+            "entries": [
+              {
+                "threshold": 2200336.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/wither_proof_obsidian"
+                }
+              },
+              {
+                "threshold": 2200337.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/obsidian"
+                }
+              },
+              {
+                "threshold": 2200526.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/wither_assembler"
+                }
+              },
+              {
+                "threshold": 2200527.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/obsidian"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/obsidian"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000526.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/wither_assembler"
+          }
+        },
+        {
+          "threshold": 1000527.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/obsidian"
+          }
+        },
+        {
+          "threshold": 1000528.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/obsidian"
+            },
+            "entries": [
+              {
+                "threshold": 2200336.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/wither_proof_obsidian"
+                }
+              },
+              {
+                "threshold": 2200337.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/obsidian"
+                }
+              },
+              {
+                "threshold": 2200526.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/wither_assembler"
+                }
+              },
+              {
+                "threshold": 2200527.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/obsidian"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/obsidian"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200336.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/technical_components/wither_proof_obsidian"
+          }
+        },
+        {
+          "threshold": 2200337.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/obsidian"
+            },
+            "entries": [
+              {
+                "threshold": 2200336.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/wither_proof_obsidian"
+                }
+              },
+              {
+                "threshold": 2200337.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/obsidian"
+                }
+              },
+              {
+                "threshold": 2200526.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/wither_assembler"
+                }
+              },
+              {
+                "threshold": 2200527.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/obsidian"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/obsidian"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200526.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/wither_assembler"
+          }
+        },
+        {
+          "threshold": 2200527.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/obsidian"
+          }
+        },
+        {
+          "threshold": 2200528.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/obsidian"
+            },
+            "entries": [
+              {
+                "threshold": 2200336.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/wither_proof_obsidian"
+                }
+              },
+              {
+                "threshold": 2200337.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/obsidian"
+                }
+              },
+              {
+                "threshold": 2200526.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/wither_assembler"
+                }
+              },
+              {
+                "threshold": 2200527.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/obsidian"
+                }
+              },
+              {
+                "threshold": 2200528.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/obsidian"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CAST_NUGGET"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:casts/cast_nugget"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CAST_INGOT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:casts/cast_ingot"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CAST_BLOCK"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:casts/cast_block"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CAST_GEM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:casts/cast_gem"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CAST_REPAIRKIT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:casts/cast_repairkit"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/yellow_carpet"
+    }
+  }
+}

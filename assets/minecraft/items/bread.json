@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_TOAST"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:food/gn_toast"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_NAAN_BREAD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:food/gn_naan_bread"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/bread"
+    }
+  }
+}

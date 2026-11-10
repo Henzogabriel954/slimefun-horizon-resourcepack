@@ -1,0 +1,168 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BEEF_JERKY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/food/beef_jerky"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_COSMIC_MEATBALLS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:food/cosmic_meatballs"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cooked_beef"
+        },
+        "entries": [
+          {
+            "threshold": 2200019.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/food/beef_jerky"
+            }
+          },
+          {
+            "threshold": 2200020.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cooked_beef"
+            }
+          },
+          {
+            "threshold": 2200021.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cooked_beef"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000019.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/food/beef_jerky"
+          }
+        },
+        {
+          "threshold": 1000020.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cooked_beef"
+          }
+        },
+        {
+          "threshold": 1000021.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cooked_beef"
+            },
+            "entries": [
+              {
+                "threshold": 2200019.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/food/beef_jerky"
+                }
+              },
+              {
+                "threshold": 2200020.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cooked_beef"
+                }
+              },
+              {
+                "threshold": 2200021.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cooked_beef"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200019.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/food/beef_jerky"
+          }
+        },
+        {
+          "threshold": 2200020.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cooked_beef"
+          }
+        },
+        {
+          "threshold": 2200021.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cooked_beef"
+            },
+            "entries": [
+              {
+                "threshold": 2200019.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/food/beef_jerky"
+                }
+              },
+              {
+                "threshold": 2200020.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cooked_beef"
+                }
+              },
+              {
+                "threshold": 2200021.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cooked_beef"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

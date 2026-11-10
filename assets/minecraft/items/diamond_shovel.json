@@ -1,0 +1,443 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "EXPLOSIVE_SHOVEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/tools/explosive_shovel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SOULBOUND_SHOVEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/tools/soulbound_shovel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "UPGRADED_EXPLOSIVE_SHOVEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:tools/upgraded_explosive_shovel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "PAXEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:tools/paxel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_TITANIUM_SHOVEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/shovel/supreme_titanium_shovel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AURUM_SHOVEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/shovel/supreme_aurum_shovel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_SHOVEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/shovel/supreme_adamantium_shovel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SHOVEL_THORNIUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/shovel/supreme_shovel_thornium"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SHOVEL_MAGIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/shovel/supreme_shovel_magic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SHOVEL_RARE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/shovel/supreme_shovel_rare"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SHOVEL_EPIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/shovel/supreme_shovel_epic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SHOVEL_LEGENDARY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/shovel/supreme_shovel_legendary"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SHOVEL_SUPREME"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/shovel/supreme_shovel_supreme"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/diamond_shovel"
+        },
+        "entries": [
+          {
+            "threshold": 2200242.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/tools/explosive_shovel"
+            }
+          },
+          {
+            "threshold": 2200243.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_shovel"
+            }
+          },
+          {
+            "threshold": 2200277.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/tools/soulbound_shovel"
+            }
+          },
+          {
+            "threshold": 2200278.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_shovel"
+            }
+          },
+          {
+            "threshold": 2200279.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_shovel"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000242.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/explosive_shovel"
+          }
+        },
+        {
+          "threshold": 1000243.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_shovel"
+            },
+            "entries": [
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_shovel"
+                }
+              },
+              {
+                "threshold": 2200243.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_shovel"
+                }
+              },
+              {
+                "threshold": 2200277.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_shovel"
+                }
+              },
+              {
+                "threshold": 2200278.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_shovel"
+                }
+              },
+              {
+                "threshold": 2200279.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_shovel"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000277.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/soulbound_shovel"
+          }
+        },
+        {
+          "threshold": 1000278.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_shovel"
+          }
+        },
+        {
+          "threshold": 1000279.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_shovel"
+            },
+            "entries": [
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_shovel"
+                }
+              },
+              {
+                "threshold": 2200243.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_shovel"
+                }
+              },
+              {
+                "threshold": 2200277.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_shovel"
+                }
+              },
+              {
+                "threshold": 2200278.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_shovel"
+                }
+              },
+              {
+                "threshold": 2200279.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_shovel"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200242.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/explosive_shovel"
+          }
+        },
+        {
+          "threshold": 2200243.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_shovel"
+            },
+            "entries": [
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_shovel"
+                }
+              },
+              {
+                "threshold": 2200243.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_shovel"
+                }
+              },
+              {
+                "threshold": 2200277.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_shovel"
+                }
+              },
+              {
+                "threshold": 2200278.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_shovel"
+                }
+              },
+              {
+                "threshold": 2200279.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_shovel"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200277.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/soulbound_shovel"
+          }
+        },
+        {
+          "threshold": 2200278.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_shovel"
+          }
+        },
+        {
+          "threshold": 2200279.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_shovel"
+            },
+            "entries": [
+              {
+                "threshold": 2200242.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/explosive_shovel"
+                }
+              },
+              {
+                "threshold": 2200243.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_shovel"
+                }
+              },
+              {
+                "threshold": 2200277.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/soulbound_shovel"
+                }
+              },
+              {
+                "threshold": 2200278.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_shovel"
+                }
+              },
+              {
+                "threshold": 2200279.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_shovel"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

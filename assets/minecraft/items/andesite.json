@@ -1,0 +1,355 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "COMPRESSED_COBBLESTONE_1"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/compressed_cobblestone_1"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "COMPRESSED_COBBLESTONE_2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/compressed_cobblestone_2"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_COMPRESSED_COBBLESTONE_1"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:materials/compressed_cobblestone_1"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_COMPRESSED_COBBLESTONE_2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:materials/compressed_cobblestone_2"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_COMPRESSED_COBBLESTONE_3"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:materials/compressed_cobblestone_3"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/andesite"
+        },
+        "entries": [
+          {
+            "threshold": 2200624.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/materials2/double_compressed_cobblestone"
+            }
+          },
+          {
+            "threshold": 2200625.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/andesite"
+            }
+          },
+          {
+            "threshold": 2200639.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/materials2/single_compressed_cobblestone"
+            }
+          },
+          {
+            "threshold": 2200640.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/andesite"
+            }
+          },
+          {
+            "threshold": 2200641.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/andesite"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000624.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/double_compressed_cobblestone"
+          }
+        },
+        {
+          "threshold": 1000625.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/andesite"
+            },
+            "entries": [
+              {
+                "threshold": 2200624.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/double_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200625.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/andesite"
+                }
+              },
+              {
+                "threshold": 2200639.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/single_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200640.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/andesite"
+                }
+              },
+              {
+                "threshold": 2200641.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/andesite"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000639.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/single_compressed_cobblestone"
+          }
+        },
+        {
+          "threshold": 1000640.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/andesite"
+          }
+        },
+        {
+          "threshold": 1000641.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/andesite"
+            },
+            "entries": [
+              {
+                "threshold": 2200624.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/double_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200625.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/andesite"
+                }
+              },
+              {
+                "threshold": 2200639.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/single_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200640.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/andesite"
+                }
+              },
+              {
+                "threshold": 2200641.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/andesite"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200624.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/double_compressed_cobblestone"
+          }
+        },
+        {
+          "threshold": 2200625.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/andesite"
+            },
+            "entries": [
+              {
+                "threshold": 2200624.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/double_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200625.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/andesite"
+                }
+              },
+              {
+                "threshold": 2200639.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/single_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200640.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/andesite"
+                }
+              },
+              {
+                "threshold": 2200641.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/andesite"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200639.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/single_compressed_cobblestone"
+          }
+        },
+        {
+          "threshold": 2200640.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/andesite"
+          }
+        },
+        {
+          "threshold": 2200641.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/andesite"
+            },
+            "entries": [
+              {
+                "threshold": 2200624.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/double_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200625.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/andesite"
+                }
+              },
+              {
+                "threshold": 2200639.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/single_compressed_cobblestone"
+                }
+              },
+              {
+                "threshold": 2200640.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/andesite"
+                }
+              },
+              {
+                "threshold": 2200641.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/andesite"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "REINFORCED_TREE_TAP"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimy_tree_taps:treetap/reinforced_tree_tap"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SIMPLE_WRENCH"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "simpleutils:simple_wrench"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SCYTHE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:tools/scythe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_PEELER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:tools/gn_peeler"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_STEEL_SICKLE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:tools/gn_steel_sickle"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/iron_hoe"
+        },
+        "entries": [
+          {
+            "threshold": 2200805.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimy_tree_taps:treetap/reinforced_tree_tap"
+            }
+          },
+          {
+            "threshold": 2200806.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_hoe"
+            }
+          },
+          {
+            "threshold": 2201273.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "simpleutils:simple_wrench"
+            }
+          },
+          {
+            "threshold": 2201274.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_hoe"
+            }
+          },
+          {
+            "threshold": 2201295.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "fluffymachines:scythe"
+            }
+          },
+          {
+            "threshold": 2201296.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_hoe"
+            }
+          },
+          {
+            "threshold": 2201297.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_hoe"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000805.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimy_tree_taps:treetap/reinforced_tree_tap"
+          }
+        },
+        {
+          "threshold": 1000806.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_hoe"
+            },
+            "entries": [
+              {
+                "threshold": 2200805.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:treetap/reinforced_tree_tap"
+                }
+              },
+              {
+                "threshold": 2200806.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "simpleutils:simple_wrench"
+                }
+              },
+              {
+                "threshold": 2201274.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:scythe"
+                }
+              },
+              {
+                "threshold": 2201296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001273.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "simpleutils:simple_wrench"
+          }
+        },
+        {
+          "threshold": 1001274.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_hoe"
+            },
+            "entries": [
+              {
+                "threshold": 2200805.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:treetap/reinforced_tree_tap"
+                }
+              },
+              {
+                "threshold": 2200806.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "simpleutils:simple_wrench"
+                }
+              },
+              {
+                "threshold": 2201274.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:scythe"
+                }
+              },
+              {
+                "threshold": 2201296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001295.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "fluffymachines:scythe"
+          }
+        },
+        {
+          "threshold": 1001296.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/iron_hoe"
+          }
+        },
+        {
+          "threshold": 1001297.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_hoe"
+            },
+            "entries": [
+              {
+                "threshold": 2200805.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:treetap/reinforced_tree_tap"
+                }
+              },
+              {
+                "threshold": 2200806.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "simpleutils:simple_wrench"
+                }
+              },
+              {
+                "threshold": 2201274.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:scythe"
+                }
+              },
+              {
+                "threshold": 2201296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200805.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimy_tree_taps:treetap/reinforced_tree_tap"
+          }
+        },
+        {
+          "threshold": 2200806.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_hoe"
+            },
+            "entries": [
+              {
+                "threshold": 2200805.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:treetap/reinforced_tree_tap"
+                }
+              },
+              {
+                "threshold": 2200806.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "simpleutils:simple_wrench"
+                }
+              },
+              {
+                "threshold": 2201274.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:scythe"
+                }
+              },
+              {
+                "threshold": 2201296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201273.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "simpleutils:simple_wrench"
+          }
+        },
+        {
+          "threshold": 2201274.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_hoe"
+            },
+            "entries": [
+              {
+                "threshold": 2200805.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:treetap/reinforced_tree_tap"
+                }
+              },
+              {
+                "threshold": 2200806.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "simpleutils:simple_wrench"
+                }
+              },
+              {
+                "threshold": 2201274.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:scythe"
+                }
+              },
+              {
+                "threshold": 2201296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201295.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "fluffymachines:scythe"
+          }
+        },
+        {
+          "threshold": 2201296.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/iron_hoe"
+          }
+        },
+        {
+          "threshold": 2201297.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_hoe"
+            },
+            "entries": [
+              {
+                "threshold": 2200805.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:treetap/reinforced_tree_tap"
+                }
+              },
+              {
+                "threshold": 2200806.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "simpleutils:simple_wrench"
+                }
+              },
+              {
+                "threshold": 2201274.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201295.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fluffymachines:scythe"
+                }
+              },
+              {
+                "threshold": 2201296.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              },
+              {
+                "threshold": 2201297.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_hoe"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "REACTOR_ACCESS_PORT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/cargo/reactor_access_port"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/cyan_terracotta"
+        },
+        "entries": [
+          {
+            "threshold": 2200517.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/cargo/reactor_access_port"
+            }
+          },
+          {
+            "threshold": 2200518.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/cyan_terracotta"
+            }
+          },
+          {
+            "threshold": 2200519.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/cyan_terracotta"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000517.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/cargo/reactor_access_port"
+          }
+        },
+        {
+          "threshold": 1000518.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cyan_terracotta"
+          }
+        },
+        {
+          "threshold": 1000519.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/cyan_terracotta"
+            },
+            "entries": [
+              {
+                "threshold": 2200517.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/cargo/reactor_access_port"
+                }
+              },
+              {
+                "threshold": 2200518.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cyan_terracotta"
+                }
+              },
+              {
+                "threshold": 2200519.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/cyan_terracotta"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200517.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/cargo/reactor_access_port"
+          }
+        },
+        {
+          "threshold": 2200518.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cyan_terracotta"
+          }
+        },
+        {
+          "threshold": 2200519.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/cyan_terracotta"
+            },
+            "entries": [
+              {
+                "threshold": 2200517.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/cargo/reactor_access_port"
+                }
+              },
+              {
+                "threshold": 2200518.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/cyan_terracotta"
+                }
+              },
+              {
+                "threshold": 2200519.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/cyan_terracotta"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

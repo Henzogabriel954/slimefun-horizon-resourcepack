@@ -1,0 +1,245 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "KSF_STUFF"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_items/ksf_stuff"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_OATS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:ingredient/gn_oats"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_SOYBEANS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:ingredient/gn_soybeans"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_SORGHUM_SEEDS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:ingredient/gn_sorghum_seeds"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_SPINACH_SEEDS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:ingredient/gn_spinach_seeds"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_BEANS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:ingredient/gn_beans"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_BAKED_BEANS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:food/gn_baked_beans"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CLT_CHICKPEAS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "cultivation:products/clt_chickpeas"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_DUST_AMETHYST"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:components/supreme_dust_amethyst"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/beetroot_seeds"
+        },
+        "entries": [
+          {
+            "threshold": 2201415.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_items/ksf_stuff"
+            }
+          },
+          {
+            "threshold": 2201416.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/beetroot_seeds"
+            }
+          },
+          {
+            "threshold": 2201417.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/beetroot_seeds"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1001415.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/ksf_stuff"
+          }
+        },
+        {
+          "threshold": 1001416.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/beetroot_seeds"
+          }
+        },
+        {
+          "threshold": 1001417.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/beetroot_seeds"
+            },
+            "entries": [
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/ksf_stuff"
+                }
+              },
+              {
+                "threshold": 2201416.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/beetroot_seeds"
+                }
+              },
+              {
+                "threshold": 2201417.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/beetroot_seeds"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201415.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/ksf_stuff"
+          }
+        },
+        {
+          "threshold": 2201416.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/beetroot_seeds"
+          }
+        },
+        {
+          "threshold": 2201417.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/beetroot_seeds"
+            },
+            "entries": [
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/ksf_stuff"
+                }
+              },
+              {
+                "threshold": 2201416.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/beetroot_seeds"
+                }
+              },
+              {
+                "threshold": 2201417.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/beetroot_seeds"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

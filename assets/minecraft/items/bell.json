@@ -1,0 +1,203 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "APPRAISAL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:machines/appraisal"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUN_ENERGY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_items/sun_energy"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/bell"
+        },
+        "entries": [
+          {
+            "threshold": 2201407.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:machines/appraisal"
+            }
+          },
+          {
+            "threshold": 2201408.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_items/sun_energy"
+            }
+          },
+          {
+            "threshold": 2201409.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bell"
+            }
+          },
+          {
+            "threshold": 2201410.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bell"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1001407.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:machines/appraisal"
+          }
+        },
+        {
+          "threshold": 1001408.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/sun_energy"
+          }
+        },
+        {
+          "threshold": 1001409.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bell"
+          }
+        },
+        {
+          "threshold": 1001410.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bell"
+            },
+            "entries": [
+              {
+                "threshold": 2201407.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:machines/appraisal"
+                }
+              },
+              {
+                "threshold": 2201408.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/sun_energy"
+                }
+              },
+              {
+                "threshold": 2201409.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bell"
+                }
+              },
+              {
+                "threshold": 2201410.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bell"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201407.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:machines/appraisal"
+          }
+        },
+        {
+          "threshold": 2201408.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/sun_energy"
+          }
+        },
+        {
+          "threshold": 2201409.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bell"
+          }
+        },
+        {
+          "threshold": 2201410.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bell"
+            },
+            "entries": [
+              {
+                "threshold": 2201407.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:machines/appraisal"
+                }
+              },
+              {
+                "threshold": 2201408.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/sun_energy"
+                }
+              },
+              {
+                "threshold": 2201409.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bell"
+                }
+              },
+              {
+                "threshold": 2201410.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bell"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

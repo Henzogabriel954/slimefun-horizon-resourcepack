@@ -1,0 +1,168 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "LAPIS_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:singularities/lapis_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_LAPIS_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:singularities/lapis_singularity"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/lapis_block"
+        },
+        "entries": [
+          {
+            "threshold": 2200629.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/materials2/lapis_singularity"
+            }
+          },
+          {
+            "threshold": 2200630.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/lapis_block"
+            }
+          },
+          {
+            "threshold": 2200631.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/lapis_block"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000629.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/lapis_singularity"
+          }
+        },
+        {
+          "threshold": 1000630.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/lapis_block"
+          }
+        },
+        {
+          "threshold": 1000631.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/lapis_block"
+            },
+            "entries": [
+              {
+                "threshold": 2200629.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/lapis_singularity"
+                }
+              },
+              {
+                "threshold": 2200630.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/lapis_block"
+                }
+              },
+              {
+                "threshold": 2200631.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/lapis_block"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200629.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/lapis_singularity"
+          }
+        },
+        {
+          "threshold": 2200630.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/lapis_block"
+          }
+        },
+        {
+          "threshold": 2200631.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/lapis_block"
+            },
+            "entries": [
+              {
+                "threshold": 2200629.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/lapis_singularity"
+                }
+              },
+              {
+                "threshold": 2200630.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/lapis_block"
+                }
+              },
+              {
+                "threshold": 2200631.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/lapis_block"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

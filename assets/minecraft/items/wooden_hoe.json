@@ -1,0 +1,333 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "TREE_TAP"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimy_tree_taps:treetap/tree_tap"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CROOK"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "exotic_garden:misc/crook"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_WOODEN_SICKLE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:tools/gn_wooden_sickle"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/wooden_hoe"
+        },
+        "entries": [
+          {
+            "threshold": 2200806.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimy_tree_taps:treetap/tree_tap"
+            }
+          },
+          {
+            "threshold": 2200807.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_hoe"
+            }
+          },
+          {
+            "threshold": 2201073.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "exotic_garden:misc/crook"
+            }
+          },
+          {
+            "threshold": 2201074.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_hoe"
+            }
+          },
+          {
+            "threshold": 2201075.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_hoe"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000806.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimy_tree_taps:treetap/tree_tap"
+          }
+        },
+        {
+          "threshold": 1000807.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_hoe"
+            },
+            "entries": [
+              {
+                "threshold": 2200806.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:treetap/tree_tap"
+                }
+              },
+              {
+                "threshold": 2200807.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_hoe"
+                }
+              },
+              {
+                "threshold": 2201073.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "exotic_garden:misc/crook"
+                }
+              },
+              {
+                "threshold": 2201074.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_hoe"
+                }
+              },
+              {
+                "threshold": 2201075.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_hoe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001073.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "exotic_garden:misc/crook"
+          }
+        },
+        {
+          "threshold": 1001074.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          }
+        },
+        {
+          "threshold": 1001075.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_hoe"
+            },
+            "entries": [
+              {
+                "threshold": 2200806.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:treetap/tree_tap"
+                }
+              },
+              {
+                "threshold": 2200807.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_hoe"
+                }
+              },
+              {
+                "threshold": 2201073.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "exotic_garden:misc/crook"
+                }
+              },
+              {
+                "threshold": 2201074.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_hoe"
+                }
+              },
+              {
+                "threshold": 2201075.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_hoe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200806.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimy_tree_taps:treetap/tree_tap"
+          }
+        },
+        {
+          "threshold": 2200807.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_hoe"
+            },
+            "entries": [
+              {
+                "threshold": 2200806.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:treetap/tree_tap"
+                }
+              },
+              {
+                "threshold": 2200807.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_hoe"
+                }
+              },
+              {
+                "threshold": 2201073.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "exotic_garden:misc/crook"
+                }
+              },
+              {
+                "threshold": 2201074.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_hoe"
+                }
+              },
+              {
+                "threshold": 2201075.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_hoe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201073.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "exotic_garden:misc/crook"
+          }
+        },
+        {
+          "threshold": 2201074.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          }
+        },
+        {
+          "threshold": 2201075.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_hoe"
+            },
+            "entries": [
+              {
+                "threshold": 2200806.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:treetap/tree_tap"
+                }
+              },
+              {
+                "threshold": 2200807.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_hoe"
+                }
+              },
+              {
+                "threshold": 2201073.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "exotic_garden:misc/crook"
+                }
+              },
+              {
+                "threshold": 2201074.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_hoe"
+                }
+              },
+              {
+                "threshold": 2201075.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/wooden_hoe"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

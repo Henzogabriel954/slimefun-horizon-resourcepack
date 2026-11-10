@@ -1,0 +1,139 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/white_dye"
+      },
+      "entries": [
+        {
+          "threshold": 2200815.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "litexpansion:materials/iridium"
+          }
+        },
+        {
+          "threshold": 2200816.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/white_dye"
+          }
+        },
+        {
+          "threshold": 2200817.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/white_dye"
+          }
+        }
+      ]
+    },
+    "entries": [
+      {
+        "threshold": 1000815.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "litexpansion:materials/iridium"
+        }
+      },
+      {
+        "threshold": 1000816.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/white_dye"
+        }
+      },
+      {
+        "threshold": 1000817.0,
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/white_dye"
+          },
+          "entries": [
+            {
+              "threshold": 2200815.0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "litexpansion:materials/iridium"
+              }
+            },
+            {
+              "threshold": 2200816.0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/white_dye"
+              }
+            },
+            {
+              "threshold": 2200817.0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/white_dye"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 2200815.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "litexpansion:materials/iridium"
+        }
+      },
+      {
+        "threshold": 2200816.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/white_dye"
+        }
+      },
+      {
+        "threshold": 2200817.0,
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/white_dye"
+          },
+          "entries": [
+            {
+              "threshold": 2200815.0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "litexpansion:materials/iridium"
+              }
+            },
+            {
+              "threshold": 2200816.0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/white_dye"
+              }
+            },
+            {
+              "threshold": 2200817.0,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/white_dye"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

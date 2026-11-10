@@ -1,0 +1,1274 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BRONZE_INGOT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "COPPER_INGOT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "REDSTONE_ALLOY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/ingots/redstone_alloy"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CHRISTMAS_CARAMEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/christmas/christmas_caramel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ADAMANTITE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/adamantite"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MAGSTEEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/magsteel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SMALL_PORTABLE_CHARGER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:portable_chargers/small_portable_charger"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "HOLMIUM_INGOT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefunwarfare:resources/holmium_ingot"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SEARED_BRICK"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/seared_brick"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INGOT_CAST_BOOMERITE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/ingots/ingot_cast_boomerite"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INGOT_CAST_FONDNESS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/ingots/ingot_cast_fondness"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INGOT_CAST_DEVOTION"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/ingots/ingot_cast_devotion"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INGOT_CAST_PASSION"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/ingots/ingot_cast_passion"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INGOT_CAST_LOVE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/ingots/ingot_cast_love"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_ADAMANTITE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:materials/adamantite"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_MAGSTEEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:materials/magsteel"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/brick"
+        },
+        "entries": [
+          {
+            "threshold": 2200081.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+            }
+          },
+          {
+            "threshold": 2200082.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            }
+          },
+          {
+            "threshold": 2200105.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+            }
+          },
+          {
+            "threshold": 2200106.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            }
+          },
+          {
+            "threshold": 2200217.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/ingots/redstone_alloy_ingot"
+            }
+          },
+          {
+            "threshold": 2200218.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            }
+          },
+          {
+            "threshold": 2200601.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/adamantite"
+            }
+          },
+          {
+            "threshold": 2200602.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            }
+          },
+          {
+            "threshold": 2200612.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/magsteel"
+            }
+          },
+          {
+            "threshold": 2200613.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            }
+          },
+          {
+            "threshold": 2200614.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000081.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+          }
+        },
+        {
+          "threshold": 1000082.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            },
+            "entries": [
+              {
+                "threshold": 2200081.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200082.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200105.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+                }
+              },
+              {
+                "threshold": 2200106.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200217.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/redstone_alloy_ingot"
+                }
+              },
+              {
+                "threshold": 2200218.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200601.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/adamantite"
+                }
+              },
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200612.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magsteel"
+                }
+              },
+              {
+                "threshold": 2200613.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000105.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+          }
+        },
+        {
+          "threshold": 1000106.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            },
+            "entries": [
+              {
+                "threshold": 2200081.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200082.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200105.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+                }
+              },
+              {
+                "threshold": 2200106.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200217.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/redstone_alloy_ingot"
+                }
+              },
+              {
+                "threshold": 2200218.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200601.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/adamantite"
+                }
+              },
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200612.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magsteel"
+                }
+              },
+              {
+                "threshold": 2200613.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000217.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/redstone_alloy_ingot"
+          }
+        },
+        {
+          "threshold": 1000218.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            },
+            "entries": [
+              {
+                "threshold": 2200081.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200082.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200105.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+                }
+              },
+              {
+                "threshold": 2200106.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200217.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/redstone_alloy_ingot"
+                }
+              },
+              {
+                "threshold": 2200218.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200601.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/adamantite"
+                }
+              },
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200612.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magsteel"
+                }
+              },
+              {
+                "threshold": 2200613.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000601.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/adamantite"
+          }
+        },
+        {
+          "threshold": 1000602.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            },
+            "entries": [
+              {
+                "threshold": 2200081.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200082.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200105.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+                }
+              },
+              {
+                "threshold": 2200106.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200217.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/redstone_alloy_ingot"
+                }
+              },
+              {
+                "threshold": 2200218.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200601.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/adamantite"
+                }
+              },
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200612.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magsteel"
+                }
+              },
+              {
+                "threshold": 2200613.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000612.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/magsteel"
+          }
+        },
+        {
+          "threshold": 1000613.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/brick"
+          }
+        },
+        {
+          "threshold": 1000614.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            },
+            "entries": [
+              {
+                "threshold": 2200081.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200082.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200105.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+                }
+              },
+              {
+                "threshold": 2200106.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200217.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/redstone_alloy_ingot"
+                }
+              },
+              {
+                "threshold": 2200218.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200601.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/adamantite"
+                }
+              },
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200612.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magsteel"
+                }
+              },
+              {
+                "threshold": 2200613.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200081.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+          }
+        },
+        {
+          "threshold": 2200082.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            },
+            "entries": [
+              {
+                "threshold": 2200081.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200082.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200105.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+                }
+              },
+              {
+                "threshold": 2200106.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200217.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/redstone_alloy_ingot"
+                }
+              },
+              {
+                "threshold": 2200218.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200601.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/adamantite"
+                }
+              },
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200612.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magsteel"
+                }
+              },
+              {
+                "threshold": 2200613.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200105.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+          }
+        },
+        {
+          "threshold": 2200106.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            },
+            "entries": [
+              {
+                "threshold": 2200081.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200082.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200105.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+                }
+              },
+              {
+                "threshold": 2200106.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200217.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/redstone_alloy_ingot"
+                }
+              },
+              {
+                "threshold": 2200218.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200601.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/adamantite"
+                }
+              },
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200612.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magsteel"
+                }
+              },
+              {
+                "threshold": 2200613.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200217.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/redstone_alloy_ingot"
+          }
+        },
+        {
+          "threshold": 2200218.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            },
+            "entries": [
+              {
+                "threshold": 2200081.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200082.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200105.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+                }
+              },
+              {
+                "threshold": 2200106.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200217.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/redstone_alloy_ingot"
+                }
+              },
+              {
+                "threshold": 2200218.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200601.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/adamantite"
+                }
+              },
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200612.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magsteel"
+                }
+              },
+              {
+                "threshold": 2200613.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200601.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/adamantite"
+          }
+        },
+        {
+          "threshold": 2200602.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            },
+            "entries": [
+              {
+                "threshold": 2200081.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200082.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200105.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+                }
+              },
+              {
+                "threshold": 2200106.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200217.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/redstone_alloy_ingot"
+                }
+              },
+              {
+                "threshold": 2200218.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200601.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/adamantite"
+                }
+              },
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200612.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magsteel"
+                }
+              },
+              {
+                "threshold": 2200613.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200612.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/magsteel"
+          }
+        },
+        {
+          "threshold": 2200613.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/brick"
+          }
+        },
+        {
+          "threshold": 2200614.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/brick"
+            },
+            "entries": [
+              {
+                "threshold": 2200081.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200082.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200105.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/copper_ingot"
+                }
+              },
+              {
+                "threshold": 2200106.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200217.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/redstone_alloy_ingot"
+                }
+              },
+              {
+                "threshold": 2200218.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200601.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/adamantite"
+                }
+              },
+              {
+                "threshold": 2200602.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200612.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/magsteel"
+                }
+              },
+              {
+                "threshold": 2200613.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              },
+              {
+                "threshold": 2200614.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/brick"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

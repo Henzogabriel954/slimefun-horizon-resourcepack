@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MASSIVE_FLUFFY_BARREL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:barrels/massive_fluffy_barrel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_MULTIBLOCK_MAGICAL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:machines/magical_fabricator"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/crying_obsidian"
+    }
+  }
+}

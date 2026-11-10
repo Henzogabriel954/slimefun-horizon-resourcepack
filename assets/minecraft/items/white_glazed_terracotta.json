@@ -1,0 +1,168 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "RAINBOW_GLAZED_TERRACOTTA"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_gadgets/rainbow_glazed_terracotta"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "RAINBOW_GLAZED_TERRACOTTA_XMAS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/christmas/rainbow_glazed_terracotta_xmas"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/white_glazed_terracotta"
+        },
+        "entries": [
+          {
+            "threshold": 2200430.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_gadgets/rainbow_glazed_terracotta"
+            }
+          },
+          {
+            "threshold": 2200431.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/white_glazed_terracotta"
+            }
+          },
+          {
+            "threshold": 2200432.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/white_glazed_terracotta"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000430.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/rainbow_glazed_terracotta"
+          }
+        },
+        {
+          "threshold": 1000431.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/white_glazed_terracotta"
+          }
+        },
+        {
+          "threshold": 1000432.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/white_glazed_terracotta"
+            },
+            "entries": [
+              {
+                "threshold": 2200430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/rainbow_glazed_terracotta"
+                }
+              },
+              {
+                "threshold": 2200431.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/white_glazed_terracotta"
+                }
+              },
+              {
+                "threshold": 2200432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/white_glazed_terracotta"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200430.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/rainbow_glazed_terracotta"
+          }
+        },
+        {
+          "threshold": 2200431.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/white_glazed_terracotta"
+          }
+        },
+        {
+          "threshold": 2200432.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/white_glazed_terracotta"
+            },
+            "entries": [
+              {
+                "threshold": 2200430.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/rainbow_glazed_terracotta"
+                }
+              },
+              {
+                "threshold": 2200431.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/white_glazed_terracotta"
+                }
+              },
+              {
+                "threshold": 2200432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/white_glazed_terracotta"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "VOID_BIT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/void_bit"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_LEAD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_lead"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_SILVER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_silver"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_ALUMINUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_aluminum"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_MAGNESIUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_magnesium"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_ZINC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_zinc"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_TIN"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_tin"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_STEEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_steel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_DAMASCUS_STTEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_damascus_steel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_DURALIUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_duralium"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_HARD_METAL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_hard_metal"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_SOLDER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_solder"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_BILLON"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_billon"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_NICKEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_nickel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_COBALT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_cobalt"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_REINFORCED"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_reinforced"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_FERROSILICON"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_ferrosilicon"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_SEFIRITE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_sefirite"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_CRINGLEIUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_cringleium"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NUGGET_CAST_SMITHIUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/nuggets/nugget_cast_smithium"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_VOID_BIT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:materials/void_bit"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_THORNIUM_BIT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:components/supreme_thornium_bit"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/iron_nugget"
+        },
+        "entries": [
+          {
+            "threshold": 2200617.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/void_bit"
+            }
+          },
+          {
+            "threshold": 2200618.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_nugget"
+            }
+          },
+          {
+            "threshold": 2200619.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_nugget"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000617.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/void_bit"
+          }
+        },
+        {
+          "threshold": 1000618.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/iron_nugget"
+          }
+        },
+        {
+          "threshold": 1000619.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_nugget"
+            },
+            "entries": [
+              {
+                "threshold": 2200617.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/void_bit"
+                }
+              },
+              {
+                "threshold": 2200618.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_nugget"
+                }
+              },
+              {
+                "threshold": 2200619.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_nugget"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200617.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/void_bit"
+          }
+        },
+        {
+          "threshold": 2200618.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/iron_nugget"
+          }
+        },
+        {
+          "threshold": 2200619.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/iron_nugget"
+            },
+            "entries": [
+              {
+                "threshold": 2200617.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/void_bit"
+                }
+              },
+              {
+                "threshold": 2200618.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_nugget"
+                }
+              },
+              {
+                "threshold": 2200619.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/iron_nugget"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

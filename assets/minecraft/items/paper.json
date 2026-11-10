@@ -1,0 +1,5652 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MAGICAL_BOOK_COVER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_items/magical_book_cover"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "STEEL_PLATE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/miscellaneous/steel_plate"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "REINFORCED_CLOTH"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/technical_components/reinforced_cloth"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CLOTH"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/miscellaneous/cloth"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "RAG"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/items/rag"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BANDAGE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/items/bandage"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SCROLL_OF_DIMENSIONAL_TELEPOSITION"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_gadgets/scroll_of_dimensional_teleposition"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "REINFORCED_PLATE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "PLASTIC_SHEET"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/technical_components/plastic_sheet"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MACHINE_PLATE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/machine_plate"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "RAW_PLASTIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimy_tree_taps:materials/raw_plastic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SOUL_PAPER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_items/soul_paper"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "APPRAISAL_PAPER_ARMOR"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:tools/appraisal_paper_armor"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "APPRAISAL_PAPER_DAMAGE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:tools/appraisal_paper_damage"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_MACHINE_PLATE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:materials/machine_plate"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/paper"
+        },
+        "entries": [
+          {
+            "threshold": 2200049.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_items/magical_book_cover"
+            }
+          },
+          {
+            "threshold": 2200050.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            }
+          },
+          {
+            "threshold": 2200115.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/miscellaneous/steel_plate"
+            }
+          },
+          {
+            "threshold": 2200116.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            }
+          },
+          {
+            "threshold": 2200222.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/miscellaneous/cloth"
+            }
+          },
+          {
+            "threshold": 2200223.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/items/rag"
+            }
+          },
+          {
+            "threshold": 2200224.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/items/bandage"
+            }
+          },
+          {
+            "threshold": 2200225.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            }
+          },
+          {
+            "threshold": 2200310.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+            }
+          },
+          {
+            "threshold": 2200311.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            }
+          },
+          {
+            "threshold": 2200332.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+            }
+          },
+          {
+            "threshold": 2200333.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            }
+          },
+          {
+            "threshold": 2200385.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/technical_components/plastic_sheet"
+            }
+          },
+          {
+            "threshold": 2200386.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            }
+          },
+          {
+            "threshold": 2200609.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/machine_plate"
+            }
+          },
+          {
+            "threshold": 2200610.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            }
+          },
+          {
+            "threshold": 2200801.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimy_tree_taps:materials/raw_plastic"
+            }
+          },
+          {
+            "threshold": 2200802.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            }
+          },
+          {
+            "threshold": 2200810.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "litexpansion:materials/advanced_alloy"
+            }
+          },
+          {
+            "threshold": 2200811.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            }
+          },
+          {
+            "threshold": 2200816.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "litexpansion:materials/iridium_plate"
+            }
+          },
+          {
+            "threshold": 2200817.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            }
+          },
+          {
+            "threshold": 2201414.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_items/soul_paper"
+            }
+          },
+          {
+            "threshold": 2201415.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            }
+          },
+          {
+            "threshold": 2201420.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:tools/appraisal_paper_armor"
+            }
+          },
+          {
+            "threshold": 2201421.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:tools/appraisal_paper_damage"
+            }
+          },
+          {
+            "threshold": 2201422.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            }
+          },
+          {
+            "threshold": 2201423.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000049.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/magical_book_cover"
+          }
+        },
+        {
+          "threshold": 1000050.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000115.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/steel_plate"
+          }
+        },
+        {
+          "threshold": 1000116.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000222.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/cloth"
+          }
+        },
+        {
+          "threshold": 1000223.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/items/rag"
+          }
+        },
+        {
+          "threshold": 1000224.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/items/bandage"
+          }
+        },
+        {
+          "threshold": 1000225.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000310.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+          }
+        },
+        {
+          "threshold": 1000311.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000332.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+          }
+        },
+        {
+          "threshold": 1000333.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000385.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/technical_components/plastic_sheet"
+          }
+        },
+        {
+          "threshold": 1000386.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000609.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/machine_plate"
+          }
+        },
+        {
+          "threshold": 1000610.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000801.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimy_tree_taps:materials/raw_plastic"
+          }
+        },
+        {
+          "threshold": 1000802.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000810.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "litexpansion:materials/advanced_alloy"
+          }
+        },
+        {
+          "threshold": 1000811.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000816.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "litexpansion:materials/iridium_plate"
+          }
+        },
+        {
+          "threshold": 1000817.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001414.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/soul_paper"
+          }
+        },
+        {
+          "threshold": 1001415.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001420.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:tools/appraisal_paper_armor"
+          }
+        },
+        {
+          "threshold": 1001421.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:tools/appraisal_paper_damage"
+          }
+        },
+        {
+          "threshold": 1001422.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/paper"
+          }
+        },
+        {
+          "threshold": 1001423.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200049.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_items/magical_book_cover"
+          }
+        },
+        {
+          "threshold": 2200050.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200115.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/steel_plate"
+          }
+        },
+        {
+          "threshold": 2200116.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200222.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/cloth"
+          }
+        },
+        {
+          "threshold": 2200223.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/items/rag"
+          }
+        },
+        {
+          "threshold": 2200224.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/items/bandage"
+          }
+        },
+        {
+          "threshold": 2200225.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200310.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+          }
+        },
+        {
+          "threshold": 2200311.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200332.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+          }
+        },
+        {
+          "threshold": 2200333.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200385.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/technical_components/plastic_sheet"
+          }
+        },
+        {
+          "threshold": 2200386.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200609.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/machine_plate"
+          }
+        },
+        {
+          "threshold": 2200610.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200801.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimy_tree_taps:materials/raw_plastic"
+          }
+        },
+        {
+          "threshold": 2200802.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200810.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "litexpansion:materials/advanced_alloy"
+          }
+        },
+        {
+          "threshold": 2200811.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200816.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "litexpansion:materials/iridium_plate"
+          }
+        },
+        {
+          "threshold": 2200817.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201414.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/soul_paper"
+          }
+        },
+        {
+          "threshold": 2201415.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201420.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:tools/appraisal_paper_armor"
+          }
+        },
+        {
+          "threshold": 2201421.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:tools/appraisal_paper_damage"
+          }
+        },
+        {
+          "threshold": 2201422.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/paper"
+          }
+        },
+        {
+          "threshold": 2201423.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/paper"
+            },
+            "entries": [
+              {
+                "threshold": 2200049.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_items/magical_book_cover"
+                }
+              },
+              {
+                "threshold": 2200050.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200115.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/steel_plate"
+                }
+              },
+              {
+                "threshold": 2200116.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200222.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/cloth"
+                }
+              },
+              {
+                "threshold": 2200223.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/rag"
+                }
+              },
+              {
+                "threshold": 2200224.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/bandage"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200310.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/dimensional_scroll"
+                }
+              },
+              {
+                "threshold": 2200311.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200332.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/miscellaneous/reinforced_plate"
+                }
+              },
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200385.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/plastic_sheet"
+                }
+              },
+              {
+                "threshold": 2200386.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_plate"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200801.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimy_tree_taps:materials/raw_plastic"
+                }
+              },
+              {
+                "threshold": 2200802.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200810.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/advanced_alloy"
+                }
+              },
+              {
+                "threshold": 2200811.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2200816.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:materials/iridium_plate"
+                }
+              },
+              {
+                "threshold": 2200817.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201414.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/soul_paper"
+                }
+              },
+              {
+                "threshold": 2201415.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201420.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_armor"
+                }
+              },
+              {
+                "threshold": 2201421.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:tools/appraisal_paper_damage"
+                }
+              },
+              {
+                "threshold": 2201422.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              },
+              {
+                "threshold": 2201423.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/paper"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

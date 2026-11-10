@@ -1,0 +1,1253 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SOULBOUND_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/weapons/soulbound_sword"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "EMER_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_weapons/emer_sword"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "bump:appraisable": 1,
+            "slimefun:slimefun_item": "RANDOM_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_weapons/random_sword"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SKY_DEVIL_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_weapons/sky_devil_sword"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ENERGY_BLADE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefunwarfare:melee_weapons/energy_blade"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_TITANIUM_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_titanium_sword"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AURUM_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_aurum_sword"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_adamantium_sword"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SWORD_THORNIUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_sword_thornium"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SWORD_MAGIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_sword_magic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SWORD_RARE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_sword_rare"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SWORD_EPIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_sword_epic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SWORD_LEGENDARY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_sword_legendary"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SWORD_SUPREME"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_sword_supreme"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/diamond_sword"
+        },
+        "entries": [
+          {
+            "threshold": 2200272.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/weapons/soulbound_sword"
+            }
+          },
+          {
+            "threshold": 2200273.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            }
+          },
+          {
+            "threshold": 2200827.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "litexpansion:tools/nano_blade"
+            }
+          },
+          {
+            "threshold": 2200828.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            }
+          },
+          {
+            "threshold": 2201424.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_weapons/emer_sword"
+            }
+          },
+          {
+            "threshold": 2201425.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            }
+          },
+          {
+            "threshold": 2201426.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_weapons/random_sword"
+            }
+          },
+          {
+            "threshold": 2201427.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            }
+          },
+          {
+            "threshold": 2201432.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_weapons/sky_devil_sword"
+            }
+          },
+          {
+            "threshold": 2201433.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            }
+          },
+          {
+            "threshold": 2201434.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000272.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/weapons/soulbound_sword"
+          }
+        },
+        {
+          "threshold": 1000273.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/soulbound_sword"
+                }
+              },
+              {
+                "threshold": 2200273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2200827.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:tools/nano_blade"
+                }
+              },
+              {
+                "threshold": 2200828.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201424.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/emer_sword"
+                }
+              },
+              {
+                "threshold": 2201425.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201426.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/random_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_devil_sword"
+                }
+              },
+              {
+                "threshold": 2201433.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201434.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000827.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "litexpansion:tools/nano_blade"
+          }
+        },
+        {
+          "threshold": 1000828.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/soulbound_sword"
+                }
+              },
+              {
+                "threshold": 2200273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2200827.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:tools/nano_blade"
+                }
+              },
+              {
+                "threshold": 2200828.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201424.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/emer_sword"
+                }
+              },
+              {
+                "threshold": 2201425.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201426.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/random_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_devil_sword"
+                }
+              },
+              {
+                "threshold": 2201433.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201434.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001424.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_weapons/emer_sword"
+          }
+        },
+        {
+          "threshold": 1001425.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/soulbound_sword"
+                }
+              },
+              {
+                "threshold": 2200273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2200827.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:tools/nano_blade"
+                }
+              },
+              {
+                "threshold": 2200828.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201424.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/emer_sword"
+                }
+              },
+              {
+                "threshold": 2201425.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201426.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/random_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_devil_sword"
+                }
+              },
+              {
+                "threshold": 2201433.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201434.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001426.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_weapons/random_sword"
+          }
+        },
+        {
+          "threshold": 1001427.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/soulbound_sword"
+                }
+              },
+              {
+                "threshold": 2200273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2200827.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:tools/nano_blade"
+                }
+              },
+              {
+                "threshold": 2200828.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201424.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/emer_sword"
+                }
+              },
+              {
+                "threshold": 2201425.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201426.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/random_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_devil_sword"
+                }
+              },
+              {
+                "threshold": 2201433.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201434.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001432.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_weapons/sky_devil_sword"
+          }
+        },
+        {
+          "threshold": 1001433.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_sword"
+          }
+        },
+        {
+          "threshold": 1001434.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/soulbound_sword"
+                }
+              },
+              {
+                "threshold": 2200273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2200827.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:tools/nano_blade"
+                }
+              },
+              {
+                "threshold": 2200828.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201424.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/emer_sword"
+                }
+              },
+              {
+                "threshold": 2201425.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201426.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/random_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_devil_sword"
+                }
+              },
+              {
+                "threshold": 2201433.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201434.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200272.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/weapons/soulbound_sword"
+          }
+        },
+        {
+          "threshold": 2200273.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/soulbound_sword"
+                }
+              },
+              {
+                "threshold": 2200273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2200827.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:tools/nano_blade"
+                }
+              },
+              {
+                "threshold": 2200828.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201424.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/emer_sword"
+                }
+              },
+              {
+                "threshold": 2201425.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201426.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/random_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_devil_sword"
+                }
+              },
+              {
+                "threshold": 2201433.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201434.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200827.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "litexpansion:tools/nano_blade"
+          }
+        },
+        {
+          "threshold": 2200828.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/soulbound_sword"
+                }
+              },
+              {
+                "threshold": 2200273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2200827.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:tools/nano_blade"
+                }
+              },
+              {
+                "threshold": 2200828.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201424.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/emer_sword"
+                }
+              },
+              {
+                "threshold": 2201425.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201426.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/random_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_devil_sword"
+                }
+              },
+              {
+                "threshold": 2201433.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201434.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201424.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_weapons/emer_sword"
+          }
+        },
+        {
+          "threshold": 2201425.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/soulbound_sword"
+                }
+              },
+              {
+                "threshold": 2200273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2200827.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:tools/nano_blade"
+                }
+              },
+              {
+                "threshold": 2200828.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201424.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/emer_sword"
+                }
+              },
+              {
+                "threshold": 2201425.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201426.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/random_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_devil_sword"
+                }
+              },
+              {
+                "threshold": 2201433.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201434.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201426.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_weapons/random_sword"
+          }
+        },
+        {
+          "threshold": 2201427.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/soulbound_sword"
+                }
+              },
+              {
+                "threshold": 2200273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2200827.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:tools/nano_blade"
+                }
+              },
+              {
+                "threshold": 2200828.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201424.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/emer_sword"
+                }
+              },
+              {
+                "threshold": 2201425.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201426.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/random_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_devil_sword"
+                }
+              },
+              {
+                "threshold": 2201433.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201434.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201432.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_weapons/sky_devil_sword"
+          }
+        },
+        {
+          "threshold": 2201433.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/diamond_sword"
+          }
+        },
+        {
+          "threshold": 2201434.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200272.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/soulbound_sword"
+                }
+              },
+              {
+                "threshold": 2200273.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2200827.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "litexpansion:tools/nano_blade"
+                }
+              },
+              {
+                "threshold": 2200828.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201424.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/emer_sword"
+                }
+              },
+              {
+                "threshold": 2201425.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201426.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/random_sword"
+                }
+              },
+              {
+                "threshold": 2201427.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201432.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_weapons/sky_devil_sword"
+                }
+              },
+              {
+                "threshold": 2201433.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              },
+              {
+                "threshold": 2201434.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/diamond_sword"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

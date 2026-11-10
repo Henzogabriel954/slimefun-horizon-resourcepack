@@ -1,0 +1,278 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INFINITY_PICKAXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:tools/world_breaker"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "PAXEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:tools/netherite_paxel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_INFINITY_PICKAXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:tools/infinity_pickaxe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_TITANIUM_PICKAXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_titanium_pickaxe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AURUM_PICKAXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_aurum_pickaxe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_PICKAXE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_adamantium_pickaxe"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_PICKAXE_THORNIUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_pickaxe_thornium"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_PICKAXE_MAGIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_pickaxe_magic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_PICKAXE_RARE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_pickaxe_rare"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_PICKAXE_EPIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_pickaxe_epic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_PICKAXE_LEGENDARY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_pickaxe_legendary"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_PICKAXE_SUPREME"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/pickaxe/supreme_pickaxe_supreme"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/netherite_pickaxe"
+        },
+        "entries": [
+          {
+            "threshold": 2200649.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:tools/world_breaker"
+            }
+          },
+          {
+            "threshold": 2200650.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_pickaxe"
+            }
+          },
+          {
+            "threshold": 2200651.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_pickaxe"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000649.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:tools/world_breaker"
+          }
+        },
+        {
+          "threshold": 1000650.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_pickaxe"
+          }
+        },
+        {
+          "threshold": 1000651.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200649.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:tools/world_breaker"
+                }
+              },
+              {
+                "threshold": 2200650.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200651.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_pickaxe"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200649.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:tools/world_breaker"
+          }
+        },
+        {
+          "threshold": 2200650.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_pickaxe"
+          }
+        },
+        {
+          "threshold": 2200651.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_pickaxe"
+            },
+            "entries": [
+              {
+                "threshold": 2200649.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:tools/world_breaker"
+                }
+              },
+              {
+                "threshold": 2200650.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_pickaxe"
+                }
+              },
+              {
+                "threshold": 2200651.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_pickaxe"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

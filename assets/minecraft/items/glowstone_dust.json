@@ -1,0 +1,426 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GOLD_DUST"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/dusts/gold_dust"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "COPPER_DUST"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/dusts/copper_dust"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SULFATE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/valuables/sulfate"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_MISO"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:food/gn_miso"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_TURMERIC_POWDER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:food/gn_turmeric_powder"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE__UI_ENERGY_PRODUCTION"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:icons/ui_energy_production"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_THORNIUM_DUST_SYNTHETIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:components/supreme_thornium_dust_synthetic"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/glowstone_dust"
+        },
+        "entries": [
+          {
+            "threshold": 2200097.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/dusts/gold_dust"
+            }
+          },
+          {
+            "threshold": 2200098.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/dusts/copper_dust"
+            }
+          },
+          {
+            "threshold": 2200099.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/glowstone_dust"
+            }
+          },
+          {
+            "threshold": 2200112.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/valuables/sulfate"
+            }
+          },
+          {
+            "threshold": 2200113.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/glowstone_dust"
+            }
+          },
+          {
+            "threshold": 2200114.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/glowstone_dust"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000097.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/dusts/gold_dust"
+          }
+        },
+        {
+          "threshold": 1000098.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/dusts/copper_dust"
+          }
+        },
+        {
+          "threshold": 1000099.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/glowstone_dust"
+            },
+            "entries": [
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/gold_dust"
+                }
+              },
+              {
+                "threshold": 2200098.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/copper_dust"
+                }
+              },
+              {
+                "threshold": 2200099.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glowstone_dust"
+                }
+              },
+              {
+                "threshold": 2200112.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/valuables/sulfate"
+                }
+              },
+              {
+                "threshold": 2200113.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glowstone_dust"
+                }
+              },
+              {
+                "threshold": 2200114.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glowstone_dust"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000112.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/valuables/sulfate"
+          }
+        },
+        {
+          "threshold": 1000113.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/glowstone_dust"
+          }
+        },
+        {
+          "threshold": 1000114.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/glowstone_dust"
+            },
+            "entries": [
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/gold_dust"
+                }
+              },
+              {
+                "threshold": 2200098.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/copper_dust"
+                }
+              },
+              {
+                "threshold": 2200099.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glowstone_dust"
+                }
+              },
+              {
+                "threshold": 2200112.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/valuables/sulfate"
+                }
+              },
+              {
+                "threshold": 2200113.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glowstone_dust"
+                }
+              },
+              {
+                "threshold": 2200114.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glowstone_dust"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200097.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/dusts/gold_dust"
+          }
+        },
+        {
+          "threshold": 2200098.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/dusts/copper_dust"
+          }
+        },
+        {
+          "threshold": 2200099.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/glowstone_dust"
+            },
+            "entries": [
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/gold_dust"
+                }
+              },
+              {
+                "threshold": 2200098.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/copper_dust"
+                }
+              },
+              {
+                "threshold": 2200099.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glowstone_dust"
+                }
+              },
+              {
+                "threshold": 2200112.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/valuables/sulfate"
+                }
+              },
+              {
+                "threshold": 2200113.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glowstone_dust"
+                }
+              },
+              {
+                "threshold": 2200114.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glowstone_dust"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200112.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/valuables/sulfate"
+          }
+        },
+        {
+          "threshold": 2200113.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/glowstone_dust"
+          }
+        },
+        {
+          "threshold": 2200114.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/glowstone_dust"
+            },
+            "entries": [
+              {
+                "threshold": 2200097.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/gold_dust"
+                }
+              },
+              {
+                "threshold": 2200098.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/dusts/copper_dust"
+                }
+              },
+              {
+                "threshold": 2200099.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glowstone_dust"
+                }
+              },
+              {
+                "threshold": 2200112.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/valuables/sulfate"
+                }
+              },
+              {
+                "threshold": 2200113.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glowstone_dust"
+                }
+              },
+              {
+                "threshold": 2200114.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/glowstone_dust"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "HARDENED_GLASS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/technical_components/hardened_glass"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "HEATED_PRESSURE_CHAMBER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/heated_pressure_chamber"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "HEATED_PRESSURE_CHAMBER_2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/heated_pressure_chamber_2"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/light_gray_stained_glass"
+        },
+        "entries": [
+          {
+            "threshold": 2200333.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/technical_components/hardened_glass"
+            }
+          },
+          {
+            "threshold": 2200334.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/light_gray_stained_glass"
+            }
+          },
+          {
+            "threshold": 2200368.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/heated_pressure_chamber"
+            }
+          },
+          {
+            "threshold": 2200369.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/energy/heated_pressure_chamber2"
+            }
+          },
+          {
+            "threshold": 2200370.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/light_gray_stained_glass"
+            }
+          },
+          {
+            "threshold": 2200371.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/light_gray_stained_glass"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000333.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/technical_components/hardened_glass"
+          }
+        },
+        {
+          "threshold": 1000334.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/light_gray_stained_glass"
+            },
+            "entries": [
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/hardened_glass"
+                }
+              },
+              {
+                "threshold": 2200334.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/light_gray_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/heated_pressure_chamber"
+                }
+              },
+              {
+                "threshold": 2200369.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/heated_pressure_chamber2"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/light_gray_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/light_gray_stained_glass"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000368.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/heated_pressure_chamber"
+          }
+        },
+        {
+          "threshold": 1000369.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/heated_pressure_chamber2"
+          }
+        },
+        {
+          "threshold": 1000370.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/light_gray_stained_glass"
+          }
+        },
+        {
+          "threshold": 1000371.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/light_gray_stained_glass"
+            },
+            "entries": [
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/hardened_glass"
+                }
+              },
+              {
+                "threshold": 2200334.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/light_gray_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/heated_pressure_chamber"
+                }
+              },
+              {
+                "threshold": 2200369.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/heated_pressure_chamber2"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/light_gray_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/light_gray_stained_glass"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200333.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/technical_components/hardened_glass"
+          }
+        },
+        {
+          "threshold": 2200334.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/light_gray_stained_glass"
+            },
+            "entries": [
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/hardened_glass"
+                }
+              },
+              {
+                "threshold": 2200334.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/light_gray_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/heated_pressure_chamber"
+                }
+              },
+              {
+                "threshold": 2200369.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/heated_pressure_chamber2"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/light_gray_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/light_gray_stained_glass"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200368.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/heated_pressure_chamber"
+          }
+        },
+        {
+          "threshold": 2200369.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/energy/heated_pressure_chamber2"
+          }
+        },
+        {
+          "threshold": 2200370.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/light_gray_stained_glass"
+          }
+        },
+        {
+          "threshold": 2200371.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/light_gray_stained_glass"
+            },
+            "entries": [
+              {
+                "threshold": 2200333.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/hardened_glass"
+                }
+              },
+              {
+                "threshold": 2200334.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/light_gray_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200368.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/heated_pressure_chamber"
+                }
+              },
+              {
+                "threshold": 2200369.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/energy/heated_pressure_chamber2"
+                }
+              },
+              {
+                "threshold": 2200370.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/light_gray_stained_glass"
+                }
+              },
+              {
+                "threshold": 2200371.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/light_gray_stained_glass"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

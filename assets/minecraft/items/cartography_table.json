@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "TINKERS_REPAIR_BENCH"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:workstations/tinkers_repair_bench"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/cartography_table"
+    }
+  }
+}

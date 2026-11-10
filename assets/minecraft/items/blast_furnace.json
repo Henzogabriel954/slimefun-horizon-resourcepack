@@ -1,0 +1,201 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MAKESHIFT_SMELTERY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/makeshift_smeltery"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CRANK_GENERATOR"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:generators/crank_generator"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "FOUNDRY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:multiblocks/foundry"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GENERATOR_CORE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:generators/generator_core"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREHEATED_FURNACE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:multiblocks/superheated_furnace"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/blast_furnace"
+        },
+        "entries": [
+          {
+            "threshold": 2200056.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/makeshift_smeltery"
+            }
+          },
+          {
+            "threshold": 2200057.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/blast_furnace"
+            }
+          },
+          {
+            "threshold": 2200058.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/blast_furnace"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000056.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/makeshift_smeltery"
+          }
+        },
+        {
+          "threshold": 1000057.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/blast_furnace"
+          }
+        },
+        {
+          "threshold": 1000058.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/blast_furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200056.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/makeshift_smeltery"
+                }
+              },
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/blast_furnace"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/blast_furnace"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200056.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/makeshift_smeltery"
+          }
+        },
+        {
+          "threshold": 2200057.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/blast_furnace"
+          }
+        },
+        {
+          "threshold": 2200058.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/blast_furnace"
+            },
+            "entries": [
+              {
+                "threshold": 2200056.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/makeshift_smeltery"
+                }
+              },
+              {
+                "threshold": 2200057.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/blast_furnace"
+                }
+              },
+              {
+                "threshold": 2200058.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/blast_furnace"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GPS_MARKER_TOOL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/gps/gps_marker_tool"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "RADIO"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefunwarfare:general/radio"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/redstone_torch"
+        },
+        "entries": [
+          {
+            "threshold": 2200392.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/gps/gps_marker"
+            }
+          },
+          {
+            "threshold": 2200393.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/redstone_torch"
+            }
+          },
+          {
+            "threshold": 2200394.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/redstone_torch"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000392.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gps/gps_marker"
+          }
+        },
+        {
+          "threshold": 1000393.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/redstone_torch"
+          }
+        },
+        {
+          "threshold": 1000394.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/redstone_torch"
+            },
+            "entries": [
+              {
+                "threshold": 2200392.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/gps_marker"
+                }
+              },
+              {
+                "threshold": 2200393.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/redstone_torch"
+                }
+              },
+              {
+                "threshold": 2200394.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/redstone_torch"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200392.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gps/gps_marker"
+          }
+        },
+        {
+          "threshold": 2200393.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/redstone_torch"
+          }
+        },
+        {
+          "threshold": 2200394.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/redstone_torch"
+            },
+            "entries": [
+              {
+                "threshold": 2200392.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/gps/gps_marker"
+                }
+              },
+              {
+                "threshold": 2200393.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/redstone_torch"
+                }
+              },
+              {
+                "threshold": 2200394.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/redstone_torch"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

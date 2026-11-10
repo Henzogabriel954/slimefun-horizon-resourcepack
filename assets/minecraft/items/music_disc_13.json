@@ -1,0 +1,101 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_CARD_COAL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:machine_cards/card_coal"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_CARD_IRON"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:machine_cards/card_iron"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_CARD_COPPER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:machine_cards/card_copper"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_CARD_GOLD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:machine_cards/card_gold"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_CARD_QUARTZ"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:machine_cards/card_quartz"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_CARD_QUARTZ_BLOCK"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:machine_cards/card_quartz_block"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_CARD_LAPIS"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:machine_cards/card_lapis"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_CARD_REDSTONE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:machine_cards/card_redstone"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/music_disc_13"
+    }
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GOLD_PAN"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/tools/gold_pan"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "NETHER_GOLD_PAN"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/tools/nether_gold_pan"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "AUTOMATED_PANNING_MACHINE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/automated_panning_machine"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_MORTAR_AND_PESTLE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:tools/gn_mortar_and_pestle"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/bowl"
+        },
+        "entries": [
+          {
+            "threshold": 2200053.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/tools/gold_pan"
+            }
+          },
+          {
+            "threshold": 2200054.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/tools/nether_gold_pan"
+            }
+          },
+          {
+            "threshold": 2200055.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bowl"
+            }
+          },
+          {
+            "threshold": 2200243.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/automated_panning_machine"
+            }
+          },
+          {
+            "threshold": 2200244.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bowl"
+            }
+          },
+          {
+            "threshold": 2200245.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bowl"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000053.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/gold_pan"
+          }
+        },
+        {
+          "threshold": 1000054.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/nether_gold_pan"
+          }
+        },
+        {
+          "threshold": 1000055.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bowl"
+            },
+            "entries": [
+              {
+                "threshold": 2200053.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/gold_pan"
+                }
+              },
+              {
+                "threshold": 2200054.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/nether_gold_pan"
+                }
+              },
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bowl"
+                }
+              },
+              {
+                "threshold": 2200243.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/automated_panning_machine"
+                }
+              },
+              {
+                "threshold": 2200244.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bowl"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bowl"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000243.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/automated_panning_machine"
+          }
+        },
+        {
+          "threshold": 1000244.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bowl"
+          }
+        },
+        {
+          "threshold": 1000245.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bowl"
+            },
+            "entries": [
+              {
+                "threshold": 2200053.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/gold_pan"
+                }
+              },
+              {
+                "threshold": 2200054.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/nether_gold_pan"
+                }
+              },
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bowl"
+                }
+              },
+              {
+                "threshold": 2200243.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/automated_panning_machine"
+                }
+              },
+              {
+                "threshold": 2200244.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bowl"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bowl"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200053.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/gold_pan"
+          }
+        },
+        {
+          "threshold": 2200054.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/tools/nether_gold_pan"
+          }
+        },
+        {
+          "threshold": 2200055.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bowl"
+            },
+            "entries": [
+              {
+                "threshold": 2200053.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/gold_pan"
+                }
+              },
+              {
+                "threshold": 2200054.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/nether_gold_pan"
+                }
+              },
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bowl"
+                }
+              },
+              {
+                "threshold": 2200243.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/automated_panning_machine"
+                }
+              },
+              {
+                "threshold": 2200244.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bowl"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bowl"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200243.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/automated_panning_machine"
+          }
+        },
+        {
+          "threshold": 2200244.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bowl"
+          }
+        },
+        {
+          "threshold": 2200245.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bowl"
+            },
+            "entries": [
+              {
+                "threshold": 2200053.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/gold_pan"
+                }
+              },
+              {
+                "threshold": 2200054.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/tools/nether_gold_pan"
+                }
+              },
+              {
+                "threshold": 2200055.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bowl"
+                }
+              },
+              {
+                "threshold": 2200243.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/automated_panning_machine"
+                }
+              },
+              {
+                "threshold": 2200244.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bowl"
+                }
+              },
+              {
+                "threshold": 2200245.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bowl"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

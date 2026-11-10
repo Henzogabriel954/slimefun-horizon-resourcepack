@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 97,
+    "supported_formats": {
+      "min_inclusive": 12,
+      "max_inclusive": 97
+    },
+    "description": "Slimefun Official + Vicarious + Addons (Horizon Compatible)"
+  }
+}

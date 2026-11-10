@@ -1,0 +1,432 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INFINITY_BLADE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:tools/infinity_blade"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ELUCIDATOR"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "foxymachines:weapons/elucidator"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_INFINITY_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:gear/infinity_sword"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_TITANIUM_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_titanium_sword"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_AURUM_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_aurum_sword"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_ADAMANTIUM_SWORD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_adamantium_sword"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SWORD_THORNIUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_sword_thornium"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SWORD_MAGIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_sword_magic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SWORD_RARE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_sword_rare"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SWORD_EPIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_sword_epic"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SWORD_LEGENDARY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_sword_legendary"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_SWORD_SUPREME"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:weapons/sword/supreme_sword_supreme"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/netherite_sword"
+        },
+        "entries": [
+          {
+            "threshold": 2200643.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:tools/blade_of_the_cosmos"
+            }
+          },
+          {
+            "threshold": 2200644.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_sword"
+            }
+          },
+          {
+            "threshold": 2201355.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "foxymachines:weapons/elucidator"
+            }
+          },
+          {
+            "threshold": 2201356.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_sword"
+            }
+          },
+          {
+            "threshold": 2201357.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_sword"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000643.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:tools/blade_of_the_cosmos"
+          }
+        },
+        {
+          "threshold": 1000644.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200643.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:tools/blade_of_the_cosmos"
+                }
+              },
+              {
+                "threshold": 2200644.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_sword"
+                }
+              },
+              {
+                "threshold": 2201355.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "foxymachines:weapons/elucidator"
+                }
+              },
+              {
+                "threshold": 2201356.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_sword"
+                }
+              },
+              {
+                "threshold": 2201357.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001355.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "foxymachines:weapons/elucidator"
+          }
+        },
+        {
+          "threshold": 1001356.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_sword"
+          }
+        },
+        {
+          "threshold": 1001357.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200643.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:tools/blade_of_the_cosmos"
+                }
+              },
+              {
+                "threshold": 2200644.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_sword"
+                }
+              },
+              {
+                "threshold": 2201355.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "foxymachines:weapons/elucidator"
+                }
+              },
+              {
+                "threshold": 2201356.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_sword"
+                }
+              },
+              {
+                "threshold": 2201357.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200643.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:tools/blade_of_the_cosmos"
+          }
+        },
+        {
+          "threshold": 2200644.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200643.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:tools/blade_of_the_cosmos"
+                }
+              },
+              {
+                "threshold": 2200644.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_sword"
+                }
+              },
+              {
+                "threshold": 2201355.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "foxymachines:weapons/elucidator"
+                }
+              },
+              {
+                "threshold": 2201356.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_sword"
+                }
+              },
+              {
+                "threshold": 2201357.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201355.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "foxymachines:weapons/elucidator"
+          }
+        },
+        {
+          "threshold": 2201356.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_sword"
+          }
+        },
+        {
+          "threshold": 2201357.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_sword"
+            },
+            "entries": [
+              {
+                "threshold": 2200643.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:tools/blade_of_the_cosmos"
+                }
+              },
+              {
+                "threshold": 2200644.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_sword"
+                }
+              },
+              {
+                "threshold": 2201355.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "foxymachines:weapons/elucidator"
+                }
+              },
+              {
+                "threshold": 2201356.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_sword"
+                }
+              },
+              {
+                "threshold": 2201357.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/netherite_sword"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

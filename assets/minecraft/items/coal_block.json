@@ -1,0 +1,168 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "COAL_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:singularities/coal_singularity"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_COAL_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:singularities/coal_singularity"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/coal_block"
+        },
+        "entries": [
+          {
+            "threshold": 2200621.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/materials2/coal_singularity"
+            }
+          },
+          {
+            "threshold": 2200622.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/coal_block"
+            }
+          },
+          {
+            "threshold": 2200623.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/coal_block"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000621.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/coal_singularity"
+          }
+        },
+        {
+          "threshold": 1000622.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/coal_block"
+          }
+        },
+        {
+          "threshold": 1000623.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/coal_block"
+            },
+            "entries": [
+              {
+                "threshold": 2200621.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/coal_singularity"
+                }
+              },
+              {
+                "threshold": 2200622.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/coal_block"
+                }
+              },
+              {
+                "threshold": 2200623.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/coal_block"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200621.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/coal_singularity"
+          }
+        },
+        {
+          "threshold": 2200622.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/coal_block"
+          }
+        },
+        {
+          "threshold": 2200623.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/coal_block"
+            },
+            "entries": [
+              {
+                "threshold": 2200621.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/coal_singularity"
+                }
+              },
+              {
+                "threshold": 2200622.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/coal_block"
+                }
+              },
+              {
+                "threshold": 2200623.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/coal_block"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

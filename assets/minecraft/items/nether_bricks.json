@@ -1,0 +1,157 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MAGNESIUM_SINGULARITY"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:singularities/magnesium_singularity"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/nether_bricks"
+        },
+        "entries": [
+          {
+            "threshold": 2200632.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/materials2/magnesium_singularity"
+            }
+          },
+          {
+            "threshold": 2200633.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/nether_bricks"
+            }
+          },
+          {
+            "threshold": 2200634.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/nether_bricks"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000632.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/magnesium_singularity"
+          }
+        },
+        {
+          "threshold": 1000633.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/nether_bricks"
+          }
+        },
+        {
+          "threshold": 1000634.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/nether_bricks"
+            },
+            "entries": [
+              {
+                "threshold": 2200632.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/magnesium_singularity"
+                }
+              },
+              {
+                "threshold": 2200633.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_bricks"
+                }
+              },
+              {
+                "threshold": 2200634.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/nether_bricks"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200632.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/materials2/magnesium_singularity"
+          }
+        },
+        {
+          "threshold": 2200633.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/nether_bricks"
+          }
+        },
+        {
+          "threshold": 2200634.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/nether_bricks"
+            },
+            "entries": [
+              {
+                "threshold": 2200632.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/materials2/magnesium_singularity"
+                }
+              },
+              {
+                "threshold": 2200633.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/nether_bricks"
+                }
+              },
+              {
+                "threshold": 2200634.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/nether_bricks"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

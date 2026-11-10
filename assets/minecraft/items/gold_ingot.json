@@ -1,0 +1,2795 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BRASS_INGOT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/ingots/brass_ingot"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ALUMINUM_BRASS_INGOT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/ingots/aluminum_brass_ingot"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "ALUMINUM_BRONZE_INGOT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/ingots/aluminum_bronze_ingot"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CORINTHIAN_BRONZE_INGOT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/ingots/corinthian_bronze_ingot"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GOLD_24K"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/gold_ingots/gold_24k"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GOLD_22K"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/gold_ingots/gold_22k"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GOLD_20K"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/gold_ingots/gold_20k"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GOLD_18K"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/gold_ingots/gold_18k"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GOLD_16K"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/gold_ingots/gold_16k"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GOLD_14K"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/gold_ingots/gold_14k"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GOLD_12K"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/gold_ingots/gold_12k"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GOLD_10K"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/gold_ingots/gold_10k"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GOLD_8K"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/gold_ingots/gold_8k"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GOLD_6K"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/gold_ingots/gold_6k"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GOLD_4K"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/gold_ingots/gold_4k"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GILDED_IRON"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/ingots/gilded_iron"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BLISTERING_INGOT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BLISTERING_INGOT_2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_2"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BLISTERING_INGOT_3"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_3"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "MACHINE_CIRCUIT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion:materials/machine_circuit"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "BIG_PORTABLE_CHARGER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "fluffymachines:portable_chargers/big_portable_charger"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INGOT_CAST_NICE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/ingots/ingot_cast_nice"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "INGOT_CAST_ANNIVERSARIUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimetinker:materials/ingots/ingot_cast_anniversarium"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "IE_MACHINE_CIRCUIT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:materials/machine_circuit"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "infinityexpansion2:oscillator_target": "GOLD_INGOT",
+            "slimefun:slimefun_item": "IE_OSCILLATOR_GOLD_INGOT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:tools/oscillator_gold_ingot"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "infinityexpansion2:oscillator_target": "GOLD_INGOT",
+            "slimefun:slimefun_item": "IE_OSCILLATOR"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "infinityexpansion2:tools/oscillator_gold_ingot"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_ALLOY_AURUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:components/supreme_alloy_aurum"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_ALLOY_MANGANESE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:components/supreme_alloy_manganese"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_ALLOY_PLATINUM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:components/supreme_alloy_platinum"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SUPREME_THORNIUM_INGOT_SYNTHETIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "supreme:components/supreme_thornium_ingot_synthetic"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/gold_ingot"
+        },
+        "entries": [
+          {
+            "threshold": 2200084.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/ingots/brass_ingot"
+            }
+          },
+          {
+            "threshold": 2200085.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/ingots/aluminum_brass_ingot"
+            }
+          },
+          {
+            "threshold": 2200086.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/ingots/aluminum_bronze_ingot"
+            }
+          },
+          {
+            "threshold": 2200087.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/ingots/corinthian_bronze_ingot"
+            }
+          },
+          {
+            "threshold": 2200088.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            }
+          },
+          {
+            "threshold": 2200144.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_24"
+            }
+          },
+          {
+            "threshold": 2200145.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_22"
+            }
+          },
+          {
+            "threshold": 2200146.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_20"
+            }
+          },
+          {
+            "threshold": 2200147.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_18"
+            }
+          },
+          {
+            "threshold": 2200148.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_16"
+            }
+          },
+          {
+            "threshold": 2200149.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_14"
+            }
+          },
+          {
+            "threshold": 2200150.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_12"
+            }
+          },
+          {
+            "threshold": 2200151.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_10"
+            }
+          },
+          {
+            "threshold": 2200152.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_8"
+            }
+          },
+          {
+            "threshold": 2200153.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_6"
+            }
+          },
+          {
+            "threshold": 2200154.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_4"
+            }
+          },
+          {
+            "threshold": 2200155.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            }
+          },
+          {
+            "threshold": 2200187.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/ingots/gilded_iron"
+            }
+          },
+          {
+            "threshold": 2200188.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            }
+          },
+          {
+            "threshold": 2200466.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_33"
+            }
+          },
+          {
+            "threshold": 2200467.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_66"
+            }
+          },
+          {
+            "threshold": 2200468.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_100"
+            }
+          },
+          {
+            "threshold": 2200469.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            }
+          },
+          {
+            "threshold": 2200608.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "infinityexpansion:materials/machine_circuit"
+            }
+          },
+          {
+            "threshold": 2200609.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            }
+          },
+          {
+            "threshold": 2200610.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000084.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/brass_ingot"
+          }
+        },
+        {
+          "threshold": 1000085.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/aluminum_brass_ingot"
+          }
+        },
+        {
+          "threshold": 1000086.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/aluminum_bronze_ingot"
+          }
+        },
+        {
+          "threshold": 1000087.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/corinthian_bronze_ingot"
+          }
+        },
+        {
+          "threshold": 1000088.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            },
+            "entries": [
+              {
+                "threshold": 2200084.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200085.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200086.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200087.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/corinthian_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200088.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_24"
+                }
+              },
+              {
+                "threshold": 2200145.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_22"
+                }
+              },
+              {
+                "threshold": 2200146.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_20"
+                }
+              },
+              {
+                "threshold": 2200147.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_18"
+                }
+              },
+              {
+                "threshold": 2200148.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_16"
+                }
+              },
+              {
+                "threshold": 2200149.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_14"
+                }
+              },
+              {
+                "threshold": 2200150.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_12"
+                }
+              },
+              {
+                "threshold": 2200151.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_10"
+                }
+              },
+              {
+                "threshold": 2200152.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_8"
+                }
+              },
+              {
+                "threshold": 2200153.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_6"
+                }
+              },
+              {
+                "threshold": 2200154.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_4"
+                }
+              },
+              {
+                "threshold": 2200155.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200187.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/gilded_iron"
+                }
+              },
+              {
+                "threshold": 2200188.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200466.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_33"
+                }
+              },
+              {
+                "threshold": 2200467.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_66"
+                }
+              },
+              {
+                "threshold": 2200468.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_100"
+                }
+              },
+              {
+                "threshold": 2200469.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_circuit"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000144.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_24"
+          }
+        },
+        {
+          "threshold": 1000145.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_22"
+          }
+        },
+        {
+          "threshold": 1000146.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_20"
+          }
+        },
+        {
+          "threshold": 1000147.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_18"
+          }
+        },
+        {
+          "threshold": 1000148.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_16"
+          }
+        },
+        {
+          "threshold": 1000149.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_14"
+          }
+        },
+        {
+          "threshold": 1000150.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_12"
+          }
+        },
+        {
+          "threshold": 1000151.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_10"
+          }
+        },
+        {
+          "threshold": 1000152.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_8"
+          }
+        },
+        {
+          "threshold": 1000153.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_6"
+          }
+        },
+        {
+          "threshold": 1000154.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_4"
+          }
+        },
+        {
+          "threshold": 1000155.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            },
+            "entries": [
+              {
+                "threshold": 2200084.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200085.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200086.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200087.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/corinthian_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200088.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_24"
+                }
+              },
+              {
+                "threshold": 2200145.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_22"
+                }
+              },
+              {
+                "threshold": 2200146.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_20"
+                }
+              },
+              {
+                "threshold": 2200147.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_18"
+                }
+              },
+              {
+                "threshold": 2200148.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_16"
+                }
+              },
+              {
+                "threshold": 2200149.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_14"
+                }
+              },
+              {
+                "threshold": 2200150.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_12"
+                }
+              },
+              {
+                "threshold": 2200151.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_10"
+                }
+              },
+              {
+                "threshold": 2200152.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_8"
+                }
+              },
+              {
+                "threshold": 2200153.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_6"
+                }
+              },
+              {
+                "threshold": 2200154.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_4"
+                }
+              },
+              {
+                "threshold": 2200155.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200187.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/gilded_iron"
+                }
+              },
+              {
+                "threshold": 2200188.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200466.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_33"
+                }
+              },
+              {
+                "threshold": 2200467.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_66"
+                }
+              },
+              {
+                "threshold": 2200468.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_100"
+                }
+              },
+              {
+                "threshold": 2200469.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_circuit"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000187.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/gilded_iron"
+          }
+        },
+        {
+          "threshold": 1000188.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            },
+            "entries": [
+              {
+                "threshold": 2200084.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200085.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200086.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200087.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/corinthian_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200088.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_24"
+                }
+              },
+              {
+                "threshold": 2200145.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_22"
+                }
+              },
+              {
+                "threshold": 2200146.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_20"
+                }
+              },
+              {
+                "threshold": 2200147.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_18"
+                }
+              },
+              {
+                "threshold": 2200148.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_16"
+                }
+              },
+              {
+                "threshold": 2200149.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_14"
+                }
+              },
+              {
+                "threshold": 2200150.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_12"
+                }
+              },
+              {
+                "threshold": 2200151.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_10"
+                }
+              },
+              {
+                "threshold": 2200152.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_8"
+                }
+              },
+              {
+                "threshold": 2200153.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_6"
+                }
+              },
+              {
+                "threshold": 2200154.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_4"
+                }
+              },
+              {
+                "threshold": 2200155.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200187.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/gilded_iron"
+                }
+              },
+              {
+                "threshold": 2200188.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200466.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_33"
+                }
+              },
+              {
+                "threshold": 2200467.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_66"
+                }
+              },
+              {
+                "threshold": 2200468.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_100"
+                }
+              },
+              {
+                "threshold": 2200469.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_circuit"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000466.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_33"
+          }
+        },
+        {
+          "threshold": 1000467.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_66"
+          }
+        },
+        {
+          "threshold": 1000468.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_100"
+          }
+        },
+        {
+          "threshold": 1000469.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            },
+            "entries": [
+              {
+                "threshold": 2200084.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200085.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200086.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200087.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/corinthian_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200088.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_24"
+                }
+              },
+              {
+                "threshold": 2200145.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_22"
+                }
+              },
+              {
+                "threshold": 2200146.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_20"
+                }
+              },
+              {
+                "threshold": 2200147.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_18"
+                }
+              },
+              {
+                "threshold": 2200148.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_16"
+                }
+              },
+              {
+                "threshold": 2200149.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_14"
+                }
+              },
+              {
+                "threshold": 2200150.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_12"
+                }
+              },
+              {
+                "threshold": 2200151.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_10"
+                }
+              },
+              {
+                "threshold": 2200152.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_8"
+                }
+              },
+              {
+                "threshold": 2200153.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_6"
+                }
+              },
+              {
+                "threshold": 2200154.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_4"
+                }
+              },
+              {
+                "threshold": 2200155.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200187.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/gilded_iron"
+                }
+              },
+              {
+                "threshold": 2200188.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200466.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_33"
+                }
+              },
+              {
+                "threshold": 2200467.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_66"
+                }
+              },
+              {
+                "threshold": 2200468.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_100"
+                }
+              },
+              {
+                "threshold": 2200469.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_circuit"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000608.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/machine_circuit"
+          }
+        },
+        {
+          "threshold": 1000609.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/gold_ingot"
+          }
+        },
+        {
+          "threshold": 1000610.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            },
+            "entries": [
+              {
+                "threshold": 2200084.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200085.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200086.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200087.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/corinthian_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200088.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_24"
+                }
+              },
+              {
+                "threshold": 2200145.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_22"
+                }
+              },
+              {
+                "threshold": 2200146.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_20"
+                }
+              },
+              {
+                "threshold": 2200147.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_18"
+                }
+              },
+              {
+                "threshold": 2200148.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_16"
+                }
+              },
+              {
+                "threshold": 2200149.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_14"
+                }
+              },
+              {
+                "threshold": 2200150.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_12"
+                }
+              },
+              {
+                "threshold": 2200151.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_10"
+                }
+              },
+              {
+                "threshold": 2200152.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_8"
+                }
+              },
+              {
+                "threshold": 2200153.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_6"
+                }
+              },
+              {
+                "threshold": 2200154.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_4"
+                }
+              },
+              {
+                "threshold": 2200155.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200187.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/gilded_iron"
+                }
+              },
+              {
+                "threshold": 2200188.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200466.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_33"
+                }
+              },
+              {
+                "threshold": 2200467.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_66"
+                }
+              },
+              {
+                "threshold": 2200468.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_100"
+                }
+              },
+              {
+                "threshold": 2200469.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_circuit"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200084.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/brass_ingot"
+          }
+        },
+        {
+          "threshold": 2200085.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/aluminum_brass_ingot"
+          }
+        },
+        {
+          "threshold": 2200086.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/aluminum_bronze_ingot"
+          }
+        },
+        {
+          "threshold": 2200087.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/corinthian_bronze_ingot"
+          }
+        },
+        {
+          "threshold": 2200088.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            },
+            "entries": [
+              {
+                "threshold": 2200084.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200085.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200086.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200087.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/corinthian_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200088.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_24"
+                }
+              },
+              {
+                "threshold": 2200145.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_22"
+                }
+              },
+              {
+                "threshold": 2200146.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_20"
+                }
+              },
+              {
+                "threshold": 2200147.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_18"
+                }
+              },
+              {
+                "threshold": 2200148.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_16"
+                }
+              },
+              {
+                "threshold": 2200149.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_14"
+                }
+              },
+              {
+                "threshold": 2200150.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_12"
+                }
+              },
+              {
+                "threshold": 2200151.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_10"
+                }
+              },
+              {
+                "threshold": 2200152.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_8"
+                }
+              },
+              {
+                "threshold": 2200153.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_6"
+                }
+              },
+              {
+                "threshold": 2200154.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_4"
+                }
+              },
+              {
+                "threshold": 2200155.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200187.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/gilded_iron"
+                }
+              },
+              {
+                "threshold": 2200188.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200466.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_33"
+                }
+              },
+              {
+                "threshold": 2200467.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_66"
+                }
+              },
+              {
+                "threshold": 2200468.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_100"
+                }
+              },
+              {
+                "threshold": 2200469.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_circuit"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200144.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_24"
+          }
+        },
+        {
+          "threshold": 2200145.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_22"
+          }
+        },
+        {
+          "threshold": 2200146.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_20"
+          }
+        },
+        {
+          "threshold": 2200147.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_18"
+          }
+        },
+        {
+          "threshold": 2200148.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_16"
+          }
+        },
+        {
+          "threshold": 2200149.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_14"
+          }
+        },
+        {
+          "threshold": 2200150.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_12"
+          }
+        },
+        {
+          "threshold": 2200151.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_10"
+          }
+        },
+        {
+          "threshold": 2200152.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_8"
+          }
+        },
+        {
+          "threshold": 2200153.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_6"
+          }
+        },
+        {
+          "threshold": 2200154.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_4"
+          }
+        },
+        {
+          "threshold": 2200155.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            },
+            "entries": [
+              {
+                "threshold": 2200084.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200085.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200086.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200087.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/corinthian_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200088.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_24"
+                }
+              },
+              {
+                "threshold": 2200145.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_22"
+                }
+              },
+              {
+                "threshold": 2200146.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_20"
+                }
+              },
+              {
+                "threshold": 2200147.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_18"
+                }
+              },
+              {
+                "threshold": 2200148.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_16"
+                }
+              },
+              {
+                "threshold": 2200149.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_14"
+                }
+              },
+              {
+                "threshold": 2200150.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_12"
+                }
+              },
+              {
+                "threshold": 2200151.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_10"
+                }
+              },
+              {
+                "threshold": 2200152.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_8"
+                }
+              },
+              {
+                "threshold": 2200153.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_6"
+                }
+              },
+              {
+                "threshold": 2200154.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_4"
+                }
+              },
+              {
+                "threshold": 2200155.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200187.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/gilded_iron"
+                }
+              },
+              {
+                "threshold": 2200188.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200466.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_33"
+                }
+              },
+              {
+                "threshold": 2200467.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_66"
+                }
+              },
+              {
+                "threshold": 2200468.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_100"
+                }
+              },
+              {
+                "threshold": 2200469.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_circuit"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200187.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/ingots/gilded_iron"
+          }
+        },
+        {
+          "threshold": 2200188.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            },
+            "entries": [
+              {
+                "threshold": 2200084.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200085.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200086.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200087.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/corinthian_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200088.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_24"
+                }
+              },
+              {
+                "threshold": 2200145.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_22"
+                }
+              },
+              {
+                "threshold": 2200146.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_20"
+                }
+              },
+              {
+                "threshold": 2200147.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_18"
+                }
+              },
+              {
+                "threshold": 2200148.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_16"
+                }
+              },
+              {
+                "threshold": 2200149.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_14"
+                }
+              },
+              {
+                "threshold": 2200150.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_12"
+                }
+              },
+              {
+                "threshold": 2200151.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_10"
+                }
+              },
+              {
+                "threshold": 2200152.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_8"
+                }
+              },
+              {
+                "threshold": 2200153.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_6"
+                }
+              },
+              {
+                "threshold": 2200154.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_4"
+                }
+              },
+              {
+                "threshold": 2200155.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200187.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/gilded_iron"
+                }
+              },
+              {
+                "threshold": 2200188.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200466.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_33"
+                }
+              },
+              {
+                "threshold": 2200467.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_66"
+                }
+              },
+              {
+                "threshold": 2200468.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_100"
+                }
+              },
+              {
+                "threshold": 2200469.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_circuit"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200466.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_33"
+          }
+        },
+        {
+          "threshold": 2200467.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_66"
+          }
+        },
+        {
+          "threshold": 2200468.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_100"
+          }
+        },
+        {
+          "threshold": 2200469.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            },
+            "entries": [
+              {
+                "threshold": 2200084.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200085.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200086.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200087.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/corinthian_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200088.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_24"
+                }
+              },
+              {
+                "threshold": 2200145.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_22"
+                }
+              },
+              {
+                "threshold": 2200146.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_20"
+                }
+              },
+              {
+                "threshold": 2200147.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_18"
+                }
+              },
+              {
+                "threshold": 2200148.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_16"
+                }
+              },
+              {
+                "threshold": 2200149.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_14"
+                }
+              },
+              {
+                "threshold": 2200150.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_12"
+                }
+              },
+              {
+                "threshold": 2200151.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_10"
+                }
+              },
+              {
+                "threshold": 2200152.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_8"
+                }
+              },
+              {
+                "threshold": 2200153.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_6"
+                }
+              },
+              {
+                "threshold": 2200154.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_4"
+                }
+              },
+              {
+                "threshold": 2200155.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200187.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/gilded_iron"
+                }
+              },
+              {
+                "threshold": 2200188.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200466.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_33"
+                }
+              },
+              {
+                "threshold": 2200467.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_66"
+                }
+              },
+              {
+                "threshold": 2200468.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_100"
+                }
+              },
+              {
+                "threshold": 2200469.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_circuit"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200608.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "infinityexpansion:materials/machine_circuit"
+          }
+        },
+        {
+          "threshold": 2200609.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/gold_ingot"
+          }
+        },
+        {
+          "threshold": 2200610.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/gold_ingot"
+            },
+            "entries": [
+              {
+                "threshold": 2200084.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200085.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_brass_ingot"
+                }
+              },
+              {
+                "threshold": 2200086.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/aluminum_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200087.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/corinthian_bronze_ingot"
+                }
+              },
+              {
+                "threshold": 2200088.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200144.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_24"
+                }
+              },
+              {
+                "threshold": 2200145.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_22"
+                }
+              },
+              {
+                "threshold": 2200146.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_20"
+                }
+              },
+              {
+                "threshold": 2200147.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_18"
+                }
+              },
+              {
+                "threshold": 2200148.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_16"
+                }
+              },
+              {
+                "threshold": 2200149.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_14"
+                }
+              },
+              {
+                "threshold": 2200150.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_12"
+                }
+              },
+              {
+                "threshold": 2200151.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_10"
+                }
+              },
+              {
+                "threshold": 2200152.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_8"
+                }
+              },
+              {
+                "threshold": 2200153.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_6"
+                }
+              },
+              {
+                "threshold": 2200154.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/gold_ingots/gold_ingot_4"
+                }
+              },
+              {
+                "threshold": 2200155.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200187.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/ingots/gilded_iron"
+                }
+              },
+              {
+                "threshold": 2200188.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200466.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_33"
+                }
+              },
+              {
+                "threshold": 2200467.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_66"
+                }
+              },
+              {
+                "threshold": 2200468.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/resources/radioactive_materials/blistering_ingot_100"
+                }
+              },
+              {
+                "threshold": 2200469.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200608.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "infinityexpansion:materials/machine_circuit"
+                }
+              },
+              {
+                "threshold": 2200609.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              },
+              {
+                "threshold": 2200610.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/gold_ingot"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

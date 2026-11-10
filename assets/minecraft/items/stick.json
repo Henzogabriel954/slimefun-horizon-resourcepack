@@ -1,0 +1,1583 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GRANDMAS_WALKING_STICK"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GRANDPAS_WALKING_STICK"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "STAFF_ELEMENTAL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_gadgets/staff_elemental"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "STAFF_ELEMENTAL_WIND"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_gadgets/staff_elemental_wind"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "STAFF_ELEMENTAL_WATER"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_gadgets/staff_elemental_water"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "STAFF_ELEMENTAL_FIRE"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_gadgets/staff_elemental_fire"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "STAFF_ELEMENTAL_STORM"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/magical_gadgets/staff_elemental_storm"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SPLINT"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/items/splint"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "PEACH_WOOD"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "bump:magical_items/peach_wood"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_ROLLING_PIN"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:tools/gn_rolling_pin"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "CLT_CINNAMON"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "cultivation:products/clt_cinnamon"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/stick"
+        },
+        "entries": [
+          {
+            "threshold": 2200011.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+            }
+          },
+          {
+            "threshold": 2200012.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+            }
+          },
+          {
+            "threshold": 2200013.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            }
+          },
+          {
+            "threshold": 2200133.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_gadgets/elemental_staff"
+            }
+          },
+          {
+            "threshold": 2200134.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_gadgets/wind_staff"
+            }
+          },
+          {
+            "threshold": 2200135.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_gadgets/water_staff"
+            }
+          },
+          {
+            "threshold": 2200136.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            }
+          },
+          {
+            "threshold": 2200160.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_gadgets/fire_staff"
+            }
+          },
+          {
+            "threshold": 2200161.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/magical_gadgets/storm_staff"
+            }
+          },
+          {
+            "threshold": 2200162.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            }
+          },
+          {
+            "threshold": 2200225.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/items/splint"
+            }
+          },
+          {
+            "threshold": 2200226.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            }
+          },
+          {
+            "threshold": 2201417.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "bump:magical_items/peach_wood"
+            }
+          },
+          {
+            "threshold": 2201418.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            }
+          },
+          {
+            "threshold": 2201419.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000011.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+          }
+        },
+        {
+          "threshold": 1000012.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+          }
+        },
+        {
+          "threshold": 1000013.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            },
+            "entries": [
+              {
+                "threshold": 2200011.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200012.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200013.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200133.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/elemental_staff"
+                }
+              },
+              {
+                "threshold": 2200134.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/wind_staff"
+                }
+              },
+              {
+                "threshold": 2200135.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/water_staff"
+                }
+              },
+              {
+                "threshold": 2200136.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200160.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/fire_staff"
+                }
+              },
+              {
+                "threshold": 2200161.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/storm_staff"
+                }
+              },
+              {
+                "threshold": 2200162.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/splint"
+                }
+              },
+              {
+                "threshold": 2200226.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201417.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/peach_wood"
+                }
+              },
+              {
+                "threshold": 2201418.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201419.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000133.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/elemental_staff"
+          }
+        },
+        {
+          "threshold": 1000134.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/wind_staff"
+          }
+        },
+        {
+          "threshold": 1000135.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/water_staff"
+          }
+        },
+        {
+          "threshold": 1000136.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            },
+            "entries": [
+              {
+                "threshold": 2200011.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200012.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200013.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200133.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/elemental_staff"
+                }
+              },
+              {
+                "threshold": 2200134.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/wind_staff"
+                }
+              },
+              {
+                "threshold": 2200135.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/water_staff"
+                }
+              },
+              {
+                "threshold": 2200136.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200160.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/fire_staff"
+                }
+              },
+              {
+                "threshold": 2200161.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/storm_staff"
+                }
+              },
+              {
+                "threshold": 2200162.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/splint"
+                }
+              },
+              {
+                "threshold": 2200226.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201417.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/peach_wood"
+                }
+              },
+              {
+                "threshold": 2201418.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201419.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000160.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/fire_staff"
+          }
+        },
+        {
+          "threshold": 1000161.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/storm_staff"
+          }
+        },
+        {
+          "threshold": 1000162.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            },
+            "entries": [
+              {
+                "threshold": 2200011.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200012.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200013.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200133.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/elemental_staff"
+                }
+              },
+              {
+                "threshold": 2200134.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/wind_staff"
+                }
+              },
+              {
+                "threshold": 2200135.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/water_staff"
+                }
+              },
+              {
+                "threshold": 2200136.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200160.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/fire_staff"
+                }
+              },
+              {
+                "threshold": 2200161.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/storm_staff"
+                }
+              },
+              {
+                "threshold": 2200162.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/splint"
+                }
+              },
+              {
+                "threshold": 2200226.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201417.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/peach_wood"
+                }
+              },
+              {
+                "threshold": 2201418.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201419.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1000225.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/items/splint"
+          }
+        },
+        {
+          "threshold": 1000226.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            },
+            "entries": [
+              {
+                "threshold": 2200011.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200012.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200013.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200133.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/elemental_staff"
+                }
+              },
+              {
+                "threshold": 2200134.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/wind_staff"
+                }
+              },
+              {
+                "threshold": 2200135.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/water_staff"
+                }
+              },
+              {
+                "threshold": 2200136.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200160.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/fire_staff"
+                }
+              },
+              {
+                "threshold": 2200161.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/storm_staff"
+                }
+              },
+              {
+                "threshold": 2200162.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/splint"
+                }
+              },
+              {
+                "threshold": 2200226.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201417.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/peach_wood"
+                }
+              },
+              {
+                "threshold": 2201418.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201419.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 1001417.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/peach_wood"
+          }
+        },
+        {
+          "threshold": 1001418.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/stick"
+          }
+        },
+        {
+          "threshold": 1001419.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            },
+            "entries": [
+              {
+                "threshold": 2200011.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200012.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200013.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200133.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/elemental_staff"
+                }
+              },
+              {
+                "threshold": 2200134.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/wind_staff"
+                }
+              },
+              {
+                "threshold": 2200135.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/water_staff"
+                }
+              },
+              {
+                "threshold": 2200136.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200160.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/fire_staff"
+                }
+              },
+              {
+                "threshold": 2200161.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/storm_staff"
+                }
+              },
+              {
+                "threshold": 2200162.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/splint"
+                }
+              },
+              {
+                "threshold": 2200226.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201417.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/peach_wood"
+                }
+              },
+              {
+                "threshold": 2201418.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201419.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200011.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+          }
+        },
+        {
+          "threshold": 2200012.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+          }
+        },
+        {
+          "threshold": 2200013.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            },
+            "entries": [
+              {
+                "threshold": 2200011.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200012.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200013.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200133.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/elemental_staff"
+                }
+              },
+              {
+                "threshold": 2200134.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/wind_staff"
+                }
+              },
+              {
+                "threshold": 2200135.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/water_staff"
+                }
+              },
+              {
+                "threshold": 2200136.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200160.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/fire_staff"
+                }
+              },
+              {
+                "threshold": 2200161.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/storm_staff"
+                }
+              },
+              {
+                "threshold": 2200162.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/splint"
+                }
+              },
+              {
+                "threshold": 2200226.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201417.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/peach_wood"
+                }
+              },
+              {
+                "threshold": 2201418.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201419.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200133.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/elemental_staff"
+          }
+        },
+        {
+          "threshold": 2200134.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/wind_staff"
+          }
+        },
+        {
+          "threshold": 2200135.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/water_staff"
+          }
+        },
+        {
+          "threshold": 2200136.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            },
+            "entries": [
+              {
+                "threshold": 2200011.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200012.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200013.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200133.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/elemental_staff"
+                }
+              },
+              {
+                "threshold": 2200134.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/wind_staff"
+                }
+              },
+              {
+                "threshold": 2200135.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/water_staff"
+                }
+              },
+              {
+                "threshold": 2200136.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200160.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/fire_staff"
+                }
+              },
+              {
+                "threshold": 2200161.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/storm_staff"
+                }
+              },
+              {
+                "threshold": 2200162.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/splint"
+                }
+              },
+              {
+                "threshold": 2200226.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201417.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/peach_wood"
+                }
+              },
+              {
+                "threshold": 2201418.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201419.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200160.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/fire_staff"
+          }
+        },
+        {
+          "threshold": 2200161.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/magical_gadgets/storm_staff"
+          }
+        },
+        {
+          "threshold": 2200162.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            },
+            "entries": [
+              {
+                "threshold": 2200011.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200012.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200013.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200133.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/elemental_staff"
+                }
+              },
+              {
+                "threshold": 2200134.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/wind_staff"
+                }
+              },
+              {
+                "threshold": 2200135.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/water_staff"
+                }
+              },
+              {
+                "threshold": 2200136.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200160.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/fire_staff"
+                }
+              },
+              {
+                "threshold": 2200161.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/storm_staff"
+                }
+              },
+              {
+                "threshold": 2200162.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/splint"
+                }
+              },
+              {
+                "threshold": 2200226.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201417.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/peach_wood"
+                }
+              },
+              {
+                "threshold": 2201418.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201419.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200225.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/items/splint"
+          }
+        },
+        {
+          "threshold": 2200226.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            },
+            "entries": [
+              {
+                "threshold": 2200011.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200012.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200013.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200133.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/elemental_staff"
+                }
+              },
+              {
+                "threshold": 2200134.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/wind_staff"
+                }
+              },
+              {
+                "threshold": 2200135.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/water_staff"
+                }
+              },
+              {
+                "threshold": 2200136.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200160.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/fire_staff"
+                }
+              },
+              {
+                "threshold": 2200161.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/storm_staff"
+                }
+              },
+              {
+                "threshold": 2200162.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/splint"
+                }
+              },
+              {
+                "threshold": 2200226.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201417.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/peach_wood"
+                }
+              },
+              {
+                "threshold": 2201418.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201419.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2201417.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "bump:magical_items/peach_wood"
+          }
+        },
+        {
+          "threshold": 2201418.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/stick"
+          }
+        },
+        {
+          "threshold": 2201419.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stick"
+            },
+            "entries": [
+              {
+                "threshold": 2200011.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandmas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200012.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/weapons/grandpas_walking_stick"
+                }
+              },
+              {
+                "threshold": 2200013.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200133.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/elemental_staff"
+                }
+              },
+              {
+                "threshold": 2200134.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/wind_staff"
+                }
+              },
+              {
+                "threshold": 2200135.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/water_staff"
+                }
+              },
+              {
+                "threshold": 2200136.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200160.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/fire_staff"
+                }
+              },
+              {
+                "threshold": 2200161.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/magical_gadgets/storm_staff"
+                }
+              },
+              {
+                "threshold": 2200162.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2200225.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/items/splint"
+                }
+              },
+              {
+                "threshold": 2200226.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201417.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "bump:magical_items/peach_wood"
+                }
+              },
+              {
+                "threshold": 2201418.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              },
+              {
+                "threshold": 2201419.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/stick"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

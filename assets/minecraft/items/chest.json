@@ -1,0 +1,313 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "OUTPUT_CHEST"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/basic_machines/output_chest"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:special",
+                "base": "minecraft:item/chest",
+                "model": {
+                  "type": "minecraft:chest",
+                  "texture": "minecraft:christmas"
+                }
+              },
+              "when": [
+                "12-24",
+                "12-25",
+                "12-26"
+              ]
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:special",
+            "base": "minecraft:item/chest",
+            "model": {
+              "type": "minecraft:chest",
+              "texture": "minecraft:normal"
+            }
+          },
+          "pattern": "MM-dd",
+          "property": "minecraft:local_time"
+        },
+        "entries": [
+          {
+            "threshold": 2200016.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/basic_machines/output_chest"
+            }
+          },
+          {
+            "threshold": 2200017.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/chest"
+            }
+          },
+          {
+            "threshold": 2200018.0,
+            "model": {
+              "type": "minecraft:select",
+              "cases": [
+                {
+                  "model": {
+                    "type": "minecraft:special",
+                    "base": "minecraft:item/chest",
+                    "model": {
+                      "type": "minecraft:chest",
+                      "texture": "minecraft:christmas"
+                    }
+                  },
+                  "when": [
+                    "12-24",
+                    "12-25",
+                    "12-26"
+                  ]
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:special",
+                "base": "minecraft:item/chest",
+                "model": {
+                  "type": "minecraft:chest",
+                  "texture": "minecraft:normal"
+                }
+              },
+              "pattern": "MM-dd",
+              "property": "minecraft:local_time"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000016.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/output_chest"
+          }
+        },
+        {
+          "threshold": 1000017.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/chest"
+          }
+        },
+        {
+          "threshold": 1000018.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:select",
+              "cases": [
+                {
+                  "model": {
+                    "type": "minecraft:special",
+                    "base": "minecraft:item/chest",
+                    "model": {
+                      "type": "minecraft:chest",
+                      "texture": "minecraft:christmas"
+                    }
+                  },
+                  "when": [
+                    "12-24",
+                    "12-25",
+                    "12-26"
+                  ]
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:special",
+                "base": "minecraft:item/chest",
+                "model": {
+                  "type": "minecraft:chest",
+                  "texture": "minecraft:normal"
+                }
+              },
+              "pattern": "MM-dd",
+              "property": "minecraft:local_time"
+            },
+            "entries": [
+              {
+                "threshold": 2200016.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/output_chest"
+                }
+              },
+              {
+                "threshold": 2200017.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/chest"
+                }
+              },
+              {
+                "threshold": 2200018.0,
+                "model": {
+                  "type": "minecraft:select",
+                  "cases": [
+                    {
+                      "model": {
+                        "type": "minecraft:special",
+                        "base": "minecraft:item/chest",
+                        "model": {
+                          "type": "minecraft:chest",
+                          "texture": "minecraft:christmas"
+                        }
+                      },
+                      "when": [
+                        "12-24",
+                        "12-25",
+                        "12-26"
+                      ]
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:special",
+                    "base": "minecraft:item/chest",
+                    "model": {
+                      "type": "minecraft:chest",
+                      "texture": "minecraft:normal"
+                    }
+                  },
+                  "pattern": "MM-dd",
+                  "property": "minecraft:local_time"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200016.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/basic_machines/output_chest"
+          }
+        },
+        {
+          "threshold": 2200017.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/chest"
+          }
+        },
+        {
+          "threshold": 2200018.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:select",
+              "cases": [
+                {
+                  "model": {
+                    "type": "minecraft:special",
+                    "base": "minecraft:item/chest",
+                    "model": {
+                      "type": "minecraft:chest",
+                      "texture": "minecraft:christmas"
+                    }
+                  },
+                  "when": [
+                    "12-24",
+                    "12-25",
+                    "12-26"
+                  ]
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:special",
+                "base": "minecraft:item/chest",
+                "model": {
+                  "type": "minecraft:chest",
+                  "texture": "minecraft:normal"
+                }
+              },
+              "pattern": "MM-dd",
+              "property": "minecraft:local_time"
+            },
+            "entries": [
+              {
+                "threshold": 2200016.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/basic_machines/output_chest"
+                }
+              },
+              {
+                "threshold": 2200017.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/chest"
+                }
+              },
+              {
+                "threshold": 2200018.0,
+                "model": {
+                  "type": "minecraft:select",
+                  "cases": [
+                    {
+                      "model": {
+                        "type": "minecraft:special",
+                        "base": "minecraft:item/chest",
+                        "model": {
+                          "type": "minecraft:chest",
+                          "texture": "minecraft:christmas"
+                        }
+                      },
+                      "when": [
+                        "12-24",
+                        "12-25",
+                        "12-26"
+                      ]
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:special",
+                    "base": "minecraft:item/chest",
+                    "model": {
+                      "type": "minecraft:chest",
+                      "texture": "minecraft:normal"
+                    }
+                  },
+                  "pattern": "MM-dd",
+                  "property": "minecraft:local_time"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

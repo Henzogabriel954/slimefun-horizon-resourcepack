@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_TURMERIC"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:ingredient/gn_turmeric"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "GN_DOUGH"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "gastronomicon:food/gn_dough"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/potato"
+    }
+  }
+}

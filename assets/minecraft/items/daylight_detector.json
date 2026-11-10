@@ -1,0 +1,201 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_data",
+    "cases": [
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SOLAR_PANEL"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/technical_components/solar_panel"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SOLAR_GENERATOR"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/solar_generator"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SOLAR_GENERATOR_2"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/solar_generator_2"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SOLAR_GENERATOR_3"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/solar_generator_3"
+        }
+      },
+      {
+        "when": {
+          "PublicBukkitValues": {
+            "slimefun:slimefun_item": "SOLAR_GENERATOR_4"
+          }
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "slimefun:slimefun/energy/solar_generator_4"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "fallback": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:block/daylight_detector"
+        },
+        "entries": [
+          {
+            "threshold": 2200157.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "slimefun:slimefun/technical_components/solar_panel"
+            }
+          },
+          {
+            "threshold": 2200158.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/daylight_detector"
+            }
+          },
+          {
+            "threshold": 2200159.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/daylight_detector"
+            }
+          }
+        ]
+      },
+      "entries": [
+        {
+          "threshold": 1000157.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/technical_components/solar_panel"
+          }
+        },
+        {
+          "threshold": 1000158.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/daylight_detector"
+          }
+        },
+        {
+          "threshold": 1000159.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/daylight_detector"
+            },
+            "entries": [
+              {
+                "threshold": 2200157.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/solar_panel"
+                }
+              },
+              {
+                "threshold": 2200158.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/daylight_detector"
+                }
+              },
+              {
+                "threshold": 2200159.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/daylight_detector"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2200157.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/technical_components/solar_panel"
+          }
+        },
+        {
+          "threshold": 2200158.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/daylight_detector"
+          }
+        },
+        {
+          "threshold": 2200159.0,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/daylight_detector"
+            },
+            "entries": [
+              {
+                "threshold": 2200157.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "slimefun:slimefun/technical_components/solar_panel"
+                }
+              },
+              {
+                "threshold": 2200158.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/daylight_detector"
+                }
+              },
+              {
+                "threshold": 2200159.0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:block/daylight_detector"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
