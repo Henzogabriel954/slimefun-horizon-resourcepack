@@ -198,6 +198,20 @@
           }
         },
         {
+          "threshold": 1000013.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gui/_ui_previous_inactive"
+          }
+        },
+        {
+          "threshold": 1000015.0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "slimefun:slimefun/gui/_ui_next_inactive"
+          }
+        },
+        {
           "threshold": 2200008.0,
           "model": {
             "type": "minecraft:model",
@@ -318,5 +332,6 @@
         }
       ]
     }
-  }
+  },
+  "oversized_in_gui": true
 }
